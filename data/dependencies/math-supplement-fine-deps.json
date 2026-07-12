@@ -1,0 +1,30 @@
+{
+  "scope": "细粒度拆分节点的依赖",
+  "edgeCount": 22,
+  "_note": "细节点指向其细化的原节点（概览级），同时细节点之间有递进依赖。原粗节点的依赖保留不变。",
+  "dependencies": [
+    {"topicId": "cnmt_s4na_linear_eq_solve", "prerequisiteId": "cnmt_s4na_eq_property", "strength": "hard", "reason": "解方程的每一步都依据等式的基本性质"},
+    {"topicId": "cnmt_s4na_linear_eq_app", "prerequisiteId": "cnmt_s4na_linear_eq_solve", "strength": "hard", "reason": "列方程解应用题以会解方程为前提"},
+    {"topicId": "cnmt_s4na_system_elimination", "prerequisiteId": "cnmt_s4na_linear_eq_solve", "strength": "hard", "reason": "消元后转化为解一元一次方程"},
+    {"topicId": "cnmt_s4na_quadratic_method", "prerequisiteId": "cnmt_s4na_factorize", "strength": "hard", "reason": "因式分解法是解一元二次方程的重要方法"},
+    {"topicId": "cnmt_s4na_quadratic_method", "prerequisiteId": "cnmt_s4na_sqrt", "strength": "soft", "reason": "公式法含根号"},
+    {"topicId": "cnmt_s4na_discriminant", "prerequisiteId": "cnmt_s4na_quadratic_method", "strength": "hard", "reason": "判别式来自求根公式"},
+    {"topicId": "cnmt_s4na_proportional_fn", "prerequisiteId": "cnmt_s4na_function_concept", "strength": "hard", "reason": "正比例函数是最简单的函数"},
+    {"topicId": "cnmt_s4na_linear_fn_graph", "prerequisiteId": "cnmt_s4na_proportional_fn", "strength": "hard", "reason": "一次函数是正比例函数的平移"},
+    {"topicId": "cnmt_s4na_fn_eq_link", "prerequisiteId": "cnmt_s4na_linear_fn_graph", "strength": "hard", "reason": "理解函数与方程关系要先会画函数图像"},
+    {"topicId": "cnmt_s4na_quad_fn_graph", "prerequisiteId": "cnmt_s4na_linear_fn_graph", "strength": "soft", "reason": "由一次函数图像过渡到二次函数"},
+    {"topicId": "cnmt_s4na_quad_fn_graph", "prerequisiteId": "cnmt_s4na_formula", "strength": "hard", "reason": "配方法依赖完全平方公式"},
+    {"topicId": "cnmt_s4na_quad_fn_extremum", "prerequisiteId": "cnmt_s4na_quad_fn_graph", "strength": "hard", "reason": "最值就在顶点处，要先会求顶点"},
+    {"topicId": "cnmt_s4na_inequality_solve", "prerequisiteId": "cnmt_s4na_linear_eq_solve", "strength": "hard", "reason": "不等式解法类比方程"},
+
+    {"topicId": "cnmt_s4gg_vertical_perp", "prerequisiteId": "cnmt_s4gg_line_angle", "strength": "hard", "reason": "对顶角垂线建立在线和角的基础上"},
+    {"topicId": "cnmt_s4gg_parallel_judge", "prerequisiteId": "cnmt_s4gg_vertical_perp", "strength": "hard", "reason": "判定要用到同位角、内错角等概念"},
+    {"topicId": "cnmt_s4gg_parallel_prop", "prerequisiteId": "cnmt_s4gg_parallel_judge", "strength": "soft", "reason": "性质与判定互为逆过程，先理解判定有助于理解性质"},
+    {"topicId": "cnmt_s4gg_triangle_sides", "prerequisiteId": "cnmt_s4gg_line_angle", "strength": "hard", "reason": "三角形边角关系建立在线段基础上"},
+    {"topicId": "cnmt_s4gg_triangle_angles", "prerequisiteId": "cnmt_s4gg_parallel_prop", "strength": "hard", "reason": "内角和定理的证明用到平行线性质"},
+    {"topicId": "cnmt_s4gg_perp_chord_thm", "prerequisiteId": "cnmt_s4gg_congruent", "strength": "hard", "reason": "垂径定理的证明和用全等三角形解题"},
+    {"topicId": "cnmt_s4gg_perp_chord_thm", "prerequisiteId": "cnmt_s4gg_pythagoras", "strength": "soft", "reason": "求弦长常用勾股定理构造直角三角形"},
+    {"topicId": "cnmt_s4gg_arc_angle_thm", "prerequisiteId": "cnmt_s4gg_perp_chord_thm", "strength": "soft", "reason": "都属于圆的核心定理，认识一种有助于理解另一种"},
+    {"topicId": "cnmt_s4gg_tangent", "prerequisiteId": "cnmt_s4gg_arc_angle_thm", "strength": "soft", "reason": "切线问题常结合圆周角定理考查"}
+  ]
+}

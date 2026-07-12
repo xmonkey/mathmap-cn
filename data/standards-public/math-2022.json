@@ -1,0 +1,2016 @@
+{
+  "slug": "moe-cn-2022-math",
+  "subject": "数学",
+  "version": "2022年版",
+  "publisher": "中华人民共和国教育部",
+  "officialName": "《义务教育数学课程标准（2022年版）》",
+  "licenseStatus": "clear",
+  "textIncluded": false,
+  "stages": [
+    "stage1",
+    "stage2",
+    "stage3",
+    "stage4"
+  ],
+  "stageLabels": {
+    "stage1": "第一学段（1-2年级）",
+    "stage2": "第二学段（3-4年级）",
+    "stage3": "第三学段（5-6年级）",
+    "stage4": "第四学段（7-9年级）"
+  },
+  "domains": [
+    "数与代数",
+    "图形与几何",
+    "统计与概率",
+    "综合与实践"
+  ],
+  "coreCompetenciesByStage": {
+    "primary": [
+      "数感",
+      "量感",
+      "符号意识",
+      "运算能力",
+      "几何直观",
+      "空间观念",
+      "推理意识",
+      "数据意识",
+      "模型意识",
+      "应用意识",
+      "创新意识"
+    ],
+    "juniorHigh": [
+      "抽象能力",
+      "推理能力",
+      "模型观念",
+      "几何直观",
+      "空间观念",
+      "运算能力",
+      "数据观念",
+      "应用意识",
+      "创新意识"
+    ]
+  },
+  "itemCount": 72,
+  "items": [
+    {
+      "key": "moe-cn-2022-math:stage1.na.num.1",
+      "code": "stage1.na.num.1",
+      "subject": "数学",
+      "stage": "stage1",
+      "stageLabel": "第一学段（1-2年级）",
+      "domain": "数与代数",
+      "topic": "100以内数的认识",
+      "category": "内容要求",
+      "title": "100以内数的认识",
+      "summary": "用数表达物体个数和事物顺序；100以内数的读写、组成与大小比较",
+      "coreCompetencies": [
+        "数感",
+        "符号意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第一学段·数与代数·数与运算",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage1.na.op.1",
+      "code": "stage1.na.op.1",
+      "subject": "数学",
+      "stage": "stage1",
+      "stageLabel": "第一学段（1-2年级）",
+      "domain": "数与代数",
+      "topic": "20以内加减法",
+      "category": "内容要求",
+      "title": "20以内加减法",
+      "summary": "加减法含义；20以内加减法的基本运算",
+      "coreCompetencies": [
+        "运算能力",
+        "数感"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第一学段·数与代数·数与运算",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage1.na.op.2",
+      "code": "stage1.na.op.2",
+      "subject": "数学",
+      "stage": "stage1",
+      "stageLabel": "第一学段（1-2年级）",
+      "domain": "数与代数",
+      "topic": "100以内加减法",
+      "category": "内容要求",
+      "title": "100以内加减法",
+      "summary": "100以内加减法的口算与笔算",
+      "coreCompetencies": [
+        "运算能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第一学段·数与代数·数与运算",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage1.na.qty.1",
+      "code": "stage1.na.qty.1",
+      "subject": "数学",
+      "stage": "stage1",
+      "stageLabel": "第一学段（1-2年级）",
+      "domain": "数与代数",
+      "topic": "数量关系",
+      "category": "内容要求",
+      "title": "数量关系的初步感知",
+      "summary": "运用数和符号表达'多、少、大、小、相等'等关系；加减法在现实情境中的意义",
+      "coreCompetencies": [
+        "数感",
+        "符号意识",
+        "模型意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第一学段·数与代数·数量关系",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage1.gg.rec.1",
+      "code": "stage1.gg.rec.1",
+      "subject": "数学",
+      "stage": "stage1",
+      "stageLabel": "第一学段（1-2年级）",
+      "domain": "图形与几何",
+      "topic": "立体图形的直观认识",
+      "category": "内容要求",
+      "title": "立体图形的直观认识",
+      "summary": "通过实物和模型直观认识长方体、正方体、圆柱、球等立体图形",
+      "coreCompetencies": [
+        "空间观念",
+        "几何直观"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第一学段·图形与几何·图形的认识与测量",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage1.gg.rec.2",
+      "code": "stage1.gg.rec.2",
+      "subject": "数学",
+      "stage": "stage1",
+      "stageLabel": "第一学段（1-2年级）",
+      "domain": "图形与几何",
+      "topic": "平面图形的直观认识",
+      "category": "内容要求",
+      "title": "平面图形的直观认识",
+      "summary": "直观认识长方形、正方形、三角形、平行四边形、圆等平面图形",
+      "coreCompetencies": [
+        "空间观念",
+        "几何直观"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第一学段·图形与几何·图形的认识与测量",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage1.gg.mea.1",
+      "code": "stage1.gg.mea.1",
+      "subject": "数学",
+      "stage": "stage1",
+      "stageLabel": "第一学段（1-2年级）",
+      "domain": "图形与几何",
+      "topic": "长度与货币",
+      "category": "内容要求",
+      "title": "长度、货币的简单认识",
+      "summary": "认识钟表、人民币、长度单位等生活度量",
+      "coreCompetencies": [
+        "量感",
+        "应用意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第一学段·图形与几何·图形的认识与测量",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage1.sp.cls.1",
+      "code": "stage1.sp.cls.1",
+      "subject": "数学",
+      "stage": "stage1",
+      "stageLabel": "第一学段（1-2年级）",
+      "domain": "统计与概率",
+      "topic": "数据分类",
+      "category": "内容要求",
+      "title": "按标准对事物分类",
+      "summary": "根据给定或自选标准对物体、数据进行分类",
+      "coreCompetencies": [
+        "数据意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第一学段·统计与概率·数据分类",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage1.cp.thm.1",
+      "code": "stage1.cp.thm.1",
+      "subject": "数学",
+      "stage": "stage1",
+      "stageLabel": "第一学段（1-2年级）",
+      "domain": "综合与实践",
+      "topic": "主题活动",
+      "category": "内容要求",
+      "title": "主题式综合实践活动",
+      "summary": "结合生活情境开展主题活动（如认识校园、购物等），综合运用所学",
+      "coreCompetencies": [
+        "应用意识",
+        "创新意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第一学段·综合与实践",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage2.na.num.1",
+      "code": "stage2.na.num.1",
+      "subject": "数学",
+      "stage": "stage2",
+      "stageLabel": "第二学段（3-4年级）",
+      "domain": "数与代数",
+      "topic": "万以内数的认识",
+      "category": "内容要求",
+      "title": "万以内数的认识",
+      "summary": "万以内数的意义、读写、大小比较与近似数",
+      "coreCompetencies": [
+        "数感",
+        "符号意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第二学段·数与代数·数与运算",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage2.na.num.2",
+      "code": "stage2.na.num.2",
+      "subject": "数学",
+      "stage": "stage2",
+      "stageLabel": "第二学段（3-4年级）",
+      "domain": "数与代数",
+      "topic": "分数的初步认识",
+      "category": "内容要求",
+      "title": "分数的初步认识",
+      "summary": "结合具体情境初步认识分数（分母简单的分数），理解分数表示部分与整体的关系",
+      "coreCompetencies": [
+        "数感",
+        "符号意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第二学段·数与代数·数与运算",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage2.na.num.3",
+      "code": "stage2.na.num.3",
+      "subject": "数学",
+      "stage": "stage2",
+      "stageLabel": "第二学段（3-4年级）",
+      "domain": "数与代数",
+      "topic": "小数的初步认识",
+      "category": "内容要求",
+      "title": "小数的初步认识",
+      "summary": "结合元角分、米分米等情境初步认识小数",
+      "coreCompetencies": [
+        "数感",
+        "符号意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第二学段·数与代数·数与运算",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage2.na.op.1",
+      "code": "stage2.na.op.1",
+      "subject": "数学",
+      "stage": "stage2",
+      "stageLabel": "第二学段（3-4年级）",
+      "domain": "数与代数",
+      "topic": "两位数乘两位数",
+      "category": "内容要求",
+      "title": "两位数乘两位数",
+      "summary": "两位数乘两位数的笔算",
+      "coreCompetencies": [
+        "运算能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第二学段·数与代数·数与运算",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage2.na.op.2",
+      "code": "stage2.na.op.2",
+      "subject": "数学",
+      "stage": "stage2",
+      "stageLabel": "第二学段（3-4年级）",
+      "domain": "数与代数",
+      "topic": "除法",
+      "category": "内容要求",
+      "title": "除数是两位数的除法",
+      "summary": "除数是两位数的除法运算",
+      "coreCompetencies": [
+        "运算能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第二学段·数与代数·数与运算",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage2.na.qty.1",
+      "code": "stage2.na.qty.1",
+      "subject": "数学",
+      "stage": "stage2",
+      "stageLabel": "第二学段（3-4年级）",
+      "domain": "数与代数",
+      "topic": "数量关系",
+      "category": "内容要求",
+      "title": "常见数量关系",
+      "summary": "单价/数量/总价、速度/时间/路程等常见数量关系；估算",
+      "coreCompetencies": [
+        "模型意识",
+        "运算能力",
+        "应用意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第二学段·数与代数·数量关系",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage2.gg.rec.1",
+      "code": "stage2.gg.rec.1",
+      "subject": "数学",
+      "stage": "stage2",
+      "stageLabel": "第二学段（3-4年级）",
+      "domain": "图形与几何",
+      "topic": "角",
+      "category": "内容要求",
+      "title": "角的认识与分类",
+      "summary": "认识角，辨认直角、锐角、钝角",
+      "coreCompetencies": [
+        "空间观念",
+        "几何直观"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第二学段·图形与几何·图形的认识与测量",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage2.gg.rec.2",
+      "code": "stage2.gg.rec.2",
+      "subject": "数学",
+      "stage": "stage2",
+      "stageLabel": "第二学段（3-4年级）",
+      "domain": "图形与几何",
+      "topic": "三角形",
+      "category": "内容要求",
+      "title": "三角形的认识",
+      "summary": "认识三角形及其分类，三角形内角和",
+      "coreCompetencies": [
+        "空间观念",
+        "推理意识",
+        "几何直观"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第二学段·图形与几何·图形的认识与测量",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage2.gg.rec.3",
+      "code": "stage2.gg.rec.3",
+      "subject": "数学",
+      "stage": "stage2",
+      "stageLabel": "第二学段（3-4年级）",
+      "domain": "图形与几何",
+      "topic": "四边形",
+      "category": "内容要求",
+      "title": "平行四边形与梯形的认识",
+      "summary": "认识平行四边形、梯形；长方形、正方形的特征",
+      "coreCompetencies": [
+        "空间观念",
+        "几何直观"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第二学段·图形与几何·图形的认识与测量",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage2.gg.mea.1",
+      "code": "stage2.gg.mea.1",
+      "subject": "数学",
+      "stage": "stage2",
+      "stageLabel": "第二学段（3-4年级）",
+      "domain": "图形与几何",
+      "topic": "周长",
+      "category": "内容要求",
+      "title": "周长的认识与计算",
+      "summary": "周长的含义；长方形、正方形周长计算",
+      "coreCompetencies": [
+        "量感",
+        "几何直观"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第二学段·图形与几何·图形的认识与测量",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage2.gg.mea.2",
+      "code": "stage2.gg.mea.2",
+      "subject": "数学",
+      "stage": "stage2",
+      "stageLabel": "第二学段（3-4年级）",
+      "domain": "图形与几何",
+      "topic": "面积",
+      "category": "内容要求",
+      "title": "面积的认识与计算",
+      "summary": "面积的含义；长方形、正方形面积计算；常用面积单位",
+      "coreCompetencies": [
+        "量感",
+        "空间观念",
+        "几何直观"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第二学段·图形与几何·图形的认识与测量",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage2.sp.col.1",
+      "code": "stage2.sp.col.1",
+      "subject": "数学",
+      "stage": "stage2",
+      "stageLabel": "第二学段（3-4年级）",
+      "domain": "统计与概率",
+      "topic": "数据收集与整理",
+      "category": "内容要求",
+      "title": "数据的收集与整理",
+      "summary": "调查、记录数据；用条形统计图表达数据",
+      "coreCompetencies": [
+        "数据意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第二学段·统计与概率·数据收集与整理",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage2.sp.anl.1",
+      "code": "stage2.sp.anl.1",
+      "subject": "数学",
+      "stage": "stage2",
+      "stageLabel": "第二学段（3-4年级）",
+      "domain": "统计与概率",
+      "topic": "平均数",
+      "category": "内容要求",
+      "title": "平均数的初步认识",
+      "summary": "平均数的初步含义与简单计算",
+      "coreCompetencies": [
+        "数据意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第二学段·统计与概率·数据分析",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage2.cp.thm.1",
+      "code": "stage2.cp.thm.1",
+      "subject": "数学",
+      "stage": "stage2",
+      "stageLabel": "第二学段（3-4年级）",
+      "domain": "综合与实践",
+      "topic": "主题活动",
+      "category": "内容要求",
+      "title": "主题式综合实践活动",
+      "summary": "结合生活情境的主题活动，综合运用数与运算、图形等知识",
+      "coreCompetencies": [
+        "应用意识",
+        "创新意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第二学段·综合与实践",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.na.num.1",
+      "code": "stage3.na.num.1",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "数与代数",
+      "topic": "大数的认识",
+      "category": "内容要求",
+      "title": "大数的认识",
+      "summary": "亿以内及更大的数；十进制计数法",
+      "coreCompetencies": [
+        "数感"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·数与代数·数与运算",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.na.num.2",
+      "code": "stage3.na.num.2",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "数与代数",
+      "topic": "因数与倍数",
+      "category": "内容要求",
+      "title": "因数与倍数",
+      "summary": "因数、倍数、质数、合数；2、3、5 倍数特征",
+      "coreCompetencies": [
+        "数感",
+        "推理意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·数与代数·数与运算",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.na.num.3",
+      "code": "stage3.na.num.3",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "数与代数",
+      "topic": "分数的意义与性质",
+      "category": "内容要求",
+      "title": "分数的意义与性质",
+      "summary": "分数的意义、分数与除法、真/假分数、约分、通分、分数大小比较",
+      "coreCompetencies": [
+        "数感",
+        "符号意识",
+        "运算能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·数与代数·数与运算",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.na.num.4",
+      "code": "stage3.na.num.4",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "数与代数",
+      "topic": "小数的意义与性质",
+      "category": "内容要求",
+      "title": "小数的意义与性质",
+      "summary": "小数的意义、性质、大小比较、小数点位置移动",
+      "coreCompetencies": [
+        "数感",
+        "运算能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·数与代数·数与运算",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.na.num.5",
+      "code": "stage3.na.num.5",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "数与代数",
+      "topic": "百分数",
+      "category": "内容要求",
+      "title": "百分数的认识",
+      "summary": "百分数的意义；分数、小数、百分数互化",
+      "coreCompetencies": [
+        "数感",
+        "应用意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·数与代数·数与运算",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.na.num.6",
+      "code": "stage3.na.num.6",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "数与代数",
+      "topic": "负数的初步认识",
+      "category": "内容要求",
+      "title": "负数的初步认识",
+      "summary": "用正、负数表示生活中的相反意义的量",
+      "coreCompetencies": [
+        "数感",
+        "符号意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·数与代数·数与运算",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.na.op.1",
+      "code": "stage3.na.op.1",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "数与代数",
+      "topic": "分数四则运算",
+      "category": "内容要求",
+      "title": "分数的加减乘除",
+      "summary": "分数的加减乘除运算及简单实际问题",
+      "coreCompetencies": [
+        "运算能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·数与代数·数与运算",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.na.op.2",
+      "code": "stage3.na.op.2",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "数与代数",
+      "topic": "小数四则运算",
+      "category": "内容要求",
+      "title": "小数的加减乘除",
+      "summary": "小数的加减乘除运算及简单实际问题",
+      "coreCompetencies": [
+        "运算能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·数与代数·数与运算",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.na.law.1",
+      "code": "stage3.na.law.1",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "数与代数",
+      "topic": "运算律",
+      "category": "内容要求",
+      "title": "运算律",
+      "summary": "加法交换律/结合律、乘法交换律/结合律/分配律；用运算律简便计算",
+      "coreCompetencies": [
+        "运算能力",
+        "推理意识",
+        "模型意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·数与代数·数量关系",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.na.qty.1",
+      "code": "stage3.na.qty.1",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "数与代数",
+      "topic": "用字母表示数",
+      "category": "内容要求",
+      "title": "用字母表示数",
+      "summary": "用字母表示数量关系和规律；初步的代数思维",
+      "coreCompetencies": [
+        "符号意识",
+        "模型意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·数与代数·数量关系",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.na.eq.1",
+      "code": "stage3.na.eq.1",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "数与代数",
+      "topic": "简易方程",
+      "category": "内容要求",
+      "title": "简易方程",
+      "summary": "等式的性质；解简易方程；用方程表示简单情境中的等量关系",
+      "coreCompetencies": [
+        "符号意识",
+        "模型意识",
+        "运算能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·数与代数·数量关系",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.na.qty.2",
+      "code": "stage3.na.qty.2",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "数与代数",
+      "topic": "正比例与反比例",
+      "category": "内容要求",
+      "title": "正比例与反比例",
+      "summary": "正比例、反比例的意义与判断",
+      "coreCompetencies": [
+        "模型意识",
+        "数据意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·数与代数·数量关系",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.gg.rec.1",
+      "code": "stage3.gg.rec.1",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "图形与几何",
+      "topic": "圆的认识",
+      "category": "内容要求",
+      "title": "圆的认识",
+      "summary": "圆的特征，半径、直径、圆周率",
+      "coreCompetencies": [
+        "空间观念",
+        "几何直观",
+        "推理意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·图形与几何·图形的认识与测量",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.gg.mea.1",
+      "code": "stage3.gg.mea.1",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "图形与几何",
+      "topic": "圆的周长与面积",
+      "category": "内容要求",
+      "title": "圆的周长与面积",
+      "summary": "圆周长与面积公式及其应用",
+      "coreCompetencies": [
+        "量感",
+        "空间观念",
+        "几何直观"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·图形与几何·图形的认识与测量",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.gg.rec.2",
+      "code": "stage3.gg.rec.2",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "图形与几何",
+      "topic": "立体图形的认识",
+      "category": "内容要求",
+      "title": "圆柱与圆锥的认识",
+      "summary": "圆柱、圆锥的特征",
+      "coreCompetencies": [
+        "空间观念"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·图形与几何·图形的认识与测量",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.gg.mea.2",
+      "code": "stage3.gg.mea.2",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "图形与几何",
+      "topic": "表面积与体积",
+      "category": "内容要求",
+      "title": "表面积与体积",
+      "summary": "长方体/正方体表面积与体积；圆柱/圆锥体积；体积（容积）单位",
+      "coreCompetencies": [
+        "量感",
+        "空间观念",
+        "几何直观"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·图形与几何·图形的认识与测量",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.gg.pos.1",
+      "code": "stage3.gg.pos.1",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "图形与几何",
+      "topic": "方向与位置",
+      "category": "内容要求",
+      "title": "方向与位置",
+      "summary": "用方向和距离确定位置；数对的初步（用方格纸表示位置）",
+      "coreCompetencies": [
+        "空间观念",
+        "几何直观"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·图形与几何·图形的位置与运动",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.gg.mot.1",
+      "code": "stage3.gg.mot.1",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "图形与几何",
+      "topic": "图形的运动",
+      "category": "内容要求",
+      "title": "图形的平移旋转与轴对称",
+      "summary": "平移、旋转、轴对称的辨认与简单作图",
+      "coreCompetencies": [
+        "空间观念",
+        "几何直观"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·图形与几何·图形的位置与运动",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.sp.rep.1",
+      "code": "stage3.sp.rep.1",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "统计与概率",
+      "topic": "统计图",
+      "category": "内容要求",
+      "title": "折线统计图与扇形统计图",
+      "summary": "折线统计图、扇形统计图的意义、制作与分析",
+      "coreCompetencies": [
+        "数据意识",
+        "几何直观"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·统计与概率·数据表示",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.sp.anl.1",
+      "code": "stage3.sp.anl.1",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "统计与概率",
+      "topic": "数据的代表",
+      "category": "内容要求",
+      "title": "平均数、中位数与众数",
+      "summary": "平均数、中位数、众数的含义与简单应用",
+      "coreCompetencies": [
+        "数据意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·统计与概率·数据分析",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.sp.prb.1",
+      "code": "stage3.sp.prb.1",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "统计与概率",
+      "topic": "可能性",
+      "category": "内容要求",
+      "title": "可能性的初步认识",
+      "summary": "通过实例感受随机现象；可能性的初步含义",
+      "coreCompetencies": [
+        "数据意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·统计与概率·随机现象",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage3.cp.thm.1",
+      "code": "stage3.cp.thm.1",
+      "subject": "数学",
+      "stage": "stage3",
+      "stageLabel": "第三学段（5-6年级）",
+      "domain": "综合与实践",
+      "topic": "主题活动",
+      "category": "内容要求",
+      "title": "主题式综合实践活动",
+      "summary": "结合生活情境的主题活动（如负数应用、校园规划等），综合运用数学",
+      "coreCompetencies": [
+        "应用意识",
+        "创新意识",
+        "模型意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第三学段·综合与实践",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.na.num.1",
+      "code": "stage4.na.num.1",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "数与代数",
+      "topic": "有理数",
+      "category": "内容要求",
+      "title": "有理数",
+      "summary": "有理数的意义、相反数、绝对值、大小比较与四则运算",
+      "coreCompetencies": [
+        "抽象能力",
+        "运算能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·数与代数·数",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.na.num.2",
+      "code": "stage4.na.num.2",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "数与代数",
+      "topic": "实数",
+      "category": "内容要求",
+      "title": "实数",
+      "summary": "平方根、立方根、无理数、实数的概念与运算",
+      "coreCompetencies": [
+        "抽象能力",
+        "运算能力",
+        "推理能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·数与代数·数",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.na.expr.1",
+      "code": "stage4.na.expr.1",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "数与代数",
+      "topic": "整式",
+      "category": "内容要求",
+      "title": "整式及其加减",
+      "summary": "单项式、多项式、整式加减",
+      "coreCompetencies": [
+        "抽象能力",
+        "运算能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·数与代数·代数式",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.na.expr.2",
+      "code": "stage4.na.expr.2",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "数与代数",
+      "topic": "整式乘除",
+      "category": "内容要求",
+      "title": "整式的乘除",
+      "summary": "幂的运算、整式乘除、乘法公式、因式分解",
+      "coreCompetencies": [
+        "运算能力",
+        "推理能力",
+        "抽象能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·数与代数·代数式",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.na.expr.3",
+      "code": "stage4.na.expr.3",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "数与代数",
+      "topic": "分式",
+      "category": "内容要求",
+      "title": "分式",
+      "summary": "分式的概念、性质、化简与四则运算",
+      "coreCompetencies": [
+        "抽象能力",
+        "运算能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·数与代数·代数式",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.na.expr.4",
+      "code": "stage4.na.expr.4",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "数与代数",
+      "topic": "二次根式",
+      "category": "内容要求",
+      "title": "二次根式",
+      "summary": "二次根式的概念、性质与四则运算",
+      "coreCompetencies": [
+        "运算能力",
+        "抽象能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·数与代数·代数式",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.na.eq.1",
+      "code": "stage4.na.eq.1",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "数与代数",
+      "topic": "一元一次方程",
+      "category": "内容要求",
+      "title": "一元一次方程",
+      "summary": "方程的概念、一元一次方程的解法与应用",
+      "coreCompetencies": [
+        "模型观念",
+        "运算能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·数与代数·方程与不等式",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.na.eq.2",
+      "code": "stage4.na.eq.2",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "数与代数",
+      "topic": "二元一次方程组",
+      "category": "内容要求",
+      "title": "二元一次方程组",
+      "summary": "二元一次方程组的概念、解法（代入/加减消元）与应用",
+      "coreCompetencies": [
+        "模型观念",
+        "运算能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·数与代数·方程与不等式",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.na.eq.3",
+      "code": "stage4.na.eq.3",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "数与代数",
+      "topic": "一元二次方程",
+      "category": "内容要求",
+      "title": "一元二次方程",
+      "summary": "一元二次方程的概念、解法（配方法、公式法、因式分解）与应用",
+      "coreCompetencies": [
+        "模型观念",
+        "运算能力",
+        "推理能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·数与代数·方程与不等式",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.na.eq.4",
+      "code": "stage4.na.eq.4",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "数与代数",
+      "topic": "不等式",
+      "category": "内容要求",
+      "title": "一元一次不等式（组）",
+      "summary": "不等式的基本性质、一元一次不等式（组）的解法与应用",
+      "coreCompetencies": [
+        "运算能力",
+        "模型观念"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·数与代数·方程与不等式",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.na.fn.1",
+      "code": "stage4.na.fn.1",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "数与代数",
+      "topic": "函数的概念",
+      "category": "内容要求",
+      "title": "函数的概念与表示",
+      "summary": "变量与函数的概念；函数的三种表示（解析式、列表、图像）",
+      "coreCompetencies": [
+        "模型观念",
+        "抽象能力",
+        "几何直观"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·数与代数·函数",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.na.fn.lc.1",
+      "code": "stage4.na.fn.lc.1",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "数与代数",
+      "topic": "一次函数",
+      "category": "内容要求",
+      "title": "一次函数",
+      "summary": "正比例函数、一次函数的图像与性质；与方程、不等式的联系",
+      "coreCompetencies": [
+        "模型观念",
+        "几何直观",
+        "运算能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·数与代数·函数",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.na.fn.iv.1",
+      "code": "stage4.na.fn.iv.1",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "数与代数",
+      "topic": "反比例函数",
+      "category": "内容要求",
+      "title": "反比例函数",
+      "summary": "反比例函数的概念、图像与性质",
+      "coreCompetencies": [
+        "模型观念",
+        "几何直观"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·数与代数·函数",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.na.fn.qf.1",
+      "code": "stage4.na.fn.qf.1",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "数与代数",
+      "topic": "二次函数",
+      "category": "内容要求",
+      "title": "二次函数",
+      "summary": "二次函数的图像与性质；与一元二次方程的联系；最值问题",
+      "coreCompetencies": [
+        "模型观念",
+        "几何直观",
+        "运算能力",
+        "推理能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·数与代数·函数",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.gg.rec.1",
+      "code": "stage4.gg.rec.1",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "图形与几何",
+      "topic": "线与角",
+      "category": "内容要求",
+      "title": "线段、射线、直线与角",
+      "summary": "点、线、面、体的基本概念；角的度量与计算",
+      "coreCompetencies": [
+        "空间观念",
+        "几何直观",
+        "推理能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·图形与几何",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.gg.rec.2",
+      "code": "stage4.gg.rec.2",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "图形与几何",
+      "topic": "相交线与平行线",
+      "category": "内容要求",
+      "title": "相交线与平行线",
+      "summary": "对顶角、邻补角、垂线、平行线的判定与性质",
+      "coreCompetencies": [
+        "空间观念",
+        "推理能力",
+        "几何直观"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·图形与几何",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.gg.rec.3",
+      "code": "stage4.gg.rec.3",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "图形与几何",
+      "topic": "三角形",
+      "category": "内容要求",
+      "title": "三角形的性质与证明",
+      "summary": "三角形的边角关系、全等三角形、相似三角形",
+      "coreCompetencies": [
+        "推理能力",
+        "几何直观",
+        "空间观念"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·图形与几何",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.gg.rec.4",
+      "code": "stage4.gg.rec.4",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "图形与几何",
+      "topic": "四边形",
+      "category": "内容要求",
+      "title": "多边形与特殊四边形",
+      "summary": "多边形内角和；平行四边形、矩形、菱形、正方形的性质与判定",
+      "coreCompetencies": [
+        "推理能力",
+        "空间观念",
+        "几何直观"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·图形与几何",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.gg.rec.5",
+      "code": "stage4.gg.rec.5",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "图形与几何",
+      "topic": "圆",
+      "category": "内容要求",
+      "title": "圆的性质",
+      "summary": "圆的弦、弧、圆心角、圆周角；点与圆、直线与圆的位置关系",
+      "coreCompetencies": [
+        "推理能力",
+        "几何直观",
+        "空间观念"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·图形与几何",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.gg.mea.1",
+      "code": "stage4.gg.mea.1",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "图形与几何",
+      "topic": "圆的度量",
+      "category": "内容要求",
+      "title": "弧长、扇形面积",
+      "summary": "弧长与扇形面积的计算；正多边形与圆",
+      "coreCompetencies": [
+        "量感",
+        "几何直观",
+        "运算能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·图形与几何",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.gg.mot.1",
+      "code": "stage4.gg.mot.1",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "图形与几何",
+      "topic": "图形的变换",
+      "category": "内容要求",
+      "title": "平移、旋转、轴对称与位似",
+      "summary": "图形变换的坐标表示与综合应用",
+      "coreCompetencies": [
+        "空间观念",
+        "几何直观",
+        "推理能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·图形与几何",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.gg.pos.1",
+      "code": "stage4.gg.pos.1",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "图形与几何",
+      "topic": "坐标",
+      "category": "内容要求",
+      "title": "平面直角坐标系",
+      "summary": "平面直角坐标系的建立与点的坐标；图形的坐标表示",
+      "coreCompetencies": [
+        "几何直观",
+        "抽象能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·图形与几何",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.gg.prf.1",
+      "code": "stage4.gg.prf.1",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "图形与几何",
+      "topic": "命题与证明",
+      "category": "内容要求",
+      "title": "演绎推理与证明",
+      "summary": "定义、命题、定理；证明的基本方法（综合法、反证法）",
+      "coreCompetencies": [
+        "推理能力",
+        "几何直观"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·图形与几何",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.sp.col.1",
+      "code": "stage4.sp.col.1",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "统计与概率",
+      "topic": "数据的收集与整理",
+      "category": "内容要求",
+      "title": "数据的收集与整理",
+      "summary": "普查与抽样调查；数据的收集、整理与简单分析",
+      "coreCompetencies": [
+        "数据观念",
+        "应用意识"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·统计与概率",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.sp.anl.1",
+      "code": "stage4.sp.anl.1",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "统计与概率",
+      "topic": "数据分析",
+      "category": "内容要求",
+      "title": "数据的代表与波动",
+      "summary": "平均数、加权平均数、方差、标准差；用统计量分析数据",
+      "coreCompetencies": [
+        "数据观念",
+        "运算能力"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·统计与概率",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.sp.prb.1",
+      "code": "stage4.sp.prb.1",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "统计与概率",
+      "topic": "概率初步",
+      "category": "内容要求",
+      "title": "概率初步",
+      "summary": "概率的意义；用列举法求简单随机事件的概率；频率与概率",
+      "coreCompetencies": [
+        "数据观念",
+        "推理能力",
+        "模型观念"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·统计与概率",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    },
+    {
+      "key": "moe-cn-2022-math:stage4.cp.prj.1",
+      "code": "stage4.cp.prj.1",
+      "subject": "数学",
+      "stage": "stage4",
+      "stageLabel": "第四学段（7-9年级）",
+      "domain": "综合与实践",
+      "topic": "项目学习",
+      "category": "内容要求",
+      "title": "项目式综合与实践活动",
+      "summary": "跨学科/跨领域的项目式学习，综合运用代数、几何、统计知识解决实际问题",
+      "coreCompetencies": [
+        "应用意识",
+        "创新意识",
+        "模型观念"
+      ],
+      "publishable": true,
+      "provenance": {
+        "source": "《义务教育数学课程标准（2022年版）》",
+        "publisher": "中华人民共和国教育部",
+        "version": "2022年版",
+        "page": null,
+        "section": "第四学段·综合与实践",
+        "licenseStatus": "clear",
+        "fetchedAt": null,
+        "fetchedFrom": null
+      }
+    }
+  ],
+  "_exportNote": "由 export-public.mjs 于 2026-07-09T10:09:17.790Z 生成。verbatimText 已剥离。"
+}

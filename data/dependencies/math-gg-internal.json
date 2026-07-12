@@ -1,0 +1,22 @@
+{
+  "scope": "图形与几何内部依赖",
+  "edgeCount": 16,
+  "dependencies": [
+    {"topicId": "cnmt_s2gg_angle", "prerequisiteId": "cnmt_s1gg_plane_intro", "strength": "hard", "reason": "角的概念建立在平面图形认识的基础上"},
+    {"topicId": "cnmt_s2gg_triangle", "prerequisiteId": "cnmt_s1gg_plane_intro", "strength": "hard", "reason": "三角形是基础平面图形的延伸"},
+    {"topicId": "cnmt_s2gg_triangle", "prerequisiteId": "cnmt_s2gg_angle", "strength": "hard", "reason": "认识三角形必须先认识角，三角形按角分类"},
+    {"topicId": "cnmt_s2gg_quad", "prerequisiteId": "cnmt_s1gg_plane_intro", "strength": "hard", "reason": "平行四边形、梯形是平面图形的延伸"},
+    {"topicId": "cnmt_s2gg_quad", "prerequisiteId": "cnmt_s2gg_angle", "strength": "hard", "reason": "认识平行四边形需要理解角和平行"},
+    {"topicId": "cnmt_s2gg_perimeter", "prerequisiteId": "cnmt_s1gg_plane_intro", "strength": "hard", "reason": "周长是图形一周的长度，要先认识图形"},
+    {"topicId": "cnmt_s2gg_area_concept", "prerequisiteId": "cnmt_s2gg_perimeter", "strength": "soft", "reason": "面积常通过与周长对比引入，先掌握周长有助于理解面积"},
+    {"topicId": "cnmt_s2gg_area_calc", "prerequisiteId": "cnmt_s2gg_area_concept", "strength": "hard", "reason": "面积计算必须先理解面积的含义"},
+    {"topicId": "cnmt_s3gg_circle", "prerequisiteId": "cnmt_s1gg_plane_intro", "strength": "hard", "reason": "圆是特殊的平面（曲线）图形"},
+    {"topicId": "cnmt_s3gg_circle_calc", "prerequisiteId": "cnmt_s3gg_circle", "strength": "hard", "reason": "圆周长和面积计算建立在圆的认识上"},
+    {"topicId": "cnmt_s3gg_circle_calc", "prerequisiteId": "cnmt_s2gg_perimeter", "strength": "soft", "reason": "圆周长是周长概念在曲线图形上的延伸"},
+    {"topicId": "cnmt_s3gg_solid", "prerequisiteId": "cnmt_s1gg_solid_intro", "strength": "hard", "reason": "圆柱圆锥的认识建立在立体图形直观认识上"},
+    {"topicId": "cnmt_s3gg_surface_vol", "prerequisiteId": "cnmt_s3gg_solid", "strength": "hard", "reason": "表面积和体积计算必须先认识立体图形"},
+    {"topicId": "cnmt_s3gg_surface_vol", "prerequisiteId": "cnmt_s2gg_area_calc", "strength": "hard", "reason": "表面积是面积在立体上的延伸，需要面积概念"},
+    {"topicId": "cnmt_s3gg_position", "prerequisiteId": "cnmt_s1gg_measure_basic", "strength": "soft", "reason": "用方向和距离确定位置需要长度的量感"},
+    {"topicId": "cnmt_s3gg_motion", "prerequisiteId": "cnmt_s1gg_plane_intro", "strength": "hard", "reason": "图形运动的研究对象就是平面图形"}
+  ]
+}

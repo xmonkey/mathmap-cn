@@ -1,0 +1,73 @@
+{
+  "scope": "stage4 → stage5 初中到高中衔接依赖",
+  "edgeCount": 11,
+  "_note": "这些边把义务教育（1-9年级）和高中（10-12年级）连成单一 DAG。",
+  "dependencies": [
+    {
+      "topicId": "cnmt_s5na_fn_concept",
+      "prerequisiteId": "cnmt_s4na_function_concept",
+      "strength": "hard",
+      "reason": "高中函数用集合语言重新定义，建立在初中函数概念基础上"
+    },
+    {
+      "topicId": "cnmt_s5na_angle",
+      "prerequisiteId": "cnmt_s4na_function_concept",
+      "strength": "soft",
+      "reason": "弧度制是函数定义域推广的基础"
+    },
+    {
+      "topicId": "cnmt_s5na_complex",
+      "prerequisiteId": "cnmt_s4na_real",
+      "strength": "hard",
+      "reason": "复数是实数的扩展"
+    },
+    {
+      "topicId": "cnmt_s5na_deriv_concept",
+      "prerequisiteId": "cnmt_s4na_linear_fn",
+      "strength": "soft",
+      "reason": "导数的瞬时变化率概念建立在函数理解上"
+    },
+    {
+      "topicId": "cnmt_s5gg_solid_basic",
+      "prerequisiteId": "cnmt_s4gg_line_angle",
+      "strength": "hard",
+      "reason": "空间点线面关系是初中线角关系的三维推广"
+    },
+    {
+      "topicId": "cnmt_s5gg_vector_coord",
+      "prerequisiteId": "cnmt_s4gg_coord",
+      "strength": "hard",
+      "reason": "向量坐标建立在平面直角坐标系上"
+    },
+    {
+      "topicId": "cnmt_s5gg_line_eq",
+      "prerequisiteId": "cnmt_s4gg_coord",
+      "strength": "soft",
+      "reason": "直线方程用坐标表示"
+    },
+    {
+      "topicId": "cnmt_s5gg_ellipse",
+      "prerequisiteId": "cnmt_s4gg_circle_prop",
+      "strength": "soft",
+      "reason": "椭圆是圆的推广"
+    },
+    {
+      "topicId": "cnmt_s5sp_probability",
+      "prerequisiteId": "cnmt_s4sp_probability",
+      "strength": "hard",
+      "reason": "高中概率深化建立在初中概率初步上"
+    },
+    {
+      "topicId": "cnmt_s5sp_sample",
+      "prerequisiteId": "cnmt_s4sp_survey",
+      "strength": "hard",
+      "reason": "抽样方法深化建立在初中抽样调查上"
+    },
+    {
+      "topicId": "cnmt_s5gg_conic_app",
+      "prerequisiteId": "cnmt_s4na_vieta",
+      "strength": "hard",
+      "reason": "圆锥曲线综合题求弦长/中点弦时大量使用韦达定理（代数工具）"
+    }
+  ]
+}

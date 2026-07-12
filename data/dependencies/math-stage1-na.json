@@ -1,0 +1,20 @@
+{
+  "scope": "stage1·数与代数",
+  "edgeCount": 14,
+  "dependencies": [
+    {"topicId": "cnmt_s1na_num_100", "prerequisiteId": "cnmt_s1na_num_count20", "strength": "hard", "reason": "百以内数的认识建立在 20 以内数数的基础上"},
+    {"topicId": "cnmt_s1na_num_place", "prerequisiteId": "cnmt_s1na_num_100", "strength": "hard", "reason": "理解个位十位必须先认识百以内的数"},
+    {"topicId": "cnmt_s1na_num_compose", "prerequisiteId": "cnmt_s1na_num_place", "strength": "hard", "reason": "数的组成（几个十几个一）建立于数位概念"},
+    {"topicId": "cnmt_s1na_num_compare", "prerequisiteId": "cnmt_s1na_num_compose", "strength": "hard", "reason": "大小比较要借助数的组成来理解"},
+    {"topicId": "cnmt_s1na_op_add", "prerequisiteId": "cnmt_s1na_num_count20", "strength": "hard", "reason": "加法'合起来'必须建立在对数的认识上"},
+    {"topicId": "cnmt_s1na_op_sub", "prerequisiteId": "cnmt_s1na_op_add", "strength": "hard", "reason": "减法是加法的逆运算，认识加法后才能理解减法"},
+    {"topicId": "cnmt_s1na_op_10", "prerequisiteId": "cnmt_s1na_op_add", "strength": "hard", "reason": "10 以内加法计算是加法含义的具体化"},
+    {"topicId": "cnmt_s1na_op_10", "prerequisiteId": "cnmt_s1na_op_sub", "strength": "hard", "reason": "10 以内减法计算是减法含义的具体化"},
+    {"topicId": "cnmt_s1na_op_carry", "prerequisiteId": "cnmt_s1na_op_10", "strength": "hard", "reason": "进位加法需要熟练 10 以内加减和凑十"},
+    {"topicId": "cnmt_s1na_op_borrow", "prerequisiteId": "cnmt_s1na_op_10", "strength": "hard", "reason": "退位减法需要熟练 10 以内加减和破十"},
+    {"topicId": "cnmt_s1na_op_100", "prerequisiteId": "cnmt_s1na_op_carry", "strength": "hard", "reason": "百以内进位加法建立在 20 以内进位加法上"},
+    {"topicId": "cnmt_s1na_op_100", "prerequisiteId": "cnmt_s1na_op_borrow", "strength": "hard", "reason": "百以内退位减法建立在 20 以内退位减法上"},
+    {"topicId": "cnmt_s1na_op_100", "prerequisiteId": "cnmt_s1na_num_place", "strength": "soft", "reason": "竖式计算时相同数位对齐借助数位概念"},
+    {"topicId": "cnmt_s1na_qty_relation", "prerequisiteId": "cnmt_s1na_num_compare", "strength": "soft", "reason": "'多几少几'等关系建立于大小比较"}
+  ]
+}

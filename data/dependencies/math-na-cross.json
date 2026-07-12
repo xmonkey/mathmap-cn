@@ -1,0 +1,17 @@
+{
+  "scope": "跨学段·数与代数（stage1↔stage2↔stage3）",
+  "edgeCount": 9,
+  "_note": "本文件只放跨学段的依赖，把三个学段连成一个完整的 DAG。学段内部依赖见各 stage 文件。",
+  "dependencies": [
+    {"topicId": "cnmt_s2na_num_1000", "prerequisiteId": "cnmt_s1na_num_100", "strength": "hard", "reason": "千的认识是百以内数认识的直接延伸"},
+    {"topicId": "cnmt_s2na_frac_intro", "prerequisiteId": "cnmt_s1na_qty_relation", "strength": "soft", "reason": "分数初步源于'平均分'的经验，与'分东西'的数量关系相通"},
+    {"topicId": "cnmt_s2na_mul_table", "prerequisiteId": "cnmt_s1na_op_10", "strength": "hard", "reason": "乘法是'求几个相同加数的和'，必须先熟练加法"},
+
+    {"topicId": "cnmt_s3na_big_unit", "prerequisiteId": "cnmt_s2na_num_10000", "strength": "hard", "reason": "亿等更大计数单位是万以内数的自然延伸"},
+    {"topicId": "cnmt_s3na_fac_concept", "prerequisiteId": "cnmt_s2na_div_table", "strength": "hard", "reason": "因数倍数概念建立在整除（表内除法）基础上"},
+    {"topicId": "cnmt_s3na_frac_meaning", "prerequisiteId": "cnmt_s2na_frac_intro", "strength": "hard", "reason": "分数的系统化意义建立在分数初步认识上"},
+    {"topicId": "cnmt_s3na_dec_meaning", "prerequisiteId": "cnmt_s2na_dec_intro", "strength": "hard", "reason": "小数的系统化意义建立在小数初步认识上"},
+    {"topicId": "cnmt_s3na_decop_addsub", "prerequisiteId": "cnmt_s2na_dec_addsub", "strength": "soft", "reason": "小数加减法是小学初步加减的延伸到更多位"},
+    {"topicId": "cnmt_s3na_frop_add", "prerequisiteId": "cnmt_s2na_frac_addsub", "strength": "soft", "reason": "异分母分数加减是同分母简单加减的发展"}
+  ]
+}

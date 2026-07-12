@@ -1,0 +1,368 @@
+{
+  "subject": "数学",
+  "scope": "stage2·数与代数",
+  "topicCount": 18,
+  "_origin": "AI 生成的教学常识初稿（非课标原文，非任何教材原文）。针对 3-4 年级认知水平，侧重初步认识与简单应用。需教研人员审核。",
+  "topics": [
+    {
+      "id": "cnmt_s2na_num_1000",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage2",
+      "gradeStart": 3,
+      "gradeEnd": 3,
+      "name": "千以内数的认识",
+      "description": "认识计数单位'百'和'千'，能读写千以内的数，理解三位数各位上的数字表示多少。",
+      "centrality": 0.75,
+      "evidence": [
+        "能数出千以内的数",
+        "能正确读写三位数"
+      ],
+      "assessmentPrompt": "{{name}}能从 195 数到 205 吗？能解释 304 里的 0 为什么不能省吗？",
+      "standards": [
+        "moe-cn-2022-math:stage2.na.num.1"
+      ]
+    },
+    {
+      "id": "cnmt_s2na_num_10000",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage2",
+      "gradeStart": 3,
+      "gradeEnd": 4,
+      "name": "万以内数的认识",
+      "description": "认识计数单位'万'，能读写万以内的数，初步建立大数的数感。",
+      "centrality": 0.8,
+      "evidence": [
+        "能读写万以内的数",
+        "能说出万以内数的组成"
+      ],
+      "assessmentPrompt": "{{name}}能写出'五千零三十'吗？读 4008 时为什么两个 0 只读一个？",
+      "standards": [
+        "moe-cn-2022-math:stage2.na.num.1"
+      ]
+    },
+    {
+      "id": "cnmt_s2na_num_place",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage2",
+      "gradeStart": 3,
+      "gradeEnd": 4,
+      "name": "万以内数的数位顺序",
+      "description": "掌握个位、十位、百位、千位、万位的顺序，理解十进制计数法。",
+      "centrality": 0.7,
+      "evidence": [
+        "能按顺序说出数位",
+        "能解释相邻数位之间的十进关系"
+      ],
+      "assessmentPrompt": "{{name}}能从右往左说出前五个数位吗？千位上的 3 表示多少？",
+      "standards": [
+        "moe-cn-2022-math:stage2.na.num.1"
+      ]
+    },
+    {
+      "id": "cnmt_s2na_num_compare",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage2",
+      "gradeStart": 3,
+      "gradeEnd": 3,
+      "name": "万以内数的大小比较",
+      "description": "比较万以内数的大小：位数多的数大；位数相同从高位起逐位比较。",
+      "centrality": 0.5,
+      "evidence": [
+        "能比较位数不同的两个数",
+        "能比较位数相同的两个数并说明理由"
+      ],
+      "assessmentPrompt": "{{name}}会比较 3987 和 4012 的大小吗？说说为什么。",
+      "standards": [
+        "moe-cn-2022-math:stage2.na.num.1"
+      ]
+    },
+    {
+      "id": "cnmt_s2na_frac_intro",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage2",
+      "gradeStart": 3,
+      "gradeEnd": 3,
+      "name": "分数的初步认识",
+      "description": "通过平均分一个物体或图形，初步认识几分之一和几分之几；会读写简单的分数。",
+      "centrality": 0.85,
+      "evidence": [
+        "能用分数表示图形平均分后的部分",
+        "能读写几分之一、几分之几"
+      ],
+      "assessmentPrompt": "把一张正方形纸平均分成 4 份，{{name}}能说出每份是它的几分之几吗？",
+      "standards": [
+        "moe-cn-2022-math:stage2.na.num.2"
+      ]
+    },
+    {
+      "id": "cnmt_s2na_frac_compare",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage2",
+      "gradeStart": 3,
+      "gradeEnd": 3,
+      "name": "简单分数的大小比较",
+      "description": "借助图形直观，比较同分母分数（看分子）和分子为 1 的简单分数（看分母）的大小，初步体会分数比较的方法。",
+      "centrality": 0.4,
+      "evidence": [
+        "能比较同分母分数",
+        "能比较几分之一的大小"
+      ],
+      "assessmentPrompt": "{{name}}会比较 1/3 和 1/5 的大小吗？为什么分母大的反而小？",
+      "standards": [
+        "moe-cn-2022-math:stage2.na.num.2"
+      ]
+    },
+    {
+      "id": "cnmt_s2na_frac_addsub",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage2",
+      "gradeStart": 3,
+      "gradeEnd": 3,
+      "name": "同分母分数的简单加减",
+      "description": "同分母分数相加减，分母不变、分子相加减；不要求约分。",
+      "centrality": 0.5,
+      "evidence": [
+        "能计算同分母分数加减",
+        "能解决简单的分数加减实际问题"
+      ],
+      "assessmentPrompt": "{{name}}能算 1/5 + 2/5 吗？为什么分母还是 5？",
+      "standards": [
+        "moe-cn-2022-math:stage2.na.num.2"
+      ]
+    },
+    {
+      "id": "cnmt_s2na_dec_intro",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage2",
+      "gradeStart": 3,
+      "gradeEnd": 4,
+      "name": "小数的初步认识",
+      "description": "结合元角分、米分米等情境，初步认识一位、两位小数，会读写简单小数。",
+      "centrality": 0.7,
+      "evidence": [
+        "能结合商品价格读写小数",
+        "能说出 0.3 元表示多少钱"
+      ],
+      "assessmentPrompt": "一支笔 3.5 元，{{name}}能说出这是几元几角吗？",
+      "standards": [
+        "moe-cn-2022-math:stage2.na.num.3"
+      ]
+    },
+    {
+      "id": "cnmt_s2na_dec_compare",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage2",
+      "gradeStart": 3,
+      "gradeEnd": 4,
+      "name": "简单小数的大小比较",
+      "description": "结合商品价格、测量结果等具体情境，比较一位、两位小数的大小，能在数轴上标出小数位置帮助比较。",
+      "centrality": 0.4,
+      "evidence": [
+        "能比较简单小数的大小",
+        "能在数轴上标出小数位置"
+      ],
+      "assessmentPrompt": "{{name}}会比较 0.4 元和 0.5 元的大小吗？1.2 米和 0.9 米呢？",
+      "standards": [
+        "moe-cn-2022-math:stage2.na.num.3"
+      ]
+    },
+    {
+      "id": "cnmt_s2na_dec_addsub",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage2",
+      "gradeStart": 3,
+      "gradeEnd": 4,
+      "name": "简单小数的加减",
+      "description": "在购物、测量等具体情境中，进行一位小数的加减运算，体会小数点对齐（相同数位对齐）的必要性。",
+      "centrality": 0.5,
+      "evidence": [
+        "能计算一位小数加减",
+        "能解决购物等情境中的小数加减问题"
+      ],
+      "assessmentPrompt": "买一个本子 2.5 元、一块橡皮 0.8 元，{{name}}能算出一共多少元吗？",
+      "standards": [
+        "moe-cn-2022-math:stage2.na.num.3"
+      ]
+    },
+    {
+      "id": "cnmt_s2na_mul_table",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage2",
+      "gradeStart": 2,
+      "gradeEnd": 3,
+      "name": "表内乘法",
+      "description": "理解乘法是'求几个相同加数的和'的简便运算，熟练掌握 9×9 以内的乘法口诀。",
+      "centrality": 0.95,
+      "evidence": [
+        "能熟练背诵乘法口诀",
+        "能用口诀求积"
+      ],
+      "assessmentPrompt": "{{name}}能背出 7 的口诀吗？7×8 等于几？用的是哪句口诀？",
+      "standards": [
+        "moe-cn-2022-math:stage2.na.op.1"
+      ]
+    },
+    {
+      "id": "cnmt_s2na_mul_2x1",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage2",
+      "gradeStart": 3,
+      "gradeEnd": 3,
+      "name": "两位数乘一位数",
+      "description": "用竖式计算两位数乘一位数，理解每一步的算理（用一位数分别乘两位数的个位和十位再合并），正确处理进位。",
+      "centrality": 0.7,
+      "evidence": [
+        "能用竖式计算两位数乘一位数",
+        "能处理进位情况"
+      ],
+      "assessmentPrompt": "{{name}}能算 36×4 吗？说说每一步算的是什么。",
+      "standards": [
+        "moe-cn-2022-math:stage2.na.op.1"
+      ]
+    },
+    {
+      "id": "cnmt_s2na_mul_2x2",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage2",
+      "gradeStart": 3,
+      "gradeEnd": 4,
+      "name": "两位数乘两位数",
+      "description": "用竖式计算两位数乘两位数，理解第二个部分积错位的原因。",
+      "centrality": 0.7,
+      "evidence": [
+        "能用竖式计算两位数乘两位数",
+        "能解释竖式中第二层为什么错一位"
+      ],
+      "assessmentPrompt": "{{name}}能算 24×13 吗？竖式里 24×1（十位的 1）为什么得 24 要错位写？",
+      "standards": [
+        "moe-cn-2022-math:stage2.na.op.1"
+      ]
+    },
+    {
+      "id": "cnmt_s2na_div_table",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage2",
+      "gradeStart": 2,
+      "gradeEnd": 3,
+      "name": "表内除法",
+      "description": "理解除法是'平均分'的运算；用乘法口诀求商，熟练掌握表内除法。",
+      "centrality": 0.9,
+      "evidence": [
+        "能用口诀求商",
+        "能解释除法算式各部分名称"
+      ],
+      "assessmentPrompt": "{{name}}能算 56÷8 吗？想的是哪句口诀？",
+      "standards": [
+        "moe-cn-2022-math:stage2.na.op.2"
+      ]
+    },
+    {
+      "id": "cnmt_s2na_div_remainder",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage2",
+      "gradeStart": 3,
+      "gradeEnd": 3,
+      "name": "有余数的除法",
+      "description": "理解有余数除法的含义，会计算有余数的除法；理解余数一定比除数小。",
+      "centrality": 0.7,
+      "evidence": [
+        "能计算有余数的除法",
+        "能说出余数为什么必须比除数小"
+      ],
+      "assessmentPrompt": "{{name}}能算 17÷5 吗？余数最大不能超过几？为什么？",
+      "standards": [
+        "moe-cn-2022-math:stage2.na.op.2"
+      ]
+    },
+    {
+      "id": "cnmt_s2na_div_2digit",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage2",
+      "gradeStart": 4,
+      "gradeEnd": 4,
+      "name": "除数是两位数的除法",
+      "description": "用竖式计算除数是两位数的除法，掌握试商和调商的方法。",
+      "centrality": 0.7,
+      "evidence": [
+        "能用竖式计算除数是两位数的除法",
+        "能合理试商"
+      ],
+      "assessmentPrompt": "{{name}}能算 576÷18 吗？试商时把 18 看成几来试？",
+      "standards": [
+        "moe-cn-2022-math:stage2.na.op.2"
+      ]
+    },
+    {
+      "id": "cnmt_s2na_qty_relation",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage2",
+      "gradeStart": 4,
+      "gradeEnd": 4,
+      "name": "常见数量关系",
+      "description": "认识单价×数量=总价、速度×时间=路程等常见数量关系，能用于解决实际问题。",
+      "centrality": 0.7,
+      "evidence": [
+        "能说出常见数量关系式",
+        "能根据情境选择合适的数量关系解题"
+      ],
+      "assessmentPrompt": "一支笔 5 元，买 8 支，{{name}}能用一个数量关系式表示总价吗？",
+      "standards": [
+        "moe-cn-2022-math:stage2.na.qty.1"
+      ]
+    },
+    {
+      "id": "cnmt_s2na_qty_estimate",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage2",
+      "gradeStart": 4,
+      "gradeEnd": 4,
+      "name": "估算",
+      "description": "结合情境进行估算，体会估算在不同问题中的策略差异（往大估/往小估）。",
+      "centrality": 0.5,
+      "evidence": [
+        "能选择合适的估算策略",
+        "能解释估算结果的合理性"
+      ],
+      "assessmentPrompt": "带 100 元，买三件东西分别 38、42、25 元，{{name}}估一估够不够？",
+      "standards": [
+        "moe-cn-2022-math:stage2.na.qty.1"
+      ]
+    }
+  ]
+}

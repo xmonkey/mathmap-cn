@@ -1,0 +1,22 @@
+{
+  "scope": "stage3 → stage4 学段衔接依赖",
+  "edgeCount": 15,
+  "_note": "这些边把小学（stage1-3）和初中（stage4）连成单一 DAG，是纵铺的核心价值——揭示知识如何从小学延伸到初中。",
+  "dependencies": [
+    {"topicId": "cnmt_s4na_rational_concept", "prerequisiteId": "cnmt_s3na_neg_intro", "strength": "hard", "reason": "有理数系统建立在负数的初步认识上"},
+    {"topicId": "cnmt_s4na_rational_concept", "prerequisiteId": "cnmt_s3na_frac_meaning", "strength": "hard", "reason": "有理数包含分数，必须先掌握分数的意义"},
+    {"topicId": "cnmt_s4na_rational_concept", "prerequisiteId": "cnmt_s3na_dec_meaning", "strength": "hard", "reason": "有限小数属于有理数，需要小数的意义作基础"},
+    {"topicId": "cnmt_s4na_polynomial", "prerequisiteId": "cnmt_s3na_alg_letter", "strength": "hard", "reason": "整式是用字母表示数的系统化发展"},
+    {"topicId": "cnmt_s4na_linear_eq", "prerequisiteId": "cnmt_s3na_eq_solve", "strength": "hard", "reason": "一元一次方程是简易方程的延伸与系统化"},
+    {"topicId": "cnmt_s4na_function_concept", "prerequisiteId": "cnmt_s3na_eq_solve", "strength": "soft", "reason": "函数概念与方程关系密切，求函数值类似解方程"},
+    {"topicId": "cnmt_s4gg_line_angle", "prerequisiteId": "cnmt_s2gg_angle", "strength": "hard", "reason": "初中精确化的线和角建立在小学角的直观认识上"},
+    {"topicId": "cnmt_s4gg_triangle_prop", "prerequisiteId": "cnmt_s2gg_triangle", "strength": "hard", "reason": "初中三角形的性质建立在小学三角形认识上"},
+    {"topicId": "cnmt_s4gg_quad_prop", "prerequisiteId": "cnmt_s2gg_quad", "strength": "hard", "reason": "初中特殊四边形建立在小学平行四边形和梯形认识上"},
+    {"topicId": "cnmt_s4gg_circle_prop", "prerequisiteId": "cnmt_s3gg_circle", "strength": "hard", "reason": "初中圆的性质建立在小学圆的直观认识上"},
+    {"topicId": "cnmt_s4gg_transform", "prerequisiteId": "cnmt_s3gg_motion", "strength": "hard", "reason": "初中图形变换是小学平移旋转轴对称的坐标化"},
+    {"topicId": "cnmt_s4gg_coord", "prerequisiteId": "cnmt_s3gg_position", "strength": "hard", "reason": "平面直角坐标系建立在用方向和距离确定位置的基础上"},
+    {"topicId": "cnmt_s4sp_probability", "prerequisiteId": "cnmt_s3sp_chance", "strength": "hard", "reason": "概率初步是可能性认识的定量化"},
+    {"topicId": "cnmt_s4sp_survey", "prerequisiteId": "cnmt_s3sp_measures", "strength": "soft", "reason": "抽样调查建立在对数据已有初步认识的基础上"},
+    {"topicId": "cnmt_s4sp_analysis", "prerequisiteId": "cnmt_s2sp_average", "strength": "hard", "reason": "用平均数分析数据是小学平均数的延伸"}
+  ]
+}

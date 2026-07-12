@@ -1,0 +1,468 @@
+{
+  "subject": "数学",
+  "scope": "stage4·数与代数（7-9年级）",
+  "topicCount": 23,
+  "_origin": "AI 生成的教学常识初稿（非课标原文）。针对 7-9 年级认知水平。需教研人员审核。",
+  "topics": [
+    {
+      "id": "cnmt_s4na_rational_concept",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 7,
+      "gradeEnd": 7,
+      "name": "有理数的概念",
+      "description": "在小学正数、零、分数、小数和负数初步认识基础上，统一定义有理数（整数和分数的统称）；理解数轴、相反数、绝对值的意义。",
+      "centrality": 0.9,
+      "evidence": [
+        "能把数表示在数轴上",
+        "能求一个有理数的相反数和绝对值"
+      ],
+      "assessmentPrompt": "{{name}}能把 -3、0、2.5、-1/2 表示在同一条数轴上吗？-3 的绝对值是几？相反数是几？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.num.1"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_rational_op",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 7,
+      "gradeEnd": 7,
+      "name": "有理数的四则运算",
+      "description": "掌握有理数加减乘除运算法则（含符号确定），能进行混合运算。",
+      "centrality": 0.85,
+      "evidence": [
+        "能正确确定运算结果的符号",
+        "能完成有理数混合运算"
+      ],
+      "assessmentPrompt": "{{name}}能算 -5 + 3 和 (-4)×(-6) 吗？结果的符号怎么确定？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.num.1"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_rational_abs",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 7,
+      "gradeEnd": 7,
+      "name": "相反数与绝对值",
+      "description": "理解相反数（只有符号不同的两个数）和绝对值（数轴上的点到原点的距离）的几何意义。",
+      "centrality": 0.6,
+      "evidence": [
+        "能求任意有理数的相反数和绝对值",
+        "能用绝对值比较两个负数的大小"
+      ],
+      "assessmentPrompt": "为什么 |-5| = 5？{{name}}能从数轴上解释吗？-3 和 -7 哪个大，用绝对值怎么判断？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.num.1"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_rational_power",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 7,
+      "gradeEnd": 7,
+      "name": "有理数的乘方",
+      "description": "理解乘方的意义（求 n 个相同因数的积），能进行乘方运算；掌握科学记数法。",
+      "centrality": 0.65,
+      "evidence": [
+        "能正确计算乘方（区分底数符号）",
+        "能用科学记数法表示大数"
+      ],
+      "assessmentPrompt": "{{name}}能算 (-2)⁴ 和 -2⁴ 吗？它们结果一样吗？为什么？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.num.1"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_sqrt",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 8,
+      "gradeEnd": 8,
+      "name": "平方根与立方根",
+      "description": "理解平方根、算术平方根、立方根的概念；会用平方/立方运算求根。",
+      "centrality": 0.75,
+      "evidence": [
+        "能区分平方根与算术平方根",
+        "能求完全平方数和完全立方数的根"
+      ],
+      "assessmentPrompt": "9 的平方根是几？算术平方根又是几？{{name}}分得清吗？为什么负数没有平方根？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.num.2"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_real",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 8,
+      "gradeEnd": 8,
+      "name": "实数",
+      "description": "通过无限不循环小数认识无理数（如 π、√2），把有理数和无理数统称为实数；能在数轴上表示实数。",
+      "centrality": 0.7,
+      "evidence": [
+        "能判断一个数是有理数还是无理数",
+        "能用数轴上的点表示实数"
+      ],
+      "assessmentPrompt": "{{name}}能说出 π 和 √2 是什么数吗？0、1/3、-5、√9 里哪些是无理数？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.num.2"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_polynomial",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 7,
+      "gradeEnd": 7,
+      "name": "整式的概念与加减",
+      "description": "理解单项式、多项式、整式的概念；掌握合并同类项和去括号法则，能进行整式加减。",
+      "centrality": 0.75,
+      "evidence": [
+        "能识别单项式多项式并说出系数次数",
+        "能合并同类项进行整式加减"
+      ],
+      "assessmentPrompt": "3x²y 和 -5yx² 是同类项吗？{{name}}能合并吗？依据是什么？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.expr.1"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_power_rule",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 8,
+      "gradeEnd": 8,
+      "name": "幂的运算性质",
+      "description": "掌握同底数幂乘除、幂的乘方、积的乘方法则 (aᵐ·aⁿ=aᵐ⁺ⁿ 等)。",
+      "centrality": 0.7,
+      "evidence": [
+        "能正确运用幂的运算法则",
+        "能区分不同法则避免混淆"
+      ],
+      "assessmentPrompt": "{{name}}能算 a³·a⁵ 和 (a²)⁴ 吗？两者算法一样吗？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.expr.2"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_poly_mul",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 8,
+      "gradeEnd": 8,
+      "name": "整式的乘法",
+      "description": "掌握单项式乘单项式、单项式乘多项式、多项式乘多项式（含分配律的运用）。",
+      "centrality": 0.7,
+      "evidence": [
+        "能正确进行多项式乘多项式",
+        "能用分配律解释每一步"
+      ],
+      "assessmentPrompt": "{{name}}能算 (x+2)(x+3) 吗？说说用了几次分配律。",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.expr.2"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_formula",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 8,
+      "gradeEnd": 8,
+      "name": "乘法公式",
+      "description": "掌握平方差公式 (a+b)(a-b)=a²-b² 和完全平方公式 (a±b)²=a²±2ab+b²。",
+      "centrality": 0.75,
+      "evidence": [
+        "能识别可套公式的结构",
+        "能正确展开平方差和完全平方"
+      ],
+      "assessmentPrompt": "{{name}}能直接写出 (x+5)(x-5) 和 (2x+3)² 的结果吗？用的哪个公式？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.expr.2"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_factorize",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 8,
+      "gradeEnd": 8,
+      "name": "因式分解",
+      "description": "把多项式化为几个整式积的形式；掌握提公因式法、公式法（逆用乘法公式）。",
+      "centrality": 0.75,
+      "evidence": [
+        "能用提公因式法分解",
+        "能用平方差/完全平方公式分解"
+      ],
+      "assessmentPrompt": "{{name}}能分解 x²-9 和 x²+6x+9 吗？用的什么方法？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.expr.2"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_fraction_expr",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 8,
+      "gradeEnd": 8,
+      "name": "分式的概念与性质",
+      "description": "分母含字母的式子叫分式；理解分式有意义的条件（分母不为零），掌握分式的基本性质用于约分通分。",
+      "centrality": 0.65,
+      "evidence": [
+        "能判断分式何时有意义/值为零",
+        "能用基本性质约分通分"
+      ],
+      "assessmentPrompt": "分式 1/(x-2) 里 x 不能取几？{{name}}能说明为什么吗？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.expr.3"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_fraction_op",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 8,
+      "gradeEnd": 8,
+      "name": "分式的运算",
+      "description": "掌握分式的加减乘除乘方运算法则（类比分数运算）；加减需通分，乘除需约分，结果化为最简分式或整式。",
+      "centrality": 0.6,
+      "evidence": [
+        "能进行分式加减（通分后）",
+        "能进行分式乘除约分"
+      ],
+      "assessmentPrompt": "{{name}}能算 1/x + 1/y 吗？为什么要先通分？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.expr.3"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_sqrt_expr",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 8,
+      "gradeEnd": 8,
+      "name": "二次根式",
+      "description": "形如 √a(a≥0) 的式子；掌握二次根式的性质和四则运算。",
+      "centrality": 0.55,
+      "evidence": [
+        "能化简二次根式",
+        "能进行二次根式加减乘除"
+      ],
+      "assessmentPrompt": "{{name}}能化简 √8 吗？√2+√8 能不能合并？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.expr.4"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_linear_eq",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 7,
+      "gradeEnd": 7,
+      "name": "一元一次方程",
+      "description": "掌握一元一次方程的解法（移项、合并、系数化为 1），能列方程解应用题。",
+      "centrality": 0.8,
+      "evidence": [
+        "能解含括号分母的一元一次方程",
+        "能根据实际问题列方程"
+      ],
+      "assessmentPrompt": "{{name}}能解 2(x-3)=3x+1 吗？说说每一步的依据。",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.eq.1"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_system_eq",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 8,
+      "gradeEnd": 8,
+      "name": "二元一次方程组",
+      "description": "理解二元一次方程组的解；掌握代入消元和加减消元法。",
+      "centrality": 0.7,
+      "evidence": [
+        "能用消元法解二元一次方程组",
+        "能用方程组解实际问题"
+      ],
+      "assessmentPrompt": "{{name}}能解 x+y=7, 3x-y=1 这个方程组吗？用哪种消元法？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.eq.2"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_quadratic_eq",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 9,
+      "gradeEnd": 9,
+      "name": "一元二次方程",
+      "description": "掌握配方法、公式法、因式分解法解一元二次方程；理解根的判别式。",
+      "centrality": 0.8,
+      "evidence": [
+        "能用多种方法解一元二次方程",
+        "能用判别式判断根的情况"
+      ],
+      "assessmentPrompt": "{{name}}能解 x²-5x+6=0 吗？用因式分解怎么做？判别式是多少，说明根的什么？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.eq.3"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_fraction_eq",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 8,
+      "gradeEnd": 8,
+      "name": "分式方程",
+      "description": "通过去分母把分式方程转化为整式方程求解，并必须检验根（防止增根）。",
+      "centrality": 0.55,
+      "evidence": [
+        "能解分式方程并检验增根",
+        "能解释为什么要检验"
+      ],
+      "assessmentPrompt": "{{name}}解 2/x + 1/(x-1) = 3 后，为什么必须检验？增根是怎么产生的？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.eq.3"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_inequality",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 7,
+      "gradeEnd": 8,
+      "name": "一元一次不等式（组）",
+      "description": "掌握不等式的基本性质（特别注意乘除负数变号）；能解一元一次不等式和不等式组。",
+      "centrality": 0.65,
+      "evidence": [
+        "能正确处理不等号方向变化",
+        "能求不等式组的解集（用数轴）"
+      ],
+      "assessmentPrompt": "{{name}}解 -2x > 6 时，不等号方向要不要变？为什么？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.eq.4"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_function_concept",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 8,
+      "gradeEnd": 8,
+      "name": "函数的概念",
+      "description": "理解变量与函数的概念：在一个变化过程中，有两个变量 x 和 y，对于 x 的每一个值，y 都有唯一确定的值与其对应。",
+      "centrality": 0.8,
+      "evidence": [
+        "能判断一个关系是不是函数",
+        "能用解析式、列表、图像表示函数"
+      ],
+      "assessmentPrompt": "y=x² 是函数吗？{{name}}能说说 x=2 时 y 是多少吗？为什么对每个 x 只有一个 y？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.fn.1"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_linear_fn",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 8,
+      "gradeEnd": 8,
+      "name": "一次函数",
+      "description": "掌握 y=kx+b(k≠0) 的图像（直线）和性质；理解正比例函数是特殊的一次函数。",
+      "centrality": 0.75,
+      "evidence": [
+        "能画出一次函数图像",
+        "能根据 k、b 判断图像经过的象限和增减性"
+      ],
+      "assessmentPrompt": "y=2x-3 的图像过哪几个象限？{{name}}能说说 y 随 x 怎么变化吗？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.fn.lc.1"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_inverse_fn",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 8,
+      "gradeEnd": 9,
+      "name": "反比例函数",
+      "description": "掌握 y=k/x(k≠0) 的图像（双曲线）和性质。",
+      "centrality": 0.65,
+      "evidence": [
+        "能画出反比例函数图像",
+        "能用图像说明在每个象限的增减性"
+      ],
+      "assessmentPrompt": "y=6/x 的图像长什么样？{{name}}能说说 x 变大时 y 怎么变吗？会经过原点吗？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.fn.iv.1"
+      ]
+    },
+    {
+      "id": "cnmt_s4na_quadratic_fn",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage4",
+      "gradeStart": 9,
+      "gradeEnd": 9,
+      "name": "二次函数",
+      "description": "掌握 y=ax²+bx+c(a≠0) 的图像（抛物线）；理解开口方向、对称轴、顶点、最值；与一元二次方程的联系。",
+      "centrality": 0.85,
+      "evidence": [
+        "能用配方法求顶点对称轴",
+        "能解释二次函数与一元二次方程的关系"
+      ],
+      "assessmentPrompt": "y=x²-2x-3 的对称轴和顶点是什么？{{name}}能说出它的最大值还是最小值？令 y=0 解出的 x 是图像上的什么？",
+      "standards": [
+        "moe-cn-2022-math:stage4.na.fn.qf.1"
+      ]
+    }
+  ]
+}

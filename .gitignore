@@ -1,0 +1,36 @@
+# 课标原文（版权敏感，永不发布）
+data/standards-raw/
+
+# 内部文档（不对外的详细记录）
+docs/
+NOTICE-INTERNAL.md
+
+# 如果使用 public 仓库，强烈建议上面这条始终保留
+# 若误上传，必须用 git filter-branch / BFG 彻底清除历史
+
+# 系统
+.DS_Store
+*.log
+
+# 依赖
+node_modules/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 演示脚本（不需要 track）
+scripts/demo-*.py
+
+# 临时文件
+others/
+
+# Marble 版权文件（仅供本地参考，不发布）
+viz/marble-cn.html
+viz/marble-original.html
+scripts/build-marble-viz.mjs
+
+# 早期版本
+viz/index.html
+scripts/build-viz.mjs

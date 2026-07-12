@@ -1,0 +1,16 @@
+{
+  "scope": "stage4·图形与几何内部依赖",
+  "edgeCount": 10,
+  "dependencies": [
+    {"topicId": "cnmt_s4gg_parallel", "prerequisiteId": "cnmt_s4gg_line_angle", "strength": "hard", "reason": "平行线的研究建立在角的基础上（同位角内错角等）"},
+    {"topicId": "cnmt_s4gg_triangle_prop", "prerequisiteId": "cnmt_s4gg_line_angle", "strength": "hard", "reason": "三角形的边角关系建立在线段和角的基础上"},
+    {"topicId": "cnmt_s4gg_congruent", "prerequisiteId": "cnmt_s4gg_triangle_prop", "strength": "hard", "reason": "全等三角形的研究对象就是三角形，需先掌握其性质"},
+    {"topicId": "cnmt_s4gg_similar", "prerequisiteId": "cnmt_s4gg_congruent", "strength": "hard", "reason": "相似是全等的推广（全等是相似比为 1 的特例）"},
+    {"topicId": "cnmt_s4gg_quad_prop", "prerequisiteId": "cnmt_s4gg_parallel", "strength": "hard", "reason": "平行四边形由两组平行线构成"},
+    {"topicId": "cnmt_s4gg_quad_prop", "prerequisiteId": "cnmt_s4gg_congruent", "strength": "hard", "reason": "特殊四边形的判定常用全等三角形证明"},
+    {"topicId": "cnmt_s4gg_circle_prop", "prerequisiteId": "cnmt_s4gg_triangle_prop", "strength": "soft", "reason": "圆的性质证明常借助等腰三角形等"},
+    {"topicId": "cnmt_s4gg_circle_calc", "prerequisiteId": "cnmt_s4gg_circle_prop", "strength": "hard", "reason": "弧长扇形计算建立在圆的性质上"},
+    {"topicId": "cnmt_s4gg_transform", "prerequisiteId": "cnmt_s4gg_coord", "strength": "hard", "reason": "用坐标描述变换必须先掌握直角坐标系"},
+    {"topicId": "cnmt_s4gg_proof", "prerequisiteId": "cnmt_s4gg_congruent", "strength": "soft", "reason": "全等三角形的证明是演绎证明的典型训练场"}
+  ]
+}

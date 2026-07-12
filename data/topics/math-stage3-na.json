@@ -1,0 +1,990 @@
+{
+  "subject": "数学",
+  "scope": "stage3·数与代数",
+  "topicCount": 49,
+  "_origin": "AI 生成的教学常识初稿（非课标原文，非任何教材原文）。description/evidence/assessmentPrompt 为原创，需教研人员审核校准。微主题切分参照 2022 版课标第三学段'内容要求'，但不逐字对应。",
+  "topics": [
+    {
+      "id": "cnmt_s3na_big_unit",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "更大的计数单位与十进制",
+      "description": "认识万、十万、百万、千万、亿等更大的计数单位，理解每相邻两个计数单位间的进率都是 10，巩固十进制计数法。",
+      "centrality": 0.7,
+      "evidence": [
+        "能说出万到亿之间的计数单位",
+        "能解释为什么十万是五位数里最大的单位的下一级"
+      ],
+      "assessmentPrompt": "如果让{{name}}从个位起往左数，能说出第八位是什么位吗？为什么？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.1"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_big_place",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "数位顺序表（含亿级）",
+      "description": "建立个级、万级、亿级的数位顺序表，理解数位与计数单位的对应关系。",
+      "centrality": 0.8,
+      "evidence": [
+        "能在数位顺序表上正确填写一个多位数的各位数字",
+        "能说出某一位上的数字表示多少"
+      ],
+      "assessmentPrompt": "给{{name}}一个九位数，能按级拆开说出每位表示什么吗？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.1"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_big_read",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "大数的读写",
+      "description": "按级读写多位数：先读亿级、再读万级、最后读个级，每级末尾的 0 不读、中间连续的 0 只读一个。",
+      "centrality": 0.6,
+      "evidence": [
+        "能正确读出含多个 0 的大数",
+        "能根据读法写出对应的数"
+      ],
+      "assessmentPrompt": "让{{name}}读 30500060，再写'三亿零五十万零六十'对应的数，能做对吗？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.1"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_big_compare",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "大数的大小比较",
+      "description": "比较多位数：位数不同看位数，位数相同从高位起逐位比较。",
+      "centrality": 0.5,
+      "evidence": [
+        "能比较两个位数不同的大数",
+        "能比较两个位数相同的大数并说明理由"
+      ],
+      "assessmentPrompt": "给{{name}}两个八位数，只有一个万位数字不同，能判断大小吗？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.1"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_big_approx",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "大数的近似数与改写",
+      "description": "用'万'或'亿'为单位改写大数；用四舍五入法求近似数。",
+      "centrality": 0.6,
+      "evidence": [
+        "能把精确数改写成以万/亿为单位的数",
+        "能按要求省略某一位后面的尾数"
+      ],
+      "assessmentPrompt": "{{name}}能把 678950000 省略亿位后面的尾数吗？为什么看千万位？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.1"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_fac_concept",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "因数与倍数的概念",
+      "description": "在整数乘法背景下理解：若 a×b=c，则 a、b 是 c 的因数，c 是 a、b 的倍数。注意研究范围是非零自然数。",
+      "centrality": 0.8,
+      "evidence": [
+        "能判断一个数是不是另一个数的因数/倍数",
+        "能完整列出一个数的所有因数"
+      ],
+      "assessmentPrompt": "{{name}}能说出 12 的所有因数吗？为什么 1 和 12 本身也算？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.2"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_fac_rule2",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "2、5 的倍数特征",
+      "description": "个位是 0、2、4、6、8 的数是 2 的倍数（偶数）；个位是 0 或 5 的数是 5 的倍数。",
+      "centrality": 0.5,
+      "evidence": [
+        "能快速判断一个大数是不是 2 或 5 的倍数",
+        "能找出既是 2 又是 5 的倍数的数（个位是 0）"
+      ],
+      "assessmentPrompt": "{{name}}能不看末尾，一眼判断 3764852 是不是 2 的倍数吗？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.2"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_fac_rule3",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "3 的倍数特征",
+      "description": "一个数各位数字之和是 3 的倍数，这个数就是 3 的倍数。",
+      "centrality": 0.5,
+      "evidence": [
+        "能用数字和法判断 3 的倍数",
+        "能构造一个指定首位、且是 3 的倍数的三位数"
+      ],
+      "assessmentPrompt": "{{name}}能判断 4731 是不是 3 的倍数吗？用的是哪种方法？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.2"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_fac_prime",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "质数与合数",
+      "description": "只有 1 和它本身两个因数的数叫质数；除了 1 和本身还有别的因数的数叫合数；1 既不是质数也不是合数。",
+      "centrality": 0.7,
+      "evidence": [
+        "能区分质数、合数、1",
+        "能判断 20 以内的数是不是质数"
+      ],
+      "assessmentPrompt": "{{name}}能说出 1 为什么既不是质数也不是合数吗？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.2"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_fac_factorize",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "分解质因数",
+      "description": "把一个合数用质因数相乘的形式表示出来（短除法/塔形分解）。",
+      "centrality": 0.6,
+      "evidence": [
+        "能把合数正确分解为质因数相乘",
+        "能判断分解结果中的每个因数都是质数"
+      ],
+      "assessmentPrompt": "{{name}}能把 60 分解质因数吗？如果分解出 4×15 算对吗？为什么？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.2"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_fac_gcd",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "最大公因数",
+      "description": "两个数公有的因数中最大的一个；可用列举法或分解质因数法求得。",
+      "centrality": 0.7,
+      "evidence": [
+        "能用列举法求两个数的最大公因数",
+        "能处理互质、倍数等特殊情形"
+      ],
+      "assessmentPrompt": "{{name}}能求 24 和 36 的最大公因数吗？说出过程。",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.2"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_fac_lcm",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "最小公倍数",
+      "description": "两个数公有的倍数中最小的一个；可用列举法或分解质因数法求得。",
+      "centrality": 0.7,
+      "evidence": [
+        "能用列举法求两个数的最小公倍数",
+        "能处理互质、倍数等特殊情形"
+      ],
+      "assessmentPrompt": "{{name}}能求 6 和 8 的最小公倍数吗？这在生活里什么时候用得上？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.2"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_frac_meaning",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "分数的意义",
+      "description": "把一个整体（一个物体、一个图形、一个计量单位或一群物体）平均分成若干份，表示其中一份或几份的数叫分数。理解单位'1'的含义。",
+      "centrality": 0.95,
+      "evidence": [
+        "能用分数表示图形的几分之几",
+        "能解释为什么同一个量在不同整体下分数不同",
+        "能识别单位'1'"
+      ],
+      "assessmentPrompt": "给{{name}}两盘都遮住的苹果，A 盘说'1/3'，B 盘也说'1/3'，问 A、B 两盘苹果数一定一样多吗？为什么？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.3"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_frac_div",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "分数与除法的关系",
+      "description": "被除数÷除数=被除数/除数（除数不为 0）；理解 a÷b=a/b 的双向转化。",
+      "centrality": 0.7,
+      "evidence": [
+        "能把除法算式写成分数形式",
+        "能把分数写成除法算式并求值"
+      ],
+      "assessmentPrompt": "{{name}}能把 3÷4 写成分数吗？反过来 5/8 可以看成什么除法？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.3"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_frac_proper",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "真分数与假分数",
+      "description": "分子小于分母的叫真分数（小于 1）；分子大于或等于分母的叫假分数（大于或等于 1）。",
+      "centrality": 0.6,
+      "evidence": [
+        "能区分真假分数",
+        "能解释假分数为什么不'假'"
+      ],
+      "assessmentPrompt": "{{name}}能判断 7/7 是真分数还是假分数吗？它等于几？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.3"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_frac_mixed",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "带分数",
+      "description": "由整数和真分数合成的数叫带分数；假分数与带分数可以互化。",
+      "centrality": 0.5,
+      "evidence": [
+        "能把假分数化成带分数",
+        "能把带分数化成假分数"
+      ],
+      "assessmentPrompt": "{{name}}能把 11/3 化成带分数吗？把 2又1/4 化成假分数呢？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.3"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_frac_property",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "分数的基本性质",
+      "description": "分数的分子和分母同时乘或除以相同的数（0 除外），分数的大小不变。",
+      "centrality": 0.9,
+      "evidence": [
+        "能用基本性质把分数变形而不变值",
+        "能判断两个分数是否等值"
+      ],
+      "assessmentPrompt": "{{name}}能写出 3/4 与它相等的三个分数吗？依据是什么？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.3"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_frac_simplify",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "约分",
+      "description": "用分子分母的公因数（最大公因数）去除，把分数化为最简分数。",
+      "centrality": 0.7,
+      "evidence": [
+        "能把分数化为最简分数",
+        "能识别最简分数"
+      ],
+      "assessmentPrompt": "{{name}}能把 12/18 约分吗？最简结果是几？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.3"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_frac_common",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "通分",
+      "description": "用几个分数分母的最小公倍数作公分母，把异分母分数化为同分母分数。",
+      "centrality": 0.8,
+      "evidence": [
+        "能把两个异分母分数通分",
+        "能选择合适的公分母"
+      ],
+      "assessmentPrompt": "{{name}}能把 1/3 和 1/4 通分吗？为什么选 12 当公分母？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.3"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_frac_compare",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "分数大小比较",
+      "description": "同分母看分子；同分子看分母；异分母先通分再比较，或化为小数比较。",
+      "centrality": 0.5,
+      "evidence": [
+        "能比较同分母/同分子分数",
+        "能通分后比较异分母分数"
+      ],
+      "assessmentPrompt": "{{name}}会比较 3/5 和 4/7 的大小吗？用的哪种方法？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.3"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_dec_meaning",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "小数的意义",
+      "description": "把一个整体平均分成 10、100、1000 份……用小数表示其中几份；小数是十进制分数的另一种写法。",
+      "centrality": 0.85,
+      "evidence": [
+        "能说明 0.1、0.01、0.001 的含义",
+        "能把分母是 10、100、1000 的分数化成小数"
+      ],
+      "assessmentPrompt": "{{name}}能用语言或图形说明 0.3 到底表示什么吗？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.4"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_dec_readwrite",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "小数的读写",
+      "description": "整数部分按整数读，小数点读'点'，小数部分依次读出每个数字。",
+      "centrality": 0.4,
+      "evidence": [
+        "能正确读写小数",
+        "能区分'小数部分'与'整数部分'的读法"
+      ],
+      "assessmentPrompt": "{{name}}能读出 32.056 吗？为什么小数部分的 0 要读出来？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.4"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_dec_property",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "小数的性质",
+      "description": "小数的末尾添上 0 或去掉 0，小数的大小不变。理解末尾 0 的含义，区分小数末尾的 0 和小数点后的中间 0。",
+      "centrality": 0.6,
+      "evidence": [
+        "能用性质把小数改写为指定位数",
+        "能解释为什么 0.3=0.30 但 3≠30"
+      ],
+      "assessmentPrompt": "{{name}}说 0.3 和 0.30 一样大，但 3 和 30 不一样，能解释为什么吗？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.4"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_dec_compare",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "小数大小比较",
+      "description": "先比整数部分，整数部分相同再依次比十分位、百分位……",
+      "centrality": 0.5,
+      "evidence": [
+        "能比较两个小数的大小",
+        "能在数轴上标出小数位置并比较"
+      ],
+      "assessmentPrompt": "{{name}}能比较 0.5 和 0.45 的大小吗？为什么 0.5 反而大？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.4"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_dec_move",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "小数点位置移动规律",
+      "description": "小数点向右移动一位/两位/三位，小数扩大到原来的 10/100/1000 倍；向左移动则缩小。",
+      "centrality": 0.8,
+      "evidence": [
+        "能说出小数点移动后数值的变化倍数",
+        "能用规律进行单位换算"
+      ],
+      "assessmentPrompt": "{{name}}把 3.25 的小数点向右移两位，新数是多少？是原来的几倍？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.4"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_pct_meaning",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 6,
+      "gradeEnd": 6,
+      "name": "百分数的意义",
+      "description": "表示一个数是另一个数的百分之几的数叫百分数（百分率/百分比）；百分数只表示两个量的比，不带单位。",
+      "centrality": 0.7,
+      "evidence": [
+        "能说明百分数与分数的联系与区别",
+        "能解释为什么百分数不能带单位"
+      ],
+      "assessmentPrompt": "一根绳子用去 50%，{{name}}能说说这里的 50% 表示什么吗？能说'用了 50% 米'吗？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.5"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_pct_convert",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 6,
+      "gradeEnd": 6,
+      "name": "分数、小数、百分数互化",
+      "description": "分数化小数（分子除以分母）、小数化百分数（小数点右移两位加%）、百分数化小数（去%左移两位）、分数化百分数（先化小数再化百分数）。",
+      "centrality": 0.6,
+      "evidence": [
+        "能在分数、小数、百分数间互化",
+        "能判断化简过程的合理性"
+      ],
+      "assessmentPrompt": "{{name}}能把 3/8 化成百分数吗？过程是什么？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.5"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_neg_intro",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 6,
+      "gradeEnd": 6,
+      "name": "负数的初步认识",
+      "description": "用正、负数表示生活中具有相反意义的量（零上/零下、盈利/亏损、上升/下降等）；0 既不是正数也不是负数。",
+      "centrality": 0.7,
+      "evidence": [
+        "能用正负数表示相反意义的量",
+        "能说出 0 的特殊地位"
+      ],
+      "assessmentPrompt": "如果电梯上升 3 层记作+3，{{name}}说下降 2 层记作什么？停在一层记作什么？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.6"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_neg_compare",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 6,
+      "gradeEnd": 6,
+      "name": "负数的大小比较",
+      "description": "借助数轴理解：正数大于 0，负数小于 0，正数大于一切负数；两个负数比较，绝对值大的反而小。",
+      "centrality": 0.5,
+      "evidence": [
+        "能在数轴上表示正负数",
+        "能比较两个负数的大小"
+      ],
+      "assessmentPrompt": "{{name}}会比较 -3 和 -5 的大小吗？为什么 -3 反而大？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.num.6"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_frop_add",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 6,
+      "gradeEnd": 6,
+      "name": "分数加减法",
+      "description": "同分母分数直接加减分子；异分母分数先通分再加减；结果能约分的要约分。",
+      "centrality": 0.7,
+      "evidence": [
+        "能正确进行异分母分数加减",
+        "结果能化简"
+      ],
+      "assessmentPrompt": "{{name}}能算 1/2 + 1/3 吗？为什么要先通分？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.op.1"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_frop_mul",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 6,
+      "gradeEnd": 6,
+      "name": "分数乘法",
+      "description": "分数乘分数用分子相乘作分子、分母相乘作分母；理解分数乘分数的算理是'求一个数的几分之几'。",
+      "centrality": 0.8,
+      "evidence": [
+        "能正确进行分数乘法运算",
+        "能用图形解释 1/2×1/3 的结果"
+      ],
+      "assessmentPrompt": "{{name}}能算 2/3 × 3/4 吗？能画图说明为什么分子乘分子、分母乘分母吗？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.op.1"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_frop_div",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 6,
+      "gradeEnd": 6,
+      "name": "分数除法",
+      "description": "甲数除以乙数（0 除外）等于甲数乘乙数的倒数。能解释除以一个数等于乘它倒数的算理，正确进行分数除法。",
+      "centrality": 0.75,
+      "evidence": [
+        "能把分数除法转化为乘倒数",
+        "能正确进行分数除法运算"
+      ],
+      "assessmentPrompt": "{{name}}能算 2/3 ÷ 4/5 吗？为什么除以一个分数要乘它的倒数？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.op.1"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_decop_addsub",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "小数加减法",
+      "description": "小数点对齐（相同数位对齐），按整数加减法法则计算，结果的小数点与上面的小数点对齐。",
+      "centrality": 0.6,
+      "evidence": [
+        "能正确进行小数加减",
+        "能解释为什么小数点要对齐而不是末位对齐"
+      ],
+      "assessmentPrompt": "{{name}}能算 3.75 + 2.4 吗？为什么 2.4 要写成 2.40 再加？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.op.2"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_decop_mul",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "小数乘法",
+      "description": "先按整数乘法算，再看两个因数共几位小数，从积的右边起数出几位点小数点。",
+      "centrality": 0.7,
+      "evidence": [
+        "能正确进行小数乘法",
+        "能正确确定积的小数位数"
+      ],
+      "assessmentPrompt": "{{name}}能算 2.5 × 0.4 吗？结果是几位小数？为什么最后是 1.0？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.op.2"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_decop_div",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "小数除法",
+      "description": "除数是小数时，移动小数点把除数变整数，被除数同步移动，再按除数是整数的小数除法计算。",
+      "centrality": 0.7,
+      "evidence": [
+        "能把除数是小数的除法转化为除数是整数",
+        "能正确确定商的小数点位置"
+      ],
+      "assessmentPrompt": "{{name}}能算 7.2 ÷ 0.6 吗？怎么把它转化成除数是整数的除法？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.op.2"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_law_add",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "加法运算律",
+      "description": "加法交换律 a+b=b+a；加法结合律 (a+b)+c=a+(b+c)。",
+      "centrality": 0.6,
+      "evidence": [
+        "能用字母表示加法运算律",
+        "能用具体例子验证运算律"
+      ],
+      "assessmentPrompt": "{{name}}能说说为什么 47+89+53 可以这样算：47+53+89 吗？依据是什么？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.law.1"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_law_mul",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "乘法交换律与结合律",
+      "description": "乘法交换律 a×b=b×a；乘法结合律 (a×b)×c=a×(b×c)。",
+      "centrality": 0.6,
+      "evidence": [
+        "能用字母表示乘法交换律与结合律",
+        "能在具体计算中合理运用"
+      ],
+      "assessmentPrompt": "{{name}}能算 25×7×4 吗？用运算律让它变简便。",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.law.1"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_law_distrib",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "乘法分配律",
+      "description": "(a+b)×c=a×c+b×c；是连接乘法与加法的枢纽运算律，是后续代数变形的基础。",
+      "centrality": 0.9,
+      "evidence": [
+        "能用字母表示乘法分配律",
+        "能用图形或实例说明分配律",
+        "能正反向运用分配律"
+      ],
+      "assessmentPrompt": "{{name}}能解释为什么 102×25 可以写成(100+2)×25=2500+50 吗？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.law.1"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_law_easy",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "简便计算",
+      "description": "综合运用运算律（含连减、连除的性质）进行简便计算。",
+      "centrality": 0.7,
+      "evidence": [
+        "能识别可简便的计算情境",
+        "能选择恰当的运算律进行简便计算"
+      ],
+      "assessmentPrompt": "{{name}}能简便计算 99×46 吗？说说用了什么方法。",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.law.1"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_alg_letter",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 6,
+      "name": "用字母表示数",
+      "description": "用字母表示未知数、变量或一般的数量关系；是从算术思维向代数思维过渡的关键。",
+      "centrality": 0.8,
+      "evidence": [
+        "能用字母表示简单的数量关系",
+        "能解释含有字母的式子的含义"
+      ],
+      "assessmentPrompt": "如果一支铅笔 a 元，{{name}}买 5 支要多少钱？买 n 支呢？式子表示什么？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.qty.1"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_alg_eval",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 6,
+      "name": "代数式求值",
+      "description": "给定字母的值，代入含字母的式子（代数式）求出结果；能处理含两级运算（乘除与加减混合）的代数式求值。",
+      "centrality": 0.5,
+      "evidence": [
+        "能正确代入求值",
+        "能处理含两级运算的代数式"
+      ],
+      "assessmentPrompt": "如果 a=3、b=2，{{name}}能求 2a+5b 的值吗？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.qty.1"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_eq_prop",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "等式的性质",
+      "description": "等式两边同时加上/减去同一个数，或同时乘/除以同一个非零数，等式仍成立。",
+      "centrality": 0.7,
+      "evidence": [
+        "能用天平模型解释等式性质",
+        "能说出每条性质的'同一个数'要求"
+      ],
+      "assessmentPrompt": "{{name}}能用天平说明为什么'两边同时拿走相同重量的砝码，天平还平衡'吗？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.eq.1"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_eq_concept",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "方程的概念",
+      "description": "含有未知数的等式叫方程，方程是一种特殊的等式。能区分等式与方程（方程必含未知数），判断式子是否为方程。",
+      "centrality": 0.6,
+      "evidence": [
+        "能判断一个式子是不是方程",
+        "能区分等式与方程"
+      ],
+      "assessmentPrompt": "{{name}}能判断 3+5=8、x+5=8、x+5 哪些是方程吗？为什么？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.eq.1"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_eq_solve",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 5,
+      "name": "解简易方程",
+      "description": "利用等式性质解含一两个运算步骤的方程（如 ax+b=c），规范书写解题过程；能将解代入原方程检验。",
+      "centrality": 0.7,
+      "evidence": [
+        "能正确求解 x+a=b、ax=b、ax+b=c 等形式方程",
+        "能代入检验解的正确性"
+      ],
+      "assessmentPrompt": "{{name}}能解 2x+3=11 吗？说说每一步依据哪条等式性质。",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.eq.1"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_eq_word",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 5,
+      "gradeEnd": 6,
+      "name": "列方程解应用题",
+      "description": "把未知数当已知条件参与列式，找出等量关系列方程求解。",
+      "centrality": 0.7,
+      "evidence": [
+        "能把文字情境翻译成等量关系",
+        "能正确设未知数列方程求解"
+      ],
+      "assessmentPrompt": "'一个数的 3 倍比 20 少 5'，{{name}}能列方程求这个数吗？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.eq.1"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_ratio_meaning",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 6,
+      "gradeEnd": 6,
+      "name": "比的意义与性质",
+      "description": "两个数相除又叫两个数的比；比的前项除以后项等于比值；比的基本性质（前后项同乘除相同数比值不变）。",
+      "centrality": 0.75,
+      "evidence": [
+        "能写出一个量的比并求比值",
+        "能化简比"
+      ],
+      "assessmentPrompt": "一杯糖水里糖 5 克、水 50 克，{{name}}能写出糖与水的比并求比值吗？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.qty.2"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_ratio_direct",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 6,
+      "gradeEnd": 6,
+      "name": "正比例的意义",
+      "description": "两种相关联的量，一种量变化另一种也随着变化，且两种量中对应数的比值（商）一定，这两种量成正比例。",
+      "centrality": 0.6,
+      "evidence": [
+        "能判断两个量是否成正比例",
+        "能用 y/x=k（定值）表示正比例关系"
+      ],
+      "assessmentPrompt": "单价一定，{{name}}说买得越多总价越多，这是正比例吗？为什么？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.qty.2"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_ratio_inverse",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 6,
+      "gradeEnd": 6,
+      "name": "反比例的意义",
+      "description": "两种相关联的量中对应数的积一定，这两种量成反比例。",
+      "centrality": 0.6,
+      "evidence": [
+        "能判断两个量是否成反比例",
+        "能用 x×y=k（定值）表示反比例关系"
+      ],
+      "assessmentPrompt": "路程一定，{{name}}说速度越快时间越少，这是反比例吗？为什么？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.qty.2"
+      ]
+    },
+    {
+      "id": "cnmt_s3na_ratio_judge",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage3",
+      "gradeStart": 6,
+      "gradeEnd": 6,
+      "name": "正反比例的判断",
+      "description": "对两个相关联的量，看它们的商一定还是积一定，从而判定正比例、反比例或不成比例。",
+      "centrality": 0.5,
+      "evidence": [
+        "能对常见情境做出正/反/不成比例判断",
+        "能说出判断依据"
+      ],
+      "assessmentPrompt": "{{name}}能判断'人的身高与年龄'成不成比例吗？为什么？",
+      "standards": [
+        "moe-cn-2022-math:stage3.na.qty.2"
+      ]
+    }
+  ]
+}

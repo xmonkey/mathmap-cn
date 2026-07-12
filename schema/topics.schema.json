@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/cn-curriculum/schema/topics.schema.json",
+  "title": "中国课标微主题（micro-topics）",
+  "type": "object",
+  "required": ["subject", "scope", "topicCount", "topics"],
+  "properties": {
+    "subject": { "type": "string" },
+    "scope": { "type": "string", "description": "覆盖范围，如 'stage3·数与代数'" },
+    "topicCount": { "type": "integer", "minimum": 0 },
+    "_origin": { "type": "string", "description": "内容来源说明（AI初稿/教研审核等）" },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "subject", "domain", "stage", "name", "description", "evidence", "standards"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^cnmt_" },
+          "type": {
+            "type": "string",
+            "enum": ["CONCEPTUAL", "PROCEDURAL", "REPRESENTATIONAL", "LANGUAGE", "META"]
+          },
+          "subject": { "type": "string" },
+          "domain": { "type": "string", "description": "学习领域，如 '数与代数'" },
+          "stage": { "type": "string", "enum": ["stage1", "stage2", "stage3", "stage4"] },
+          "gradeStart": { "type": ["integer", "null"], "minimum": 1, "maximum": 9 },
+          "gradeEnd": { "type": ["integer", "null"], "minimum": 1, "maximum": 9 },
+          "name": { "type": "string" },
+          "description": { "type": "string", "minLength": 1 },
+          "centrality": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+          "evidence": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+          "assessmentPrompt": { "type": ["string", "null"] },
+          "standards": { "type": "array", "items": { "type": "string" }, "description": "指向 moe-cn-2022-* 的 key" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/cn-curriculum/schema/curriculum.schema.json",
+  "title": "中国义务教育课标——学科文件（评估用）",
+  "type": "object",
+  "required": ["slug", "subject", "version", "publisher", "licenseStatus", "itemCount", "items"],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^moe-cn-2022-[a-z]+$",
+      "description": "如 moe-cn-2022-math"
+    },
+    "subject": { "type": "string" },
+    "version": { "type": "string", "default": "2022年版" },
+    "publisher": { "type": "string", "default": "中华人民共和国教育部" },
+    "officialName": {
+      "type": "string",
+      "description": "如 '《义务教育数学课程标准（2022年版）》'"
+    },
+    "licenseStatus": {
+      "type": "string",
+      "enum": ["encumbered", "mixed", "clear"],
+      "description": "本文件整体版权状态。含原文=encumbered/mixed，纯codes=clear"
+    },
+    "textIncluded": {
+      "type": "boolean",
+      "description": "是否包含 verbatimText。对应 Marble 项目的同名约定。"
+    },
+    "stages": {
+      "type": "array",
+      "description": "该学科适用的学段（数学=四学段，物理等初中学科=仅stage4）",
+      "items": { "type": "string", "enum": ["stage1", "stage2", "stage3", "stage4"] }
+    },
+    "domains": {
+      "type": "array",
+      "description": "该学科的学习领域",
+      "items": { "type": "string" }
+    },
+    "itemCount": { "type": "integer", "minimum": 0 },
+    "items": {
+      "type": "array",
+      "items": { "$ref": "standard.schema.json" }
+    }
+  },
+  "additionalProperties": false
+}

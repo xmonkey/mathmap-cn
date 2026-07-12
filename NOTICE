@@ -1,0 +1,33 @@
+# NOTICE
+
+## 项目名称
+
+中国 1-12 年级数学课程知识图谱
+
+## 许可证
+
+| 层 | 许可证 | 文件 |
+|---|---|---|
+| 代码（渲染引擎、脚本、Schema、构建工具） | MIT | [LICENSE](LICENSE) |
+| 数据内容（微主题描述、评估提示、依赖关系、领域聚类） | CC BY-SA 4.0 | [LICENSE-CONTENT](LICENSE-CONTENT) |
+| 课程标准代码（key / code / title） | 事实性数据，不受版权保护 | `data/standards-raw/` |
+| 课程标准原文（verbatimText） | 版权归中华人民共和国教育部及相关出版方所有 | 内部使用，不发布 |
+
+## 数据来源
+
+### 微主题与依赖关系
+
+本项目微主题（description / evidence / assessmentPrompt）和依赖关系（reason）为 AI 生成的教学常识初稿，经首轮校准，需教研人员进一步审核。
+
+### 课程标准
+
+- **义务教育**：《义务教育数学课程标准（2022 年版）》，中华人民共和国教育部发布
+- **高中**：《普通高中数学课程标准（2017 年版 2020 年修订）》，中华人民共和国教育部发布
+
+本项目仅使用课标的**代码和标题**（事实性标识符），不包含课标原文。原文（verbatimText）如需使用，请从官方渠道获取：
+- 教育部官网：http://www.moe.gov.cn/
+- 人民教育出版社：https://www.pep.com.cn/
+
+### 致谢
+
+项目灵感来自 [Marble Skill Taxonomy](https://github.com/withmarbleapp/os-taxonomy) 的"微主题 + 前置依赖图"模型。本项目的数据、渲染引擎和可视化代码均为独立构建，不包含 Marble 的代码或数据。

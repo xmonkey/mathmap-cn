@@ -1,0 +1,43 @@
+{
+  "scope": "跨领域依赖（图形与几何、统计与概率 ↔ 数与代数）",
+  "edgeCount": 6,
+  "_note": "这些边把数学四个领域连成一张图。是横铺最有价值的部分——揭示几何与代数、统计与代数的内在联系。",
+  "dependencies": [
+    {
+      "topicId": "cnmt_s2gg_area_calc",
+      "prerequisiteId": "cnmt_s2na_mul_2x1",
+      "strength": "hard",
+      "reason": "面积=长×宽，必须先掌握乘法运算"
+    },
+    {
+      "topicId": "cnmt_s3gg_circle_calc",
+      "prerequisiteId": "cnmt_s3na_dec_meaning",
+      "strength": "hard",
+      "reason": "圆周率 π 是无限不循环小数，计算要用到小数"
+    },
+    {
+      "topicId": "cnmt_s3gg_circle_calc",
+      "prerequisiteId": "cnmt_s3na_decop_mul",
+      "strength": "soft",
+      "reason": "圆面积 S=πr² 涉及小数乘法"
+    },
+    {
+      "topicId": "cnmt_s3gg_surface_vol",
+      "prerequisiteId": "cnmt_s3na_frop_mul",
+      "strength": "soft",
+      "reason": "圆锥体积=1/3×底面积×高，涉及分数运算"
+    },
+    {
+      "topicId": "cnmt_s2sp_average",
+      "prerequisiteId": "cnmt_s2na_div_table",
+      "strength": "hard",
+      "reason": "平均数=总数÷份数，必须先掌握除法"
+    },
+    {
+      "topicId": "cnmt_s3sp_measures",
+      "prerequisiteId": "cnmt_s3na_decop_addsub",
+      "strength": "soft",
+      "reason": "求中位数要排序，平均数计算涉及小数加减"
+    }
+  ]
+}

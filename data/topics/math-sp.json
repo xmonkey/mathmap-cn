@@ -1,0 +1,16 @@
+{
+  "subject": "数学",
+  "scope": "统计与概率（stage1-3）",
+  "topicCount": 8,
+  "_origin": "AI 生成的教学常识初稿（非课标原文）。微主题切分参照 2022 版课标'统计与概率'内容要求。需教研人员审核。",
+  "topics": [
+    {"id": "cnmt_s1sp_classify", "type": "CONCEPTUAL", "subject": "数学", "domain": "统计与概率", "stage": "stage1", "gradeStart": 1, "gradeEnd": 2, "name": "按标准对事物分类", "description": "能根据给定的标准（如颜色、形状、用途）对物体或数据进行分类，体会同一组数据可按不同标准分类。", "centrality": 0.7, "evidence": ["能按指定标准给物体分类", "能自选一个标准分类并说出结果"], "assessmentPrompt": "一堆纽扣混在一起，{{name}}能按颜色分一分吗？还能按别的标准分吗？", "standards": ["moe-cn-2022-math:stage1.sp.cls.1"]},
+    {"id": "cnmt_s2sp_collect", "type": "PROCEDURAL", "subject": "数学", "domain": "统计与概率", "stage": "stage2", "gradeStart": 3, "gradeEnd": 3, "name": "数据的收集与整理", "description": "能用画'正'字、投票等方法收集数据，用简单的表格整理数据。", "centrality": 0.65, "evidence": ["能用画正字法记录数据", "能把数据填入简单统计表"], "assessmentPrompt": "想调查班里同学最喜欢的水果，{{name}}打算怎么收集和记录数据？", "standards": ["moe-cn-2022-math:stage2.sp.col.1"]},
+    {"id": "cnmt_s2sp_bar", "type": "PROCEDURAL", "subject": "数学", "domain": "统计与概率", "stage": "stage2", "gradeStart": 3, "gradeEnd": 4, "name": "条形统计图", "description": "认识条形统计图，能根据数据画条形统计图，并从中获取信息。", "centrality": 0.6, "evidence": ["能根据数据完成条形统计图", "能从图中读出最多/最少/相差多少"], "assessmentPrompt": "看一张条形统计图，{{name}}能说出哪一项最多、比最少的多多少吗？", "standards": ["moe-cn-2022-math:stage2.sp.col.1"]},
+    {"id": "cnmt_s2sp_average", "type": "PROCEDURAL", "subject": "数学", "domain": "统计与概率", "stage": "stage2", "gradeStart": 4, "gradeEnd": 4, "name": "平均数的初步认识", "description": "理解平均数的含义（一组数据的代表值），掌握'总数÷份数=平均数'的求法。", "centrality": 0.55, "evidence": ["能求一组数据的平均数", "能解释平均数的含义"], "assessmentPrompt": "三次跳绳成绩是 40、50、60 下，{{name}}说平均每次跳多少下？怎么算的？", "standards": ["moe-cn-2022-math:stage2.sp.anl.1"]},
+    {"id": "cnmt_s3sp_line", "type": "PROCEDURAL", "subject": "数学", "domain": "统计与概率", "stage": "stage3", "gradeStart": 5, "gradeEnd": 5, "name": "折线统计图", "description": "认识折线统计图，能画折线统计图，理解它反映数据随时间的变化趋势。", "centrality": 0.5, "evidence": ["能根据数据画折线统计图", "能从图中描述变化趋势（上升/下降/平稳）"], "assessmentPrompt": "一张气温折线统计图，{{name}}能说出这一周气温是升高还是降低吗？哪天到哪天升得最快？", "standards": ["moe-cn-2022-math:stage3.sp.rep.1"]},
+    {"id": "cnmt_s3sp_pie", "type": "CONCEPTUAL", "subject": "数学", "domain": "统计与概率", "stage": "stage3", "gradeStart": 6, "gradeEnd": 6, "name": "扇形统计图", "description": "认识扇形统计图反映部分与整体的关系（用圆代表整体，扇形代表各部分占比）。", "centrality": 0.45, "evidence": ["能读懂扇形统计图", "能根据百分比比较各部分大小"], "assessmentPrompt": "一张表示一天 24 小时各类活动时间的扇形统计图，{{name}}能看出哪类活动时间最长吗？", "standards": ["moe-cn-2022-math:stage3.sp.rep.1"]},
+    {"id": "cnmt_s3sp_measures", "type": "PROCEDURAL", "subject": "数学", "domain": "统计与概率", "stage": "stage3", "gradeStart": 6, "gradeEnd": 6, "name": "平均数、中位数与众数", "description": "认识平均数、中位数、众数三个统计量的含义与求法，能根据情境选择合适的代表值。", "centrality": 0.5, "evidence": ["能求一组数据的中位数和众数", "能解释为什么某情境用中位数更合适"], "assessmentPrompt": "5 个同学身高 1.2、1.3、1.4、1.5、1.8 米，{{name}}能求中位数和平均数吗？哪个更能代表一般水平？", "standards": ["moe-cn-2022-math:stage3.sp.anl.1"]},
+    {"id": "cnmt_s3sp_chance", "type": "CONCEPTUAL", "subject": "数学", "domain": "统计与概率", "stage": "stage3", "gradeStart": 5, "gradeEnd": 6, "name": "可能性的初步认识", "description": "通过摸球、转盘等实验感受随机现象，知道事件发生有'一定''可能''不可能'，能用分数简单描述可能性的大小。", "centrality": 0.4, "evidence": ["能判断简单事件的可能性", "能比较两个事件可能性的大小"], "assessmentPrompt": "袋子里 3 红 1 白球，{{name}}摸一次，摸到什么颜色可能性大？为什么？", "standards": ["moe-cn-2022-math:stage3.sp.prb.1"]}
+  ]
+}

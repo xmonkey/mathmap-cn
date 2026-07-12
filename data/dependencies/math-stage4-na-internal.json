@@ -1,0 +1,32 @@
+{
+  "scope": "stage4·数与代数内部依赖",
+  "edgeCount": 26,
+  "dependencies": [
+    {"topicId": "cnmt_s4na_rational_op", "prerequisiteId": "cnmt_s4na_rational_concept", "strength": "hard", "reason": "有理数运算建立在对有理数意义的理解上"},
+    {"topicId": "cnmt_s4na_rational_abs", "prerequisiteId": "cnmt_s4na_rational_concept", "strength": "hard", "reason": "相反数绝对值是有理数的内在属性"},
+    {"topicId": "cnmt_s4na_rational_power", "prerequisiteId": "cnmt_s4na_rational_op", "strength": "hard", "reason": "乘方是相同因数乘法的简写，建立在乘法上"},
+    {"topicId": "cnmt_s4na_sqrt", "prerequisiteId": "cnmt_s4na_rational_power", "strength": "hard", "reason": "平方根是乘方的逆运算"},
+    {"topicId": "cnmt_s4na_real", "prerequisiteId": "cnmt_s4na_sqrt", "strength": "hard", "reason": "无理数通过开方（如 √2）引入，实数建立在有理数和无理数之上"},
+    {"topicId": "cnmt_s4na_polynomial", "prerequisiteId": "cnmt_s4na_rational_op", "strength": "hard", "reason": "整式运算是有理数运算的字母化推广"},
+    {"topicId": "cnmt_s4na_power_rule", "prerequisiteId": "cnmt_s4na_rational_power", "strength": "hard", "reason": "幂的运算法则是乘方意义的推广"},
+    {"topicId": "cnmt_s4na_poly_mul", "prerequisiteId": "cnmt_s4na_power_rule", "strength": "hard", "reason": "多项式乘法用到幂的运算性质"},
+    {"topicId": "cnmt_s4na_formula", "prerequisiteId": "cnmt_s4na_poly_mul", "strength": "hard", "reason": "乘法公式是特殊多项式乘法的规律"},
+    {"topicId": "cnmt_s4na_factorize", "prerequisiteId": "cnmt_s4na_formula", "strength": "hard", "reason": "因式分解是乘法公式的逆用"},
+    {"topicId": "cnmt_s4na_fraction_expr", "prerequisiteId": "cnmt_s4na_polynomial", "strength": "hard", "reason": "分式的分子分母都是整式"},
+    {"topicId": "cnmt_s4na_fraction_op", "prerequisiteId": "cnmt_s4na_fraction_expr", "strength": "hard", "reason": "分式运算建立在分式概念和基本性质上"},
+    {"topicId": "cnmt_s4na_sqrt_expr", "prerequisiteId": "cnmt_s4na_sqrt", "strength": "hard", "reason": "二次根式是平方根的式子化推广"},
+    {"topicId": "cnmt_s4na_linear_eq", "prerequisiteId": "cnmt_s4na_polynomial", "strength": "hard", "reason": "解一元一次方程要会整式（移项合并）"},
+    {"topicId": "cnmt_s4na_system_eq", "prerequisiteId": "cnmt_s4na_linear_eq", "strength": "hard", "reason": "方程组通过消元转化为一元一次方程"},
+    {"topicId": "cnmt_s4na_quadratic_eq", "prerequisiteId": "cnmt_s4na_factorize", "strength": "hard", "reason": "因式分解法是解一元二次方程的重要方法"},
+    {"topicId": "cnmt_s4na_quadratic_eq", "prerequisiteId": "cnmt_s4na_sqrt", "strength": "hard", "reason": "公式法的求根公式含根号"},
+    {"topicId": "cnmt_s4na_fraction_eq", "prerequisiteId": "cnmt_s4na_fraction_op", "strength": "hard", "reason": "去分母转化需先掌握分式运算"},
+    {"topicId": "cnmt_s4na_fraction_eq", "prerequisiteId": "cnmt_s4na_linear_eq", "strength": "hard", "reason": "分式方程去分母后转化为一元一次方程"},
+    {"topicId": "cnmt_s4na_inequality", "prerequisiteId": "cnmt_s4na_linear_eq", "strength": "hard", "reason": "不等式的解法类比方程，建立在方程基础上"},
+    {"topicId": "cnmt_s4na_function_concept", "prerequisiteId": "cnmt_s4na_linear_eq", "strength": "soft", "reason": "函数与方程关系密切，求函数值类似方程"},
+    {"topicId": "cnmt_s4na_linear_fn", "prerequisiteId": "cnmt_s4na_function_concept", "strength": "hard", "reason": "一次函数是函数概念的最简单情形"},
+    {"topicId": "cnmt_s4na_inverse_fn", "prerequisiteId": "cnmt_s4na_function_concept", "strength": "hard", "reason": "反比例函数建立在函数概念上"},
+    {"topicId": "cnmt_s4na_inverse_fn", "prerequisiteId": "cnmt_s4na_fraction_expr", "strength": "soft", "reason": "y=k/x 的解析式是分式"},
+    {"topicId": "cnmt_s4na_quadratic_fn", "prerequisiteId": "cnmt_s4na_function_concept", "strength": "hard", "reason": "二次函数是函数的延伸"},
+    {"topicId": "cnmt_s4na_quadratic_fn", "prerequisiteId": "cnmt_s4na_quadratic_eq", "strength": "hard", "reason": "二次函数 y=0 即一元二次方程，两者深度关联"}
+  ]
+}

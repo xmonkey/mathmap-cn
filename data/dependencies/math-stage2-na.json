@@ -1,0 +1,22 @@
+{
+  "scope": "stage2·数与代数",
+  "edgeCount": 16,
+  "dependencies": [
+    {"topicId": "cnmt_s2na_num_10000", "prerequisiteId": "cnmt_s2na_num_1000", "strength": "hard", "reason": "万的认识建立在千的认识基础上"},
+    {"topicId": "cnmt_s2na_num_place", "prerequisiteId": "cnmt_s2na_num_10000", "strength": "hard", "reason": "万以内数位顺序必须先认识万以内的数"},
+    {"topicId": "cnmt_s2na_num_compare", "prerequisiteId": "cnmt_s2na_num_place", "strength": "hard", "reason": "比较要从高位起，依赖数位顺序的理解"},
+    {"topicId": "cnmt_s2na_frac_compare", "prerequisiteId": "cnmt_s2na_frac_intro", "strength": "hard", "reason": "分数大小比较建立在对分数的初步认识上"},
+    {"topicId": "cnmt_s2na_frac_addsub", "prerequisiteId": "cnmt_s2na_frac_intro", "strength": "hard", "reason": "同分母分数加减必须先认识分数"},
+    {"topicId": "cnmt_s2na_dec_intro", "prerequisiteId": "cnmt_s2na_frac_intro", "strength": "soft", "reason": "小数与分数都源于'分'，初步认识分数有助于理解小数"},
+    {"topicId": "cnmt_s2na_dec_compare", "prerequisiteId": "cnmt_s2na_dec_intro", "strength": "hard", "reason": "小数比较建立在小数初步认识上"},
+    {"topicId": "cnmt_s2na_dec_addsub", "prerequisiteId": "cnmt_s2na_dec_intro", "strength": "hard", "reason": "小数加减建立在小数初步认识上"},
+    {"topicId": "cnmt_s2na_mul_2x1", "prerequisiteId": "cnmt_s2na_mul_table", "strength": "hard", "reason": "两位数乘一位数必须熟练表内乘法"},
+    {"topicId": "cnmt_s2na_mul_2x2", "prerequisiteId": "cnmt_s2na_mul_2x1", "strength": "hard", "reason": "两位数乘两位数建立在两位数乘一位数基础上"},
+    {"topicId": "cnmt_s2na_div_table", "prerequisiteId": "cnmt_s2na_mul_table", "strength": "hard", "reason": "表内除法用乘法口诀求商，必须先掌握表内乘法"},
+    {"topicId": "cnmt_s2na_div_remainder", "prerequisiteId": "cnmt_s2na_div_table", "strength": "hard", "reason": "有余数除法建立于表内除法"},
+    {"topicId": "cnmt_s2na_div_2digit", "prerequisiteId": "cnmt_s2na_div_remainder", "strength": "hard", "reason": "除数是两位数的除法建立在有余数除法基础上"},
+    {"topicId": "cnmt_s2na_qty_relation", "prerequisiteId": "cnmt_s2na_mul_2x2", "strength": "soft", "reason": "常见数量关系（如总价=单价×数量）用到乘法"},
+    {"topicId": "cnmt_s2na_qty_relation", "prerequisiteId": "cnmt_s2na_div_2digit", "strength": "soft", "reason": "部分数量关系问题用到除法"},
+    {"topicId": "cnmt_s2na_qty_estimate", "prerequisiteId": "cnmt_s2na_qty_relation", "strength": "soft", "reason": "估算常围绕常见数量展开"}
+  ]
+}

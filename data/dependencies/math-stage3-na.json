@@ -1,0 +1,378 @@
+{
+  "scope": "stage3·数与代数",
+  "edgeCount": 62,
+  "dependencies": [
+    {
+      "topicId": "cnmt_s3na_big_place",
+      "prerequisiteId": "cnmt_s3na_big_unit",
+      "strength": "hard",
+      "reason": "数位顺序表建立在对更大计数单位的认识之上"
+    },
+    {
+      "topicId": "cnmt_s3na_big_read",
+      "prerequisiteId": "cnmt_s3na_big_place",
+      "strength": "hard",
+      "reason": "按级读写必须先掌握数位顺序"
+    },
+    {
+      "topicId": "cnmt_s3na_big_compare",
+      "prerequisiteId": "cnmt_s3na_big_place",
+      "strength": "hard",
+      "reason": "大小比较要从高位起逐位看，依赖数位顺序"
+    },
+    {
+      "topicId": "cnmt_s3na_big_approx",
+      "prerequisiteId": "cnmt_s3na_big_place",
+      "strength": "soft",
+      "reason": "四舍五入到某位需要对数位的理解"
+    },
+    {
+      "topicId": "cnmt_s3na_fac_concept",
+      "prerequisiteId": "cnmt_s3na_big_unit",
+      "strength": "soft",
+      "reason": "因数倍数建立在整数乘除概念上，与计数单位自然延伸"
+    },
+    {
+      "topicId": "cnmt_s3na_fac_rule2",
+      "prerequisiteId": "cnmt_s3na_fac_concept",
+      "strength": "hard",
+      "reason": "倍数特征是倍数概念的具体应用"
+    },
+    {
+      "topicId": "cnmt_s3na_fac_rule3",
+      "prerequisiteId": "cnmt_s3na_fac_concept",
+      "strength": "hard",
+      "reason": "3 的倍数特征同样建立在倍数概念上"
+    },
+    {
+      "topicId": "cnmt_s3na_fac_prime",
+      "prerequisiteId": "cnmt_s3na_fac_concept",
+      "strength": "hard",
+      "reason": "质数合数的区分依据因数个数，必须先掌握因数概念"
+    },
+    {
+      "topicId": "cnmt_s3na_fac_factorize",
+      "prerequisiteId": "cnmt_s3na_fac_prime",
+      "strength": "hard",
+      "reason": "分解质因数需要识别质数，且结果要全是质因数"
+    },
+    {
+      "topicId": "cnmt_s3na_fac_gcd",
+      "prerequisiteId": "cnmt_s3na_fac_concept",
+      "strength": "hard",
+      "reason": "最大公因数是公因数中最大者，建立于因数概念"
+    },
+    {
+      "topicId": "cnmt_s3na_fac_gcd",
+      "prerequisiteId": "cnmt_s3na_fac_factorize",
+      "strength": "soft",
+      "reason": "分解质因数是求最大公因数的方法之一"
+    },
+    {
+      "topicId": "cnmt_s3na_fac_lcm",
+      "prerequisiteId": "cnmt_s3na_fac_concept",
+      "strength": "hard",
+      "reason": "最小公倍数是公倍数中最小者，建立于倍数概念"
+    },
+    {
+      "topicId": "cnmt_s3na_fac_lcm",
+      "prerequisiteId": "cnmt_s3na_fac_factorize",
+      "strength": "soft",
+      "reason": "分解质因数是求最小公倍数的方法之一"
+    },
+    {
+      "topicId": "cnmt_s3na_frac_meaning",
+      "prerequisiteId": "cnmt_s3na_fac_concept",
+      "strength": "soft",
+      "reason": "分数的本质是'平均分'，与因数倍数里的整除概念相关，但不强依赖"
+    },
+    {
+      "topicId": "cnmt_s3na_frac_div",
+      "prerequisiteId": "cnmt_s3na_frac_meaning",
+      "strength": "hard",
+      "reason": "分数与除法的等价关系必须先理解分数是什么"
+    },
+    {
+      "topicId": "cnmt_s3na_frac_proper",
+      "prerequisiteId": "cnmt_s3na_frac_meaning",
+      "strength": "hard",
+      "reason": "真假分数是按分子分母大小关系对分数的分类"
+    },
+    {
+      "topicId": "cnmt_s3na_frac_mixed",
+      "prerequisiteId": "cnmt_s3na_frac_proper",
+      "strength": "hard",
+      "reason": "带分数由假分数化来，必须先理解假分数"
+    },
+    {
+      "topicId": "cnmt_s3na_frac_property",
+      "prerequisiteId": "cnmt_s3na_frac_meaning",
+      "strength": "hard",
+      "reason": "分数的基本性质（形变值不变）必须建立在对分数值的理解上"
+    },
+    {
+      "topicId": "cnmt_s3na_frac_simplify",
+      "prerequisiteId": "cnmt_s3na_frac_property",
+      "strength": "hard",
+      "reason": "约分是分数基本性质的直接应用"
+    },
+    {
+      "topicId": "cnmt_s3na_frac_simplify",
+      "prerequisiteId": "cnmt_s3na_fac_gcd",
+      "strength": "hard",
+      "reason": "约分用最大公因数去除分子分母最直接"
+    },
+    {
+      "topicId": "cnmt_s3na_frac_common",
+      "prerequisiteId": "cnmt_s3na_frac_property",
+      "strength": "hard",
+      "reason": "通分同样是分数基本性质的应用"
+    },
+    {
+      "topicId": "cnmt_s3na_frac_common",
+      "prerequisiteId": "cnmt_s3na_fac_lcm",
+      "strength": "hard",
+      "reason": "通分要选最小公倍数作公分母最简便"
+    },
+    {
+      "topicId": "cnmt_s3na_frac_compare",
+      "prerequisiteId": "cnmt_s3na_frac_meaning",
+      "strength": "hard",
+      "reason": "比较的基础是对分数值大小的直观理解"
+    },
+    {
+      "topicId": "cnmt_s3na_frac_compare",
+      "prerequisiteId": "cnmt_s3na_frac_common",
+      "strength": "soft",
+      "reason": "异分母分数比较常用通分方法"
+    },
+    {
+      "topicId": "cnmt_s3na_dec_meaning",
+      "prerequisiteId": "cnmt_s3na_frac_meaning",
+      "strength": "hard",
+      "reason": "小数是分母为 10/100/1000 的分数的另一种写法，必须先理解分数"
+    },
+    {
+      "topicId": "cnmt_s3na_dec_readwrite",
+      "prerequisiteId": "cnmt_s3na_dec_meaning",
+      "strength": "hard",
+      "reason": "读写规则基于对小数各位意义的理解"
+    },
+    {
+      "topicId": "cnmt_s3na_dec_property",
+      "prerequisiteId": "cnmt_s3na_dec_meaning",
+      "strength": "hard",
+      "reason": "末尾添 0 去 0 不变值，必须先理解小数的意义"
+    },
+    {
+      "topicId": "cnmt_s3na_dec_compare",
+      "prerequisiteId": "cnmt_s3na_dec_property",
+      "strength": "hard",
+      "reason": "比较时常借助性质补齐小数位数"
+    },
+    {
+      "topicId": "cnmt_s3na_dec_move",
+      "prerequisiteId": "cnmt_s3na_dec_property",
+      "strength": "hard",
+      "reason": "小数点移动引起数值倍数变化，建立在小数性质之上"
+    },
+    {
+      "topicId": "cnmt_s3na_pct_meaning",
+      "prerequisiteId": "cnmt_s3na_frac_meaning",
+      "strength": "soft",
+      "reason": "百分数是分母 100 的特殊分数，与分数意义相通"
+    },
+    {
+      "topicId": "cnmt_s3na_pct_meaning",
+      "prerequisiteId": "cnmt_s3na_dec_meaning",
+      "strength": "soft",
+      "reason": "百分数常以小数形式出现，理解小数有助于理解百分数"
+    },
+    {
+      "topicId": "cnmt_s3na_pct_convert",
+      "prerequisiteId": "cnmt_s3na_pct_meaning",
+      "strength": "hard",
+      "reason": "互化方法建立在对百分数意义的理解上"
+    },
+    {
+      "topicId": "cnmt_s3na_pct_convert",
+      "prerequisiteId": "cnmt_s3na_frac_property",
+      "strength": "soft",
+      "reason": "分数化百分数常需用基本性质通分"
+    },
+    {
+      "topicId": "cnmt_s3na_neg_intro",
+      "prerequisiteId": "cnmt_s3na_dec_compare",
+      "strength": "soft",
+      "reason": "负数常在扩展后的数轴上出现，掌握正数比较有助于理解负数位置"
+    },
+    {
+      "topicId": "cnmt_s3na_neg_compare",
+      "prerequisiteId": "cnmt_s3na_neg_intro",
+      "strength": "hard",
+      "reason": "负数大小比较建立在对负数意义的认识上"
+    },
+    {
+      "topicId": "cnmt_s3na_frop_add",
+      "prerequisiteId": "cnmt_s3na_frac_common",
+      "strength": "hard",
+      "reason": "异分母加减必须先通分，把分母统一"
+    },
+    {
+      "topicId": "cnmt_s3na_frop_mul",
+      "prerequisiteId": "cnmt_s3na_frac_meaning",
+      "strength": "hard",
+      "reason": "分数乘分数的算理是'求一个数的几分之几'，必须先理解分数意义"
+    },
+    {
+      "topicId": "cnmt_s3na_frop_div",
+      "prerequisiteId": "cnmt_s3na_frop_mul",
+      "strength": "hard",
+      "reason": "除以一个分数等于乘它的倒数，把除法转化为乘法"
+    },
+    {
+      "topicId": "cnmt_s3na_decop_addsub",
+      "prerequisiteId": "cnmt_s3na_dec_property",
+      "strength": "hard",
+      "reason": "加减法把小数点对齐（相同数位对齐）正是小数性质的体现"
+    },
+    {
+      "topicId": "cnmt_s3na_decop_mul",
+      "prerequisiteId": "cnmt_s3na_dec_move",
+      "strength": "hard",
+      "reason": "积的小数位数判断与小数点移动规律直接相关"
+    },
+    {
+      "topicId": "cnmt_s3na_decop_div",
+      "prerequisiteId": "cnmt_s3na_dec_move",
+      "strength": "hard",
+      "reason": "把除数变整数要移动小数点，正是位置移动规律的应用"
+    },
+    {
+      "topicId": "cnmt_s3na_law_add",
+      "prerequisiteId": "cnmt_s3na_decop_addsub",
+      "strength": "soft",
+      "reason": "小数加减是观察加法运算律的好情境"
+    },
+    {
+      "topicId": "cnmt_s3na_law_distrib",
+      "prerequisiteId": "cnmt_s3na_law_mul",
+      "strength": "hard",
+      "reason": "分配律是连接乘法与加法的枢纽，必须先掌握基本乘法运算律"
+    },
+    {
+      "topicId": "cnmt_s3na_law_distrib",
+      "prerequisiteId": "cnmt_s3na_law_add",
+      "strength": "soft",
+      "reason": "分配律展开后涉及加法，需理解加法运算律"
+    },
+    {
+      "topicId": "cnmt_s3na_law_easy",
+      "prerequisiteId": "cnmt_s3na_law_add",
+      "strength": "hard",
+      "reason": "简便计算直接运用加法运算律"
+    },
+    {
+      "topicId": "cnmt_s3na_law_easy",
+      "prerequisiteId": "cnmt_s3na_law_mul",
+      "strength": "hard",
+      "reason": "简便计算直接运用乘法运算律"
+    },
+    {
+      "topicId": "cnmt_s3na_law_easy",
+      "prerequisiteId": "cnmt_s3na_law_distrib",
+      "strength": "hard",
+      "reason": "凑整/拆数常借助乘法分配律"
+    },
+    {
+      "topicId": "cnmt_s3na_alg_letter",
+      "prerequisiteId": "cnmt_s3na_dec_meaning",
+      "strength": "soft",
+      "reason": "字母表示的数可以是小数，先掌握小数有助理解字母的一般性"
+    },
+    {
+      "topicId": "cnmt_s3na_alg_letter",
+      "prerequisiteId": "cnmt_s3na_frac_meaning",
+      "strength": "soft",
+      "reason": "字母表示的数也可以是分数，理解分数有助理解字母的普适性"
+    },
+    {
+      "topicId": "cnmt_s3na_alg_eval",
+      "prerequisiteId": "cnmt_s3na_alg_letter",
+      "strength": "hard",
+      "reason": "代数式求值必须先理解字母表示数的含义"
+    },
+    {
+      "topicId": "cnmt_s3na_eq_prop",
+      "prerequisiteId": "cnmt_s3na_alg_letter",
+      "strength": "hard",
+      "reason": "等式性质用字母表达并应用于含字母的等式"
+    },
+    {
+      "topicId": "cnmt_s3na_eq_concept",
+      "prerequisiteId": "cnmt_s3na_eq_prop",
+      "strength": "soft",
+      "reason": "方程概念可与等式性质同步建立，性质帮助理解方程"
+    },
+    {
+      "topicId": "cnmt_s3na_eq_concept",
+      "prerequisiteId": "cnmt_s3na_alg_letter",
+      "strength": "hard",
+      "reason": "方程含有未知数（字母），必须先掌握字母表示数"
+    },
+    {
+      "topicId": "cnmt_s3na_eq_solve",
+      "prerequisiteId": "cnmt_s3na_eq_concept",
+      "strength": "hard",
+      "reason": "解方程前必须识别什么是方程"
+    },
+    {
+      "topicId": "cnmt_s3na_eq_solve",
+      "prerequisiteId": "cnmt_s3na_eq_prop",
+      "strength": "hard",
+      "reason": "解方程的每一步都依据等式性质"
+    },
+    {
+      "topicId": "cnmt_s3na_eq_word",
+      "prerequisiteId": "cnmt_s3na_eq_solve",
+      "strength": "hard",
+      "reason": "列方程解应用题以能解方程为前提"
+    },
+    {
+      "topicId": "cnmt_s3na_ratio_meaning",
+      "prerequisiteId": "cnmt_s3na_frac_meaning",
+      "strength": "hard",
+      "reason": "比的前项/后项/比值对应分子/分母/分数值，必须先理解分数"
+    },
+    {
+      "topicId": "cnmt_s3na_ratio_meaning",
+      "prerequisiteId": "cnmt_s3na_alg_letter",
+      "strength": "soft",
+      "reason": "比值常用字母表示（如 y/x=k），理解字母表示有帮助"
+    },
+    {
+      "topicId": "cnmt_s3na_ratio_direct",
+      "prerequisiteId": "cnmt_s3na_ratio_meaning",
+      "strength": "hard",
+      "reason": "正比例是比值一定的两个量，建立于比的意义"
+    },
+    {
+      "topicId": "cnmt_s3na_ratio_inverse",
+      "prerequisiteId": "cnmt_s3na_ratio_meaning",
+      "strength": "hard",
+      "reason": "反比例是乘积一定的两个量，同样建立于比的意义"
+    },
+    {
+      "topicId": "cnmt_s3na_ratio_judge",
+      "prerequisiteId": "cnmt_s3na_ratio_direct",
+      "strength": "hard",
+      "reason": "判断要先理解什么是正比例"
+    },
+    {
+      "topicId": "cnmt_s3na_ratio_judge",
+      "prerequisiteId": "cnmt_s3na_ratio_inverse",
+      "strength": "hard",
+      "reason": "判断要先理解什么是反比例"
+    }
+  ]
+}

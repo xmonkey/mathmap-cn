@@ -1,0 +1,354 @@
+{
+  "scope": "stage5·高中内部依赖",
+  "edgeCount": 58,
+  "dependencies": [
+    {
+      "topicId": "cnmt_s5na_set_relation",
+      "prerequisiteId": "cnmt_s5na_set_concept",
+      "strength": "hard",
+      "reason": "子集关系建立在集合概念基础上"
+    },
+    {
+      "topicId": "cnmt_s5na_set_op",
+      "prerequisiteId": "cnmt_s5na_set_relation",
+      "strength": "hard",
+      "reason": "集合运算需要先理解集合间关系"
+    },
+    {
+      "topicId": "cnmt_s5na_logic",
+      "prerequisiteId": "cnmt_s5na_set_concept",
+      "strength": "soft",
+      "reason": "充分必要条件常用集合语言表达"
+    },
+    {
+      "topicId": "cnmt_s5na_inequality_basic",
+      "prerequisiteId": "cnmt_s5na_logic",
+      "strength": "soft",
+      "reason": "不等式证明需要逻辑推理"
+    },
+    {
+      "topicId": "cnmt_s5na_fn_monotone",
+      "prerequisiteId": "cnmt_s5na_fn_concept",
+      "strength": "hard",
+      "reason": "单调性是函数的性质，必须先理解函数"
+    },
+    {
+      "topicId": "cnmt_s5na_fn_parity",
+      "prerequisiteId": "cnmt_s5na_fn_concept",
+      "strength": "hard",
+      "reason": "奇偶性是函数的性质"
+    },
+    {
+      "topicId": "cnmt_s5na_power_fn",
+      "prerequisiteId": "cnmt_s5na_fn_concept",
+      "strength": "hard",
+      "reason": "幂函数是基本初等函数之一"
+    },
+    {
+      "topicId": "cnmt_s5na_exp_op",
+      "prerequisiteId": "cnmt_s5na_power_fn",
+      "strength": "soft",
+      "reason": "分数指数幂是幂函数概念的推广"
+    },
+    {
+      "topicId": "cnmt_s5na_exp_fn",
+      "prerequisiteId": "cnmt_s5na_exp_op",
+      "strength": "hard",
+      "reason": "指数函数需要先掌握指数运算"
+    },
+    {
+      "topicId": "cnmt_s5na_log_concept",
+      "prerequisiteId": "cnmt_s5na_exp_fn",
+      "strength": "hard",
+      "reason": "对数是指数的逆运算"
+    },
+    {
+      "topicId": "cnmt_s5na_log_op",
+      "prerequisiteId": "cnmt_s5na_log_concept",
+      "strength": "hard",
+      "reason": "对数运算建立在对数概念上"
+    },
+    {
+      "topicId": "cnmt_s5na_log_fn",
+      "prerequisiteId": "cnmt_s5na_log_op",
+      "strength": "hard",
+      "reason": "对数函数需要对数运算"
+    },
+    {
+      "topicId": "cnmt_s5na_fn_zero",
+      "prerequisiteId": "cnmt_s5na_fn_concept",
+      "strength": "hard",
+      "reason": "零点是函数值为零的点"
+    },
+    {
+      "topicId": "cnmt_s5na_fn_model",
+      "prerequisiteId": "cnmt_s5na_exp_fn",
+      "strength": "soft",
+      "reason": "指数模型是常见函数模型"
+    },
+    {
+      "topicId": "cnmt_s5na_fn_model",
+      "prerequisiteId": "cnmt_s5na_log_fn",
+      "strength": "soft",
+      "reason": "对数模型是常见函数模型"
+    },
+    {
+      "topicId": "cnmt_s5na_trig_def",
+      "prerequisiteId": "cnmt_s5na_angle",
+      "strength": "hard",
+      "reason": "三角函数定义在任意角的基础上"
+    },
+    {
+      "topicId": "cnmt_s5na_trig_identity",
+      "prerequisiteId": "cnmt_s5na_trig_def",
+      "strength": "hard",
+      "reason": "同角关系建立在三角函数定义上"
+    },
+    {
+      "topicId": "cnmt_s5na_trig_induction",
+      "prerequisiteId": "cnmt_s5na_trig_def",
+      "strength": "hard",
+      "reason": "诱导公式建立在三角函数定义上"
+    },
+    {
+      "topicId": "cnmt_s5na_trig_graph",
+      "prerequisiteId": "cnmt_s5na_trig_induction",
+      "strength": "hard",
+      "reason": "画三角函数图像需要诱导公式化简"
+    },
+    {
+      "topicId": "cnmt_s5na_seq_arith",
+      "prerequisiteId": "cnmt_s5na_seq_concept",
+      "strength": "hard",
+      "reason": "等差数列建立在数列概念上"
+    },
+    {
+      "topicId": "cnmt_s5na_seq_geom",
+      "prerequisiteId": "cnmt_s5na_seq_concept",
+      "strength": "hard",
+      "reason": "等比数列建立在数列概念上"
+    },
+    {
+      "topicId": "cnmt_s5na_deriv_concept",
+      "prerequisiteId": "cnmt_s5na_fn_monotone",
+      "strength": "hard",
+      "reason": "导数是研究函数变化率（单调性）的工具"
+    },
+    {
+      "topicId": "cnmt_s5na_deriv_op",
+      "prerequisiteId": "cnmt_s5na_deriv_concept",
+      "strength": "hard",
+      "reason": "求导法则建立在导数概念上"
+    },
+    {
+      "topicId": "cnmt_s5na_deriv_monotone",
+      "prerequisiteId": "cnmt_s5na_deriv_op",
+      "strength": "hard",
+      "reason": "用导数判断单调性需要会求导"
+    },
+    {
+      "topicId": "cnmt_s5na_deriv_extremum",
+      "prerequisiteId": "cnmt_s5na_deriv_monotone",
+      "strength": "hard",
+      "reason": "极值在单调性变化的临界点处"
+    },
+    {
+      "topicId": "cnmt_s5gg_vector_linear",
+      "prerequisiteId": "cnmt_s5gg_vector_concept",
+      "strength": "hard",
+      "reason": "线性运算建立在向量概念上"
+    },
+    {
+      "topicId": "cnmt_s5gg_vector_dot",
+      "prerequisiteId": "cnmt_s5gg_vector_linear",
+      "strength": "hard",
+      "reason": "数量积建立在线性运算基础上"
+    },
+    {
+      "topicId": "cnmt_s5gg_vector_coord",
+      "prerequisiteId": "cnmt_s5gg_vector_dot",
+      "strength": "hard",
+      "reason": "坐标表示需要数量积的坐标公式"
+    },
+    {
+      "topicId": "cnmt_s5gg_parallel_space",
+      "prerequisiteId": "cnmt_s5gg_solid_basic",
+      "strength": "hard",
+      "reason": "平行关系建立在空间点线面基本关系上"
+    },
+    {
+      "topicId": "cnmt_s5gg_perp_space",
+      "prerequisiteId": "cnmt_s5gg_parallel_space",
+      "strength": "hard",
+      "reason": "垂直关系与平行关系密切相关"
+    },
+    {
+      "topicId": "cnmt_s5gg_solid_measure",
+      "prerequisiteId": "cnmt_s5gg_perp_space",
+      "strength": "soft",
+      "reason": "表面积体积计算常需借助垂直关系"
+    },
+    {
+      "topicId": "cnmt_s5gg_space_vector",
+      "prerequisiteId": "cnmt_s5gg_vector_coord",
+      "strength": "hard",
+      "reason": "空间向量是平面向量的三维推广"
+    },
+    {
+      "topicId": "cnmt_s5gg_space_vector_app",
+      "prerequisiteId": "cnmt_s5gg_space_vector",
+      "strength": "hard",
+      "reason": "应用建立在空间向量运算上"
+    },
+    {
+      "topicId": "cnmt_s5gg_line_eq",
+      "prerequisiteId": "cnmt_s5gg_vector_coord",
+      "strength": "hard",
+      "reason": "直线方程用到斜率（向量方向）"
+    },
+    {
+      "topicId": "cnmt_s5gg_circle_eq",
+      "prerequisiteId": "cnmt_s5gg_line_eq",
+      "strength": "hard",
+      "reason": "圆的方程建立在坐标几何基础上"
+    },
+    {
+      "topicId": "cnmt_s5gg_ellipse",
+      "prerequisiteId": "cnmt_s5gg_circle_eq",
+      "strength": "soft",
+      "reason": "椭圆是圆的推广（拉伸）"
+    },
+    {
+      "topicId": "cnmt_s5gg_hyperbola",
+      "prerequisiteId": "cnmt_s5gg_ellipse",
+      "strength": "hard",
+      "reason": "双曲线与椭圆同属圆锥曲线，类比学习"
+    },
+    {
+      "topicId": "cnmt_s5gg_parabola_conic",
+      "prerequisiteId": "cnmt_s5gg_ellipse",
+      "strength": "soft",
+      "reason": "抛物线同为圆锥曲线"
+    },
+    {
+      "topicId": "cnmt_s5gg_conic_app",
+      "prerequisiteId": "cnmt_s5gg_parabola_conic",
+      "strength": "hard",
+      "reason": "综合应用需要掌握各种圆锥曲线"
+    },
+    {
+      "topicId": "cnmt_s5gg_conic_app",
+      "prerequisiteId": "cnmt_s5gg_hyperbola",
+      "strength": "soft",
+      "reason": "综合应用涉及双曲线"
+    },
+    {
+      "topicId": "cnmt_s5sp_prob_prop",
+      "prerequisiteId": "cnmt_s5sp_probability",
+      "strength": "hard",
+      "reason": "概率性质建立在概率概念上"
+    },
+    {
+      "topicId": "cnmt_s5sp_regression",
+      "prerequisiteId": "cnmt_s5sp_sample",
+      "strength": "hard",
+      "reason": "回归分析建立在抽样数据上"
+    },
+    {
+      "topicId": "cnmt_s5sp_cond_prob",
+      "prerequisiteId": "cnmt_s5sp_prob_prop",
+      "strength": "hard",
+      "reason": "条件概率是概率性质的延伸"
+    },
+    {
+      "topicId": "cnmt_s5sp_random_var",
+      "prerequisiteId": "cnmt_s5sp_cond_prob",
+      "strength": "soft",
+      "reason": "随机变量的分布列用到条件概率思想"
+    },
+    {
+      "topicId": "cnmt_s5sp_expect_var",
+      "prerequisiteId": "cnmt_s5sp_random_var",
+      "strength": "hard",
+      "reason": "期望方差建立在分布列上"
+    },
+    {
+      "topicId": "cnmt_s5sp_binomial",
+      "prerequisiteId": "cnmt_s5sp_expect_var",
+      "strength": "hard",
+      "reason": "二项分布的期望方差是其特例"
+    },
+    {
+      "topicId": "cnmt_s5sp_normal",
+      "prerequisiteId": "cnmt_s5sp_binomial",
+      "strength": "soft",
+      "reason": "正态分布是二项分布的连续极限"
+    },
+    {
+      "topicId": "cnmt_s5na_deriv_proof",
+      "prerequisiteId": "cnmt_s5na_deriv_extremum",
+      "strength": "hard",
+      "reason": "不等式证明建立在求极值的基础上"
+    },
+    {
+      "topicId": "cnmt_s5na_deriv_zero",
+      "prerequisiteId": "cnmt_s5na_deriv_extremum",
+      "strength": "hard",
+      "reason": "零点分析建立在导数研究单调性和极值的基础上"
+    },
+    {
+      "topicId": "cnmt_s5gg_eccentricity",
+      "prerequisiteId": "cnmt_s5gg_ellipse",
+      "strength": "hard",
+      "reason": "离心率是椭圆的核心几何量"
+    },
+    {
+      "topicId": "cnmt_s5gg_eccentricity",
+      "prerequisiteId": "cnmt_s5gg_hyperbola",
+      "strength": "soft",
+      "reason": "与双曲线的离心率类比"
+    },
+    {
+      "topicId": "cnmt_s5sp_independence",
+      "prerequisiteId": "cnmt_s5sp_cond_prob",
+      "strength": "hard",
+      "reason": "独立性检验建立在条件概率的基础上"
+    },
+    {
+      "topicId": "cnmt_s5sp_regression_adv",
+      "prerequisiteId": "cnmt_s5sp_regression",
+      "strength": "hard",
+      "reason": "深化建立在基础回归分析上"
+    },
+    {
+      "topicId": "cnmt_s5na_combination",
+      "prerequisiteId": "cnmt_s5na_permutation",
+      "strength": "hard",
+      "reason": "组合数公式 C=A/m! 建立在排列基础上"
+    },
+    {
+      "topicId": "cnmt_s5na_binomial_thm",
+      "prerequisiteId": "cnmt_s5na_combination",
+      "strength": "hard",
+      "reason": "二项式系数就是组合数"
+    },
+    {
+      "topicId": "cnmt_s5na_ineq_property",
+      "prerequisiteId": "cnmt_s5na_set_concept",
+      "strength": "soft",
+      "reason": "不等式性质用集合语言表示解集"
+    },
+    {
+      "topicId": "cnmt_s5na_ineq_quadratic",
+      "prerequisiteId": "cnmt_s5na_ineq_property",
+      "strength": "hard",
+      "reason": "解不等式需要不等式的基本性质"
+    },
+    {
+      "topicId": "cnmt_s5na_ineq_quadratic",
+      "prerequisiteId": "cnmt_s5na_fn_concept",
+      "strength": "hard",
+      "reason": "三个二次的联系建立在函数理解上"
+    }
+  ]
+}

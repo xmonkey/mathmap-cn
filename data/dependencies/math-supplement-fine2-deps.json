@@ -1,0 +1,210 @@
+{
+  "scope": "stage4 第二轮细粒度拆分的依赖",
+  "edgeCount": 34,
+  "dependencies": [
+    {
+      "topicId": "cnmt_s4na_frac_addsub",
+      "prerequisiteId": "cnmt_s4na_fraction_expr",
+      "strength": "hard",
+      "reason": "分式加减建立在分式概念和通分基础上"
+    },
+    {
+      "topicId": "cnmt_s4na_frac_muldiv",
+      "prerequisiteId": "cnmt_s4na_fraction_expr",
+      "strength": "hard",
+      "reason": "分式乘除建立在分式概念和约分基础上"
+    },
+    {
+      "topicId": "cnmt_s4na_sqrt_simplify",
+      "prerequisiteId": "cnmt_s4na_sqrt_expr",
+      "strength": "hard",
+      "reason": "化简是二次根式运算的基础步骤"
+    },
+    {
+      "topicId": "cnmt_s4na_sqrt_op",
+      "prerequisiteId": "cnmt_s4na_sqrt_simplify",
+      "strength": "hard",
+      "reason": "运算前先要会化简、识别同类二次根式"
+    },
+    {
+      "topicId": "cnmt_s4na_irrational",
+      "prerequisiteId": "cnmt_s4na_sqrt",
+      "strength": "hard",
+      "reason": "无理数通过开方（如 √2）引入"
+    },
+    {
+      "topicId": "cnmt_s4na_real_line",
+      "prerequisiteId": "cnmt_s4na_irrational",
+      "strength": "hard",
+      "reason": "实数=有理数+无理数，要在数轴上表示两者"
+    },
+    {
+      "topicId": "cnmt_s4na_system_app",
+      "prerequisiteId": "cnmt_s4na_system_elimination",
+      "strength": "hard",
+      "reason": "应用题以会解方程组为前提"
+    },
+    {
+      "topicId": "cnmt_s4na_vieta",
+      "prerequisiteId": "cnmt_s4na_quadratic_method",
+      "strength": "hard",
+      "reason": "韦达定理来自求根公式，需先掌握解法"
+    },
+    {
+      "topicId": "cnmt_s4na_fn_represent",
+      "prerequisiteId": "cnmt_s4na_function_concept",
+      "strength": "hard",
+      "reason": "三种表示法是函数概念的具体化"
+    },
+    {
+      "topicId": "cnmt_s4na_linear_fn_shift",
+      "prerequisiteId": "cnmt_s4na_linear_fn_graph",
+      "strength": "hard",
+      "reason": "平移变换建立在对图像的理解上"
+    },
+    {
+      "topicId": "cnmt_s4na_quad_coeff",
+      "prerequisiteId": "cnmt_s4na_quad_fn_graph",
+      "strength": "hard",
+      "reason": "分析 a 的影响必须先会画抛物线"
+    },
+    {
+      "topicId": "cnmt_s4na_inverse_prop",
+      "prerequisiteId": "cnmt_s4na_inverse_fn",
+      "strength": "hard",
+      "reason": "图像性质建立在反比例函数概念上"
+    },
+    {
+      "topicId": "cnmt_s4na_absvalue_eq",
+      "prerequisiteId": "cnmt_s4na_rational_abs",
+      "strength": "hard",
+      "reason": "绝对值方程建立在对绝对值意义的理解上"
+    },
+    {
+      "topicId": "cnmt_s4na_scinote",
+      "prerequisiteId": "cnmt_s4na_rational_power",
+      "strength": "hard",
+      "reason": "科学记数法 a×10ⁿ 用到乘方"
+    },
+    {
+      "topicId": "cnmt_s4na_approx_sig",
+      "prerequisiteId": "cnmt_s4na_rational_power",
+      "strength": "soft",
+      "reason": "近似数与精确度相关，和科学记数法同期学习"
+    },
+    {
+      "topicId": "cnmt_s4gg_isosceles",
+      "prerequisiteId": "cnmt_s4gg_triangle_prop",
+      "strength": "hard",
+      "reason": "等腰三角形是特殊三角形"
+    },
+    {
+      "topicId": "cnmt_s4gg_right_tri",
+      "prerequisiteId": "cnmt_s4gg_triangle_prop",
+      "strength": "hard",
+      "reason": "直角三角形是特殊三角形"
+    },
+    {
+      "topicId": "cnmt_s4gg_right_tri",
+      "prerequisiteId": "cnmt_s4gg_pythagoras",
+      "strength": "soft",
+      "reason": "勾股定理是直角三角形的核心定理"
+    },
+    {
+      "topicId": "cnmt_s4gg_hl",
+      "prerequisiteId": "cnmt_s4gg_congruent",
+      "strength": "hard",
+      "reason": "HL 是全等判定在直角三角形中的特例"
+    },
+    {
+      "topicId": "cnmt_s4gg_hl",
+      "prerequisiteId": "cnmt_s4gg_right_tri",
+      "strength": "hard",
+      "reason": "HL 专用于直角三角形"
+    },
+    {
+      "topicId": "cnmt_s4gg_similar_ratio",
+      "prerequisiteId": "cnmt_s4gg_similar",
+      "strength": "hard",
+      "reason": "性质比建立在相似概念上"
+    },
+    {
+      "topicId": "cnmt_s4gg_para_judge",
+      "prerequisiteId": "cnmt_s4gg_quad_prop",
+      "strength": "hard",
+      "reason": "判定是性质的逆过程"
+    },
+    {
+      "topicId": "cnmt_s4gg_diamond_prop",
+      "prerequisiteId": "cnmt_s4gg_quad_special",
+      "strength": "hard",
+      "reason": "菱形性质是特殊四边形的内容"
+    },
+    {
+      "topicId": "cnmt_s4gg_rect_diag",
+      "prerequisiteId": "cnmt_s4gg_quad_special",
+      "strength": "hard",
+      "reason": "矩形对角线性质是特殊四边形的内容"
+    },
+    {
+      "topicId": "cnmt_s4gg_chord_arc",
+      "prerequisiteId": "cnmt_s4gg_circle_prop",
+      "strength": "hard",
+      "reason": "弦弧角关系是圆的基本性质"
+    },
+    {
+      "topicId": "cnmt_s4gg_inscribed_angle",
+      "prerequisiteId": "cnmt_s4gg_chord_arc",
+      "strength": "hard",
+      "reason": "圆周角定理建立在弦弧圆心角的基础上"
+    },
+    {
+      "topicId": "cnmt_s4gg_inscribed_angle",
+      "prerequisiteId": "cnmt_s4gg_pythagoras",
+      "strength": "soft",
+      "reason": "部分证明用到勾股定理"
+    },
+    {
+      "topicId": "cnmt_s4gg_circum_inscribed",
+      "prerequisiteId": "cnmt_s4gg_perp_bisector",
+      "strength": "hard",
+      "reason": "外心是三边垂直平分线交点"
+    },
+    {
+      "topicId": "cnmt_s4gg_circum_inscribed",
+      "prerequisiteId": "cnmt_s4gg_angle_bisector",
+      "strength": "hard",
+      "reason": "内心是三角平分线交点"
+    },
+    {
+      "topicId": "cnmt_s4gg_two_circles",
+      "prerequisiteId": "cnmt_s4gg_circle_position",
+      "strength": "hard",
+      "reason": "两圆关系是点直线圆位置关系的延伸"
+    },
+    {
+      "topicId": "cnmt_s4gg_construction_tri",
+      "prerequisiteId": "cnmt_s4gg_construction",
+      "strength": "hard",
+      "reason": "作三角形建立在基本作图基础上"
+    },
+    {
+      "topicId": "cnmt_s4gg_construction_tri",
+      "prerequisiteId": "cnmt_s4gg_congruent",
+      "strength": "soft",
+      "reason": "已知三边等条件作三角形对应全等判定"
+    },
+    {
+      "topicId": "cnmt_s4gg_proof_by_contradiction",
+      "prerequisiteId": "cnmt_s4gg_proof",
+      "strength": "hard",
+      "reason": "反证法是证明方法的延伸"
+    },
+    {
+      "topicId": "cnmt_s4gg_proof_by_contradiction",
+      "prerequisiteId": "cnmt_s4na_sqrt",
+      "strength": "soft",
+      "reason": "经典的反证法例子是证明 √2 是无理数"
+    }
+  ]
+}

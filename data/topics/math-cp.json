@@ -1,0 +1,11 @@
+{
+  "subject": "数学",
+  "scope": "综合与实践（stage1-3）",
+  "topicCount": 3,
+  "_origin": "AI 生成的教学常识初稿（非课标原文）。综合与实践以主题活动为主，每个学段概括为一个微主题。需教研人员审核。",
+  "topics": [
+    {"id": "cnmt_s1cp_theme", "type": "META", "subject": "数学", "domain": "综合与实践", "stage": "stage1", "gradeStart": 1, "gradeEnd": 2, "name": "第一学段主题活动", "description": "结合学生熟悉的日常情境（如认识校园、购物、我的教室）开展主题活动，综合运用数与运算、图形认识等知识解决简单实际问题。", "centrality": 0.4, "evidence": ["能参与主题活动并完成简单任务", "能用所学数学语言描述活动中的发现"], "assessmentPrompt": "在'班级购物'活动里，{{name}}能用学过的加减法算出找零吗？", "standards": ["moe-cn-2022-math:stage1.cp.thm.1"]},
+    {"id": "cnmt_s2cp_theme", "type": "META", "subject": "数学", "domain": "综合与实践", "stage": "stage2", "gradeStart": 3, "gradeEnd": 4, "name": "第二学段主题活动", "description": "围绕'班级联欢会''校园绿化'等主题，综合运用数与运算、图形、数据收集等知识，经历发现问题、提出方案、解决实施的过程。", "centrality": 0.45, "evidence": ["能提出一个可解决的简单数学问题", "能用多种知识综合解决主题任务"], "assessmentPrompt": "筹划班级联欢会，{{name}}能列出要花哪些钱、用学过的乘除法算总价吗？", "standards": ["moe-cn-2022-math:stage2.cp.thm.1"]},
+    {"id": "cnmt_s3cp_theme", "type": "META", "subject": "数学", "domain": "综合与实践", "stage": "stage3", "gradeStart": 5, "gradeEnd": 6, "name": "第三学段项目学习", "description": "开展如'营养午餐''旅游计划'等项目式学习，综合运用分数、百分数、统计、图形等知识，进行数据收集、方案设计与简单评价。", "centrality": 0.5, "evidence": ["能设计一个简单的解决方案", "能用图表或算式表达并解释方案"], "assessmentPrompt": "设计一份一周营养午餐，{{name}}能用百分数和统计图说明营养搭配合理吗？", "standards": ["moe-cn-2022-math:stage3.cp.thm.1"]}
+  ]
+}

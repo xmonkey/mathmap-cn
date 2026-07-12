@@ -1,0 +1,102 @@
+{
+  "scope": "补遗微主题的依赖",
+  "edgeCount": 16,
+  "dependencies": [
+    {
+      "topicId": "cnmt_s2gg_time_cal",
+      "prerequisiteId": "cnmt_s1gg_time",
+      "strength": "hard",
+      "reason": "年月日和时间的计算建立在认识时分秒的基础上"
+    },
+    {
+      "topicId": "cnmt_s2gg_mass_ext",
+      "prerequisiteId": "cnmt_s1gg_mass",
+      "strength": "hard",
+      "reason": "吨的认识是克千克的延伸"
+    },
+    {
+      "topicId": "cnmt_s4gg_pythagoras",
+      "prerequisiteId": "cnmt_s4gg_triangle_prop",
+      "strength": "hard",
+      "reason": "勾股定理是直角三角形的性质，必须先掌握三角形"
+    },
+    {
+      "topicId": "cnmt_s4gg_pythagoras",
+      "prerequisiteId": "cnmt_s4na_sqrt",
+      "strength": "soft",
+      "reason": "用勾股定理求斜边涉及开平方"
+    },
+    {
+      "topicId": "cnmt_s4gg_perp_bisector",
+      "prerequisiteId": "cnmt_s4gg_line_angle",
+      "strength": "hard",
+      "reason": "垂直平分线建立在线段和垂直的概念上"
+    },
+    {
+      "topicId": "cnmt_s4gg_perp_bisector",
+      "prerequisiteId": "cnmt_s4gg_congruent",
+      "strength": "soft",
+      "reason": "其性质的证明常用全等三角形"
+    },
+    {
+      "topicId": "cnmt_s4gg_midline",
+      "prerequisiteId": "cnmt_s4gg_triangle_prop",
+      "strength": "hard",
+      "reason": "中位线是三角形的重要线段"
+    },
+    {
+      "topicId": "cnmt_s4gg_angle_bisector",
+      "prerequisiteId": "cnmt_s4gg_line_angle",
+      "strength": "hard",
+      "reason": "角平分线建立在角的概念上"
+    },
+    {
+      "topicId": "cnmt_s4gg_construction",
+      "prerequisiteId": "cnmt_s4gg_line_angle",
+      "strength": "hard",
+      "reason": "基本作图都围绕线段和角展开"
+    },
+    {
+      "topicId": "cnmt_s4gg_construction",
+      "prerequisiteId": "cnmt_s4gg_perp_bisector",
+      "strength": "soft",
+      "reason": "作垂直平分线是五种基本作图之一"
+    },
+    {
+      "topicId": "cnmt_s4gg_construction",
+      "prerequisiteId": "cnmt_s4gg_angle_bisector",
+      "strength": "soft",
+      "reason": "作角平分线是基本作图"
+    },
+    {
+      "topicId": "cnmt_s4gg_view",
+      "prerequisiteId": "cnmt_s3gg_solid",
+      "strength": "hard",
+      "reason": "三视图建立在立体图形直观认识上"
+    },
+    {
+      "topicId": "cnmt_s4gg_circle_position",
+      "prerequisiteId": "cnmt_s4gg_circle_prop",
+      "strength": "hard",
+      "reason": "位置关系建立在圆的性质基础上"
+    },
+    {
+      "topicId": "cnmt_s4gg_quad_special",
+      "prerequisiteId": "cnmt_s4gg_quad_prop",
+      "strength": "hard",
+      "reason": "矩形菱形正方形都是特殊的平行四边形"
+    },
+    {
+      "topicId": "cnmt_s4sp_inference",
+      "prerequisiteId": "cnmt_s4sp_survey",
+      "strength": "hard",
+      "reason": "用样本估计总体建立在抽样调查基础上"
+    },
+    {
+      "topicId": "cnmt_s4sp_inference",
+      "prerequisiteId": "cnmt_s4sp_analysis",
+      "strength": "soft",
+      "reason": "估计总体特征需要会分析样本数据"
+    }
+  ]
+}

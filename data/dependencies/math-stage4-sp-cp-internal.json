@@ -1,0 +1,18 @@
+{
+  "scope": "stage4·统计与概率 + 综合与实践内部依赖",
+  "edgeCount": 2,
+  "dependencies": [
+    {
+      "topicId": "cnmt_s4sp_analysis",
+      "prerequisiteId": "cnmt_s4sp_survey",
+      "strength": "hard",
+      "reason": "分析数据要先有收集的数据"
+    },
+    {
+      "topicId": "cnmt_s4sp_chart",
+      "prerequisiteId": "cnmt_s4sp_survey",
+      "strength": "hard",
+      "reason": "画频数分布图需要先有样本数据"
+    }
+  ]
+}

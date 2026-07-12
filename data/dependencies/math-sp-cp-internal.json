@@ -1,0 +1,66 @@
+{
+  "scope": "统计与概率 + 综合与实践内部依赖",
+  "edgeCount": 10,
+  "dependencies": [
+    {
+      "topicId": "cnmt_s2sp_collect",
+      "prerequisiteId": "cnmt_s1sp_classify",
+      "strength": "hard",
+      "reason": "数据收集整理建立在按标准分类的基础上"
+    },
+    {
+      "topicId": "cnmt_s2sp_bar",
+      "prerequisiteId": "cnmt_s2sp_collect",
+      "strength": "hard",
+      "reason": "画条形统计图需要先收集整理数据"
+    },
+    {
+      "topicId": "cnmt_s2sp_average",
+      "prerequisiteId": "cnmt_s2sp_collect",
+      "strength": "soft",
+      "reason": "平均数是对已收集数据的分析"
+    },
+    {
+      "topicId": "cnmt_s3sp_line",
+      "prerequisiteId": "cnmt_s2sp_bar",
+      "strength": "hard",
+      "reason": "折线图是条形图的发展，都基于数据整理"
+    },
+    {
+      "topicId": "cnmt_s3sp_pie",
+      "prerequisiteId": "cnmt_s2sp_bar",
+      "strength": "soft",
+      "reason": "扇形图与条形图同为统计图，认识一种有助于认识另一种"
+    },
+    {
+      "topicId": "cnmt_s3sp_measures",
+      "prerequisiteId": "cnmt_s2sp_average",
+      "strength": "hard",
+      "reason": "中位数众数与平均数并列，需要先掌握平均数"
+    },
+    {
+      "topicId": "cnmt_s3sp_chance",
+      "prerequisiteId": "cnmt_s2sp_collect",
+      "strength": "soft",
+      "reason": "可能性分析建立在对数据的收集与认识上"
+    },
+    {
+      "topicId": "cnmt_s1cp_theme",
+      "prerequisiteId": "cnmt_s1gg_measure_basic",
+      "strength": "soft",
+      "reason": "主题活动用到度量与货币"
+    },
+    {
+      "topicId": "cnmt_s2cp_theme",
+      "prerequisiteId": "cnmt_s2sp_collect",
+      "strength": "soft",
+      "reason": "主题活动常需要收集数据做决策"
+    },
+    {
+      "topicId": "cnmt_s3cp_theme",
+      "prerequisiteId": "cnmt_s3sp_line",
+      "strength": "soft",
+      "reason": "项目学习常用折线图展示数据"
+    }
+  ]
+}

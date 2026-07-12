@@ -1,0 +1,1308 @@
+{
+  "subject": "数学",
+  "scope": "stage5·高中（10-12年级，必修+选择性必修）",
+  "topicCount": 65,
+  "_origin": "AI 生成的教学常识初稿，基于《普通高中数学课程标准（2017年版2020年修订）》。非课标原文。需教研人员审核。standards 字段待补高中课标骨架。",
+  "topics": [
+    {
+      "id": "cnmt_s5na_set_concept",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "集合的概念与表示",
+      "description": "理解集合是若干确定的不同对象组成的整体，对象叫元素；掌握集合的列举法和描述法表示，理解元素确定性、互异性、无序性。",
+      "centrality": 0.9,
+      "evidence": [
+        "能用两种方法表示给定集合",
+        "能判断一组对象能否构成集合"
+      ],
+      "assessmentPrompt": "{{name}}能用描述法表示'所有偶数组成的集合'吗？'高个子同学'能否构成集合？为什么？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.logic.set_concept"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_set_relation",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "集合间的基本关系",
+      "description": "理解子集、真子集、集合相等的概念；能判断两个集合的包含或相等关系，会用 Venn 图表示。",
+      "centrality": 0.7,
+      "evidence": [
+        "能判断一个集合是否为另一个的子集",
+        "能用 Venn 图表示集合关系"
+      ],
+      "assessmentPrompt": "集合 A={1,2} 的子集有几个？{{name}}能全部列出吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.logic.set_relation"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_set_op",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "集合的基本运算",
+      "description": "掌握交集、并集、全集与补集的运算；能结合数轴和 Venn 图进行集合运算。",
+      "centrality": 0.75,
+      "evidence": [
+        "能求两个集合的交集和并集",
+        "能在给定全集下求补集"
+      ],
+      "assessmentPrompt": "A={x|1≤x≤5}，B={x|3<x<7}，{{name}}能求 A∩B 和 A∪B 吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.logic.set_op"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_logic",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "充分条件与必要条件",
+      "description": "理解充分条件（p→q 成立）、必要条件、充要条件的含义；能判断两个命题间的条件关系。",
+      "centrality": 0.6,
+      "evidence": [
+        "能判断 p 是 q 的什么条件",
+        "能举反例说明某条件不充分/不必要"
+      ],
+      "assessmentPrompt": "'x>2'是'x²>4'的什么条件？{{name}}能说明理由吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.logic.condition"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_quantifier",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "全称量词与存在量词",
+      "description": "理解全称量词（对所有）、存在量词（存在某个）的含义；能对含量词的命题进行否定。",
+      "centrality": 0.5,
+      "evidence": [
+        "能判断含量词命题的真假",
+        "能正确写出命题的否定"
+      ],
+      "assessmentPrompt": "{{name}}能写出'对所有实数 x，x²≥0'的否定吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.logic.quantifier"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_inequality_basic",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "基本不等式",
+      "description": "掌握基本不等式 √(ab)≤(a+b)/2（a,b>0）及其变形；能用它求最值问题（积定和最小、和定积最大）。",
+      "centrality": 0.7,
+      "evidence": [
+        "能用基本不等式证明简单不等式",
+        "能用基本不等式求最值"
+      ],
+      "assessmentPrompt": "已知 x>0, y>0, x+y=8，{{name}}能求 xy 的最大值吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.ineq.basic"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_fn_concept",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "函数的概念（高中）",
+      "description": "用集合语言重新定义函数：从非空数集 A 到 B 的映射，每个 x∈A 对应唯一的 y∈B；理解定义域、值域、对应法则。",
+      "centrality": 0.95,
+      "evidence": [
+        "能判断一个对应是否为函数",
+        "能求给定函数的定义域"
+      ],
+      "assessmentPrompt": "f(x)=√(x-2) + 1/(x-5) 的定义域是什么？{{name}}能求吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.fn.concept"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_fn_monotone",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "函数的单调性",
+      "description": "理解增函数、减函数的定义；能用定义法证明函数在给定区间的单调性。",
+      "centrality": 0.8,
+      "evidence": [
+        "能判断函数在区间上的增减性",
+        "能用定义法证明单调性"
+      ],
+      "assessmentPrompt": "{{name}}能用定义法证明 f(x)=x+1/x 在 (1,+∞) 上递增吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.fn.monotone"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_fn_parity",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "函数的奇偶性",
+      "description": "理解偶函数（f(-x)=f(x)）和奇函数（f(-x)=-f(x)）；能判断函数的奇偶性，理解定义域关于原点对称的前提。",
+      "centrality": 0.7,
+      "evidence": [
+        "能判断函数是奇/偶/非奇非偶",
+        "能利用奇偶性简化问题"
+      ],
+      "assessmentPrompt": "f(x)=x³-x 是奇函数还是偶函数？{{name}}能验证吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.fn.parity"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_power_fn",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "幂函数",
+      "description": "理解 y=x^α 的概念；掌握常见幂函数（α=1,2,3,1/2,-1）的图像和性质。",
+      "centrality": 0.55,
+      "evidence": [
+        "能画出常见幂函数的图像",
+        "能比较幂函数值的大小"
+      ],
+      "assessmentPrompt": "y=x² 和 y=x^(1/2) 的图像有什么对称关系？{{name}}能画出来吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.explog.power"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_exp_op",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "指数与指数幂运算",
+      "description": "将指数从整数推广到有理数和无理数；掌握分数指数幂的运算法则，能进行根式与分数指数幂的互化。",
+      "centrality": 0.7,
+      "evidence": [
+        "能进行分数指数幂的运算",
+        "能把根式化为分数指数幂"
+      ],
+      "assessmentPrompt": "{{name}}能计算 8^(2/3) 和 2^(-1/2) 吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.explog.exp_op"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_exp_fn",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "指数函数",
+      "description": "掌握 y=aˣ(a>0,a≠1) 的图像和性质；理解 a>1 和 0<a<1 两种情况增减性不同。",
+      "centrality": 0.8,
+      "evidence": [
+        "能画出指数函数图像并说出性质",
+        "能比较两个指数式的大小"
+      ],
+      "assessmentPrompt": "y=2ˣ 和 y=(1/2)ˣ 的图像关于什么对称？{{name}}能说说增减性吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.explog.exp_fn"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_log_concept",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "对数的概念",
+      "description": "理解对数是指数的逆运算：a^b=N ⟺ log_a(N)=b；掌握常用对数（lg）和自然对数（ln）。",
+      "centrality": 0.75,
+      "evidence": [
+        "能进行指数式与对数式的互化",
+        "能求特殊对数值"
+      ],
+      "assessmentPrompt": "2³=8，{{name}}能写出对应的对数式吗？log₁₀100 等于几？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.explog.log_concept"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_log_op",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "对数的运算性质",
+      "description": "掌握对数的运算性质：log_a(MN)=log_a M+log_a N 等；掌握换底公式。",
+      "centrality": 0.7,
+      "evidence": [
+        "能用对数性质进行运算",
+        "能用换底公式转换底数"
+      ],
+      "assessmentPrompt": "{{name}}能化简 log₂8 + log₂4 吗？能用换底公式把 log₃5 化成以 10 为底吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.explog.log_op"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_log_fn",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "对数函数",
+      "description": "掌握 y=log_a(x)(a>0,a≠1) 的图像和性质；理解指数函数与对数函数互为反函数。",
+      "centrality": 0.8,
+      "evidence": [
+        "能画出对数函数图像",
+        "能说明与指数函数的反函数关系"
+      ],
+      "assessmentPrompt": "y=log₂x 的定义域和值域各是什么？它与 y=2ˣ 什么关系？{{name}}能说说吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.explog.log_fn"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_fn_zero",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "函数的零点与方程的解",
+      "description": "理解函数零点 f(x)=0 的解与方程根的关系；能用二分法求函数零点的近似值。",
+      "centrality": 0.65,
+      "evidence": [
+        "能判断函数零点所在区间",
+        "能用二分法求零点近似值"
+      ],
+      "assessmentPrompt": "f(x)=x²-2x-3，{{name}}能求出零点吗？它们对应哪个方程的根？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.fn.application"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_fn_model",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 11,
+      "name": "函数模型的应用",
+      "description": "能用指数函数、对数函数等建立实际问题的数学模型并求解；会比较不同函数模型的增长差异。",
+      "centrality": 0.6,
+      "evidence": [
+        "能根据实际情境选择合适的函数模型",
+        "能用模型做预测和解释"
+      ],
+      "assessmentPrompt": "人口增长、碳衰变分别用什么函数模型？{{name}}能说说为什么吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.fn.application"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_angle",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "任意角与弧度制",
+      "description": "将角推广到任意角（正角、负角、零角）；掌握弧度制，能进行弧度与角度的互化。",
+      "centrality": 0.7,
+      "evidence": [
+        "能进行弧度与角度互化",
+        "能判断角是第几象限角"
+      ],
+      "assessmentPrompt": "60° 等于多少弧度？-π/3 是第几象限角？{{name}}能说说吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.trig.angle"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_trig_def",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "三角函数的定义",
+      "description": "在单位圆上用坐标定义任意角的正弦、余弦、正切；理解三角函数值在各象限的符号。",
+      "centrality": 0.9,
+      "evidence": [
+        "能求任意角的三角函数值",
+        "能判断各象限三角函数值的符号"
+      ],
+      "assessmentPrompt": "角 α 终边过点 (3,4)，{{name}}能求 sin α、cos α、tan α 吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.trig.def"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_trig_identity",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "同角三角函数的基本关系",
+      "description": "掌握 sin²α+cos²α=1 和 sin α/cos α=tan α 两个基本关系；能用它们求值和化简。",
+      "centrality": 0.75,
+      "evidence": [
+        "能用基本关系求未知三角函数值",
+        "能化简含三角函数的式子"
+      ],
+      "assessmentPrompt": "已知 sin α=3/5（α 为第一象限角），{{name}}能求 cos α 和 tan α 吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.trig.identity"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_trig_induction",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "三角函数的诱导公式",
+      "description": "掌握 k·π/2±α 型的诱导公式；理解'奇变偶不变，符号看象限'的口诀。",
+      "centrality": 0.65,
+      "evidence": [
+        "能用诱导公式化简三角函数式",
+        "能把任意角化为锐角三角函数"
+      ],
+      "assessmentPrompt": "{{name}}能化简 sin(3π/2+α) 吗？用'奇变偶不变'怎么判断？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.trig.induction"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_trig_graph",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "三角函数的图像与性质",
+      "description": "掌握 y=sin x、y=cos x、y=tan x 的图像；理解周期性、最大最小值、单调区间；能用五点法画正弦曲线。",
+      "centrality": 0.75,
+      "evidence": [
+        "能用五点法画正弦函数图像",
+        "能求三角函数的周期和最值"
+      ],
+      "assessmentPrompt": "y=sin x 的周期是多少？{{name}}能用五点法画出一个周期的图像吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.trig.graph"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_seq_concept",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 11,
+      "gradeEnd": 11,
+      "name": "数列的概念与表示",
+      "description": "理解数列是按一定次序排列的一列数；掌握通项公式和前 n 项和的概念。",
+      "centrality": 0.65,
+      "evidence": [
+        "能由通项公式写出数列的项",
+        "能观察规律猜想通项"
+      ],
+      "assessmentPrompt": "数列 1, 1/2, 1/3, 1/4, ... 的通项公式是什么？{{name}}能写出来吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.seq.concept"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_seq_arith",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 11,
+      "gradeEnd": 11,
+      "name": "等差数列",
+      "description": "掌握等差数列的定义（aₙ-aₙ₋₁=d）、通项公式和前 n 项和公式。",
+      "centrality": 0.75,
+      "evidence": [
+        "能求等差数列的通项和前 n 项和",
+        "能用等差数列解决实际问题"
+      ],
+      "assessmentPrompt": "等差数列 a₁=2, d=3，{{name}}能求 a₁₀ 和 S₁₀ 吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.seq.arith"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_seq_geom",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 11,
+      "gradeEnd": 11,
+      "name": "等比数列",
+      "description": "掌握等比数列的定义（aₙ/aₙ₋₁=q）、通项公式和前 n 项和公式。",
+      "centrality": 0.75,
+      "evidence": [
+        "能求等比数列的通项和前 n 项和",
+        "能用等比数列解决实际问题"
+      ],
+      "assessmentPrompt": "等比数列 a₁=1, q=2，{{name}}能求 a₅ 和 S₅ 吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.seq.geom"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_deriv_concept",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 11,
+      "gradeEnd": 12,
+      "name": "导数的概念",
+      "description": "通过瞬时变化率和极限理解导数：f'(x₀)=lim[Δx→0] [f(x₀+Δx)-f(x₀)]/Δx；理解导数的几何意义（切线斜率）。",
+      "centrality": 0.9,
+      "evidence": [
+        "能用极限求简单函数在某点的导数",
+        "能说明导数的几何意义"
+      ],
+      "assessmentPrompt": "f(x)=x² 在 x=1 处的导数是多少？它对应图像上切线的什么？{{name}}能说说吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.deriv.concept"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_deriv_op",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 11,
+      "gradeEnd": 12,
+      "name": "导数的运算",
+      "description": "掌握基本初等函数的导数公式和求导法则（和差积商、复合函数求导）。",
+      "centrality": 0.8,
+      "evidence": [
+        "能求多项式、指数、对数、三角函数的导数",
+        "能用法则求复合函数导数"
+      ],
+      "assessmentPrompt": "{{name}}能求 f(x)=x³+2eˣ-sin x 的导数吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.deriv.op"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_deriv_monotone",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 12,
+      "gradeEnd": 12,
+      "name": "利用导数研究单调性",
+      "description": "利用 f'(x) 的符号判断函数增减：f'(x)>0 递增，f'(x)<0 递减；能求函数的单调区间。",
+      "centrality": 0.8,
+      "evidence": [
+        "能用导数求函数的单调区间",
+        "能用导数证明不等式"
+      ],
+      "assessmentPrompt": "f(x)=x³-3x，{{name}}能用导数求单调区间吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.deriv.app"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_deriv_extremum",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 12,
+      "gradeEnd": 12,
+      "name": "利用导数研究极值与最值",
+      "description": "利用导数求函数的极大值、极小值和闭区间上的最大值、最小值；能解决实际优化问题。",
+      "centrality": 0.85,
+      "evidence": [
+        "能求函数的极值点和极值",
+        "能求闭区间上函数的最值"
+      ],
+      "assessmentPrompt": "f(x)=x³-3x+1 在 [-2,2] 上的最大值和最小值各是多少？{{name}}能用导数求吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.deriv.app"
+      ]
+    },
+    {
+      "id": "cnmt_s5gg_vector_concept",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "平面向量的概念",
+      "description": "理解向量是既有大小又有方向的量；掌握向量的几何表示（有向线段）和模的概念。",
+      "centrality": 0.8,
+      "evidence": [
+        "能用有向线段表示向量",
+        "能求向量的模"
+      ],
+      "assessmentPrompt": "{{name}}能画出向量 AB：从 A(1,1) 指向 B(4,5) 吗？它的模是多少？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.vec.concept"
+      ]
+    },
+    {
+      "id": "cnmt_s5gg_vector_linear",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "向量的线性运算",
+      "description": "掌握向量的加法（三角形/平行四边形法则）、减法和数乘运算；理解向量共线的条件。",
+      "centrality": 0.75,
+      "evidence": [
+        "能用法则进行向量加减",
+        "能用数乘表示共线"
+      ],
+      "assessmentPrompt": "{{name}}能用三角形法则画出 a+b 吗？如果 b 方向相反，a-b 怎么画？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.vec.concept"
+      ]
+    },
+    {
+      "id": "cnmt_s5gg_vector_dot",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "向量的数量积",
+      "description": "掌握 a·b=|a||b|cosθ；理解数量积为实数（标量），能用来求夹角和判断垂直（a·b=0 ⟺ a⊥b）。",
+      "centrality": 0.8,
+      "evidence": [
+        "能用数量积求两向量夹角",
+        "能用数量积判断垂直"
+      ],
+      "assessmentPrompt": "a=(1,0)，b=(1,1)，{{name}}能求 a·b 和它们的夹角吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.vec.dot"
+      ]
+    },
+    {
+      "id": "cnmt_s5gg_vector_coord",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "向量的坐标表示",
+      "description": "在平面直角坐标系中用坐标表示向量；掌握坐标下的加减、数乘和数量积运算。",
+      "centrality": 0.75,
+      "evidence": [
+        "能用坐标进行向量运算",
+        "能用坐标求数量积和夹角"
+      ],
+      "assessmentPrompt": "a=(2,1)，b=(-1,3)，{{name}}能用坐标求 a·b 吗？它们垂直吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.vec.coord"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_complex",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "复数的概念与运算",
+      "description": "理解复数 a+bi（i²=-1）的概念；掌握复数的加减乘除和几何意义。",
+      "centrality": 0.5,
+      "evidence": [
+        "能进行复数四则运算",
+        "能在复平面表示复数"
+      ],
+      "assessmentPrompt": "{{name}}能算 (2+3i)(1-i) 吗？结果化简后实部虚部各是什么？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.vec.complex"
+      ]
+    },
+    {
+      "id": "cnmt_s5gg_solid_basic",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "空间点线面的位置关系",
+      "description": "理解空间中点、直线、平面的基本关系（线在面内/面外、平行/相交）；掌握平面的基本性质（三条公理）。",
+      "centrality": 0.75,
+      "evidence": [
+        "能用符号表示空间点线面关系",
+        "能用公理判断命题真假"
+      ],
+      "assessmentPrompt": "三个不共线的点能确定几个平面？{{name}}能画出示意图吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.solid.basic"
+      ]
+    },
+    {
+      "id": "cnmt_s5gg_parallel_space",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 11,
+      "name": "空间中的平行关系",
+      "description": "掌握线面平行、面面平行的判定和性质定理；能用这些定理进行证明。",
+      "centrality": 0.7,
+      "evidence": [
+        "能判定线面平行和面面平行",
+        "能用平行定理完成证明"
+      ],
+      "assessmentPrompt": "一条直线与一个平面平行的条件是什么？{{name}}能说出判定定理吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.solid.parallel"
+      ]
+    },
+    {
+      "id": "cnmt_s5gg_perp_space",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 11,
+      "name": "空间中的垂直关系",
+      "description": "掌握线面垂直、面面垂直的判定和性质定理；理解三垂线定理。",
+      "centrality": 0.7,
+      "evidence": [
+        "能判定线面垂直和面面垂直",
+        "能用垂直定理完成证明"
+      ],
+      "assessmentPrompt": "一条直线垂直于一个平面内的几条直线就能判定线面垂直？{{name}}能说出判定定理吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.solid.perp"
+      ]
+    },
+    {
+      "id": "cnmt_s5gg_solid_measure",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 11,
+      "name": "空间几何体的表面积与体积",
+      "description": "掌握柱、锥、台、球的表面积和体积公式；能处理简单组合体。",
+      "centrality": 0.6,
+      "evidence": [
+        "能计算常见几何体的体积和表面积",
+        "能处理截面问题"
+      ],
+      "assessmentPrompt": "一个底面半径 3、高 4 的圆锥，{{name}}能求体积和侧面积吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.solid.measure"
+      ]
+    },
+    {
+      "id": "cnmt_s5gg_space_vector",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "stage": "stage5",
+      "gradeStart": 11,
+      "gradeEnd": 11,
+      "name": "空间向量及其运算",
+      "description": "将平面向量推广到三维空间；掌握空间向量的加减、数乘、数量积和坐标运算。",
+      "centrality": 0.7,
+      "evidence": [
+        "能用坐标进行空间向量运算",
+        "能求空间两向量的夹角"
+      ],
+      "assessmentPrompt": "a=(1,2,3)，b=(2,0,-1)，{{name}}能求 a·b 吗？它们的夹角的余弦值是多少？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.spacevec.op"
+      ]
+    },
+    {
+      "id": "cnmt_s5gg_space_vector_app",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "stage": "stage5",
+      "gradeStart": 11,
+      "gradeEnd": 12,
+      "name": "空间向量的应用",
+      "description": "用空间向量解决立体几何问题——求法向量、点面距、线面角、二面角等。",
+      "centrality": 0.75,
+      "evidence": [
+        "能用向量求平面的法向量",
+        "能用向量求线面角和二面角"
+      ],
+      "assessmentPrompt": "{{name}}能用向量法求直线与平面所成角吗？比综合几何法有什么优势？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.spacevec.app"
+      ]
+    },
+    {
+      "id": "cnmt_s5gg_line_eq",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "stage": "stage5",
+      "gradeStart": 11,
+      "gradeEnd": 11,
+      "name": "直线的方程",
+      "description": "掌握直线的点斜式、斜截式、两点式、一般式；理解斜率、截距的概念。",
+      "centrality": 0.7,
+      "evidence": [
+        "能根据条件写出直线方程",
+        "能进行不同形式间的转化"
+      ],
+      "assessmentPrompt": "过点 (1,2) 斜率为 3 的直线方程是什么？{{name}}能用点斜式写出来吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.conic.line"
+      ]
+    },
+    {
+      "id": "cnmt_s5gg_circle_eq",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "stage": "stage5",
+      "gradeStart": 11,
+      "gradeEnd": 11,
+      "name": "圆的方程",
+      "description": "掌握圆的标准方程 (x-a)²+(y-b)²=r² 和一般方程；能求直线与圆的位置关系。",
+      "centrality": 0.65,
+      "evidence": [
+        "能根据条件求圆的方程",
+        "能判断直线与圆的位置关系"
+      ],
+      "assessmentPrompt": "圆心 (2,-1) 半径 3 的圆的方程是什么？{{name}}能写出来吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.conic.circle"
+      ]
+    },
+    {
+      "id": "cnmt_s5gg_ellipse",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "stage": "stage5",
+      "gradeStart": 11,
+      "gradeEnd": 11,
+      "name": "椭圆",
+      "description": "掌握椭圆的定义（到两定点距离之和为常数）、标准方程和几何性质（长轴、短轴、离心率）。",
+      "centrality": 0.8,
+      "evidence": [
+        "能根据条件求椭圆方程",
+        "能讨论椭圆的几何性质"
+      ],
+      "assessmentPrompt": "{{name}}能说出椭圆 x²/25+y²/9=1 的长轴、短轴和离心率吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.conic.curve"
+      ]
+    },
+    {
+      "id": "cnmt_s5gg_hyperbola",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "stage": "stage5",
+      "gradeStart": 11,
+      "gradeEnd": 12,
+      "name": "双曲线",
+      "description": "掌握双曲线的定义（到两定点距离之差的绝对值为常数）、标准方程和渐近线。",
+      "centrality": 0.75,
+      "evidence": [
+        "能根据条件求双曲线方程",
+        "能写出双曲线的渐近线方程"
+      ],
+      "assessmentPrompt": "{{name}}能说出双曲线 x²/9-y²/16=1 的渐近线方程吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.conic.curve"
+      ]
+    },
+    {
+      "id": "cnmt_s5gg_parabola_conic",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "stage": "stage5",
+      "gradeStart": 11,
+      "gradeEnd": 12,
+      "name": "抛物线（圆锥曲线）",
+      "description": "掌握抛物线的定义（到定点距离等于到定直线距离）、标准方程和焦点准线性质。",
+      "centrality": 0.75,
+      "evidence": [
+        "能根据条件求抛物线方程",
+        "能求焦点坐标和准线方程"
+      ],
+      "assessmentPrompt": "y²=4x 的焦点在哪里？准线是什么？{{name}}能说说吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.conic.curve"
+      ]
+    },
+    {
+      "id": "cnmt_s5gg_conic_app",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "stage": "stage5",
+      "gradeStart": 12,
+      "gradeEnd": 12,
+      "name": "直线与圆锥曲线的综合",
+      "description": "掌握直线与椭圆、双曲线、抛物线相交时的弦长、中点弦等问题；综合运用代数与几何方法。",
+      "centrality": 0.8,
+      "evidence": [
+        "能求直线截圆锥曲线的弦长",
+        "能用韦达定理处理中点弦问题"
+      ],
+      "assessmentPrompt": "直线 y=x+1 与抛物线 y²=4x 相交，{{name}}能求截得的弦长吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.conic.app"
+      ]
+    },
+    {
+      "id": "cnmt_s5sp_probability",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "随机事件与概率",
+      "description": "深化对随机事件的理解；掌握古典概型的两个特征（有限性、等可能性）并计算概率。",
+      "centrality": 0.7,
+      "evidence": [
+        "能判断是否为古典概型",
+        "能用排列组合计算古典概率"
+      ],
+      "assessmentPrompt": "掷两颗骰子，点数之和为 7 的概率是多少？{{name}}能列举所有可能吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.prob.event"
+      ]
+    },
+    {
+      "id": "cnmt_s5sp_prob_prop",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "概率的基本性质",
+      "description": "掌握概率的加法公式（含互斥事件和对立事件）；理解互斥与对立的区别。",
+      "centrality": 0.6,
+      "evidence": [
+        "能用加法公式求概率",
+        "能判断两事件是否互斥"
+      ],
+      "assessmentPrompt": "A、B 互斥，P(A)=0.3，P(B)=0.4，{{name}}能求 P(A∪B) 吗？如果 A、B 不互斥呢？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.prob.event"
+      ]
+    },
+    {
+      "id": "cnmt_s5sp_sample",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 11,
+      "name": "抽样方法与样本估计",
+      "description": "深化简单随机抽样、分层抽样；能用样本频率分布（直方图）和数字特征估计总体。",
+      "centrality": 0.55,
+      "evidence": [
+        "能选择合适的抽样方法",
+        "能从频率分布直方图估计中位数和平均数"
+      ],
+      "assessmentPrompt": "{{name}}能从频率分布直方图估算平均数吗？和实际平均数有什么区别？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.stat.basic"
+      ]
+    },
+    {
+      "id": "cnmt_s5sp_regression",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "stage": "stage5",
+      "gradeStart": 11,
+      "gradeEnd": 11,
+      "name": "相关关系与回归分析",
+      "description": "理解相关关系（非确定性）与函数关系的区别；能用最小二乘法求回归直线方程。",
+      "centrality": 0.5,
+      "evidence": [
+        "能用最小二乘法求回归方程",
+        "能用回归方程做预测"
+      ],
+      "assessmentPrompt": "{{name}}能说说'相关关系'和'函数关系'有什么区别吗？回归直线怎么求？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.stat.infer"
+      ]
+    },
+    {
+      "id": "cnmt_s5sp_cond_prob",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "stage": "stage5",
+      "gradeStart": 11,
+      "gradeEnd": 11,
+      "name": "条件概率与独立性",
+      "description": "掌握条件概率 P(B|A)=P(AB)/P(A) 的定义；理解事件独立性的概念。",
+      "centrality": 0.65,
+      "evidence": [
+        "能计算条件概率",
+        "能判断两事件是否独立"
+      ],
+      "assessmentPrompt": "掷骰子，已知结果是偶数，{{name}}能求它是 6 的概率吗？这是条件概率。",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.prob.cond"
+      ]
+    },
+    {
+      "id": "cnmt_s5sp_random_var",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "stage": "stage5",
+      "gradeStart": 11,
+      "gradeEnd": 12,
+      "name": "离散型随机变量",
+      "description": "理解随机变量是数值化随机试验结果的概念；能写出离散型随机变量的分布列。",
+      "centrality": 0.7,
+      "evidence": [
+        "能写出随机变量的分布列",
+        "能验证分布列的合理性"
+      ],
+      "assessmentPrompt": "掷两枚硬币，正面向上的次数为 X，{{name}}能写出 X 的分布列吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.prob.var"
+      ]
+    },
+    {
+      "id": "cnmt_s5sp_expect_var",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "stage": "stage5",
+      "gradeStart": 11,
+      "gradeEnd": 12,
+      "name": "随机变量的期望与方差",
+      "description": "掌握期望 E(X)（均值）和方差 D(X)（离散程度）的计算；理解它们的实际意义。",
+      "centrality": 0.7,
+      "evidence": [
+        "能计算随机变量的期望和方差",
+        "能用期望方差比较两个方案"
+      ],
+      "assessmentPrompt": "X 的分布列为 P(0)=0.5, P(1)=0.3, P(2)=0.2，{{name}}能求 E(X) 和 D(X) 吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.prob.var"
+      ]
+    },
+    {
+      "id": "cnmt_s5sp_binomial",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "stage": "stage5",
+      "gradeStart": 12,
+      "gradeEnd": 12,
+      "name": "二项分布",
+      "description": "理解 n 次独立重复试验（伯努利试验）；掌握二项分布 B(n,p) 及其期望 np 和方差 np(1-p)。",
+      "centrality": 0.65,
+      "evidence": [
+        "能判断是否为二项分布",
+        "能求二项分布的概率、期望和方差"
+      ],
+      "assessmentPrompt": "掷 3 次骰子，恰好两次是 6 的概率是多少？{{name}}能用二项分布求吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.prob.normal"
+      ]
+    },
+    {
+      "id": "cnmt_s5sp_normal",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "stage": "stage5",
+      "gradeStart": 12,
+      "gradeEnd": 12,
+      "name": "正态分布",
+      "description": "理解连续型随机变量和正态分布 N(μ,σ²) 的概念；掌握 3σ 原则（68%-95%-99.7%）。",
+      "centrality": 0.55,
+      "evidence": [
+        "能画出正态分布曲线",
+        "能用 3σ 原则估算概率"
+      ],
+      "assessmentPrompt": "{{name}}能说说 3σ 原则吗？考试成绩如果服从正态分布，大约多少人在 μ±σ 范围内？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.prob.normal"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_deriv_proof",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 12,
+      "gradeEnd": 12,
+      "name": "导数与不等式证明",
+      "description": "利用导数分析函数单调性，构造辅助函数证明不等式；是高考重点题型。",
+      "centrality": 0.8,
+      "evidence": [
+        "能用导数构造函数证明不等式",
+        "能分析函数的最值与零点"
+      ],
+      "assessmentPrompt": "{{name}}能用导数证明 eˣ ≥ x+1 吗？构造什么辅助函数？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.deriv.app"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_deriv_zero",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 12,
+      "gradeEnd": 12,
+      "name": "导数与函数零点",
+      "description": "利用导数研究函数零点的个数和分布；结合图像分析方程根的情况。",
+      "centrality": 0.75,
+      "evidence": [
+        "能用导数判断零点个数",
+        "能用零点存在定理结合导数定位零点"
+      ],
+      "assessmentPrompt": "f(x)=x³-3x²+1 有几个零点？{{name}}能用导数分析吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.deriv.app"
+      ]
+    },
+    {
+      "id": "cnmt_s5gg_eccentricity",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "stage": "stage5",
+      "gradeStart": 12,
+      "gradeEnd": 12,
+      "name": "圆锥曲线的离心率",
+      "description": "统一理解椭圆、双曲线、抛物线的离心率 e 与形状的关系；能由条件求离心率。",
+      "centrality": 0.7,
+      "evidence": [
+        "能求圆锥曲线的离心率",
+        "能由离心率判断曲线形状"
+      ],
+      "assessmentPrompt": "椭圆离心率 0<e<1，双曲线 e>1，抛物线 e=1。{{name}}能由方程 x²/25+y²/9=1 求 e 吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.conic.curve"
+      ]
+    },
+    {
+      "id": "cnmt_s5sp_independence",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "stage": "stage5",
+      "gradeStart": 12,
+      "gradeEnd": 12,
+      "name": "独立性检验",
+      "description": "理解 χ²（卡方）独立性检验的基本思想；能用公式判断两个分类变量是否相关。",
+      "centrality": 0.55,
+      "evidence": [
+        "能计算 χ² 统计量",
+        "能根据临界值判断是否独立"
+      ],
+      "assessmentPrompt": "{{name}}能说说独立性检验解决什么问题吗？χ² 越大说明什么？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.stat.infer"
+      ]
+    },
+    {
+      "id": "cnmt_s5sp_regression_adv",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "stage": "stage5",
+      "gradeStart": 12,
+      "gradeEnd": 12,
+      "name": "回归分析的综合应用",
+      "description": "深化线性回归模型；理解相关系数 R² 的含义，能用回归方程做预测和残差分析。",
+      "centrality": 0.5,
+      "evidence": [
+        "能求回归方程并解释 R²",
+        "能进行残差分析判断模型合理性"
+      ],
+      "assessmentPrompt": "R²=0.95 说明什么？{{name}}能解释回归方程的拟合效果吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.stat.infer"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_permutation",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 11,
+      "gradeEnd": 11,
+      "name": "排列",
+      "description": "理解排列的概念（从 n 个不同元素中取出 m 个按一定顺序排成一列）；掌握排列数公式 A(n,m)=n!/(n-m)!。",
+      "centrality": 0.6,
+      "evidence": [
+        "能计算排列数",
+        "能区分排列与组合"
+      ],
+      "assessmentPrompt": "5 个人站成一排有多少种站法？{{name}}能用排列数算吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.count.comb"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_combination",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 11,
+      "gradeEnd": 11,
+      "name": "组合",
+      "description": "理解组合的概念（取出元素不考虑顺序）；掌握组合数公式 C(n,m) 及其性质。",
+      "centrality": 0.6,
+      "evidence": [
+        "能计算组合数",
+        "能用组合解决计数问题"
+      ],
+      "assessmentPrompt": "从 5 个球中取 3 个有多少种取法？{{name}}能算 C(5,3) 吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.count.comb"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_binomial_thm",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 11,
+      "gradeEnd": 11,
+      "name": "二项式定理",
+      "description": "掌握 (a+b)ⁿ 的展开式及通项公式；理解二项式系数的性质（杨辉三角）。",
+      "centrality": 0.55,
+      "evidence": [
+        "能展开 (a+b)ⁿ",
+        "能求展开式中指定项"
+      ],
+      "assessmentPrompt": "{{name}}能写出 (x+2)⁵ 展开式中 x³ 的系数吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:ele.count.binomial"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_ineq_property",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "等式与不等式的性质",
+      "description": "系统掌握不等式的基本性质：对称性（a>b→b<a）、传递性（a>b,b>c→a>c）、加法单调性、乘法单调性（乘正不变向、乘负变向）。与初中的区别：初中只学了变号规则，高中系统化为完整性质体系并用于证明。",
+      "centrality": 0.7,
+      "evidence": [
+        "能用不等式性质进行推导",
+        "能区分乘正数和乘负数的不同"
+      ],
+      "assessmentPrompt": "{{name}}能用不等式性质说明：如果 a>b，c<0，那么 ac<bc 吗？为什么方向变了？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.ineq.property"
+      ]
+    },
+    {
+      "id": "cnmt_s5na_ineq_quadratic",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "stage": "stage5",
+      "gradeStart": 10,
+      "gradeEnd": 10,
+      "name": "一元二次不等式",
+      "description": "解 ax²+bx+c>0（或<0）：先求对应方程的根，再结合二次函数图像（开口方向和零点）确定解集。与初中的区别：初中解方程 ax²+bx+c=0 只求根；高中解不等式要看函数图像确定解集区间。",
+      "centrality": 0.8,
+      "evidence": [
+        "能解一元二次不等式",
+        "能说明三个二次（方程/函数/不等式）的联系"
+      ],
+      "assessmentPrompt": "解 x²-5x+6>0。{{name}}能说说对应方程的根、函数的图像和解集的关系吗？",
+      "standards": [
+        "moe-cn-2017-senior-math:req.ineq.quadratic"
+      ]
+    }
+  ]
+}

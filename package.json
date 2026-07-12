@@ -1,0 +1,13 @@
+{
+  "name": "mathmap-cn",
+  "version": "0.2.0",
+  "description": "中国 1-12 年级数学课程知识图谱",
+  "private": true,
+  "type": "module",
+  "license": "(MIT AND CC-BY-SA-4.0)",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build-cn-graph.mjs",
+    "export-public": "node scripts/export-public.mjs"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "subject": "数学",
+  "scope": "stage4·统计与概率 + 综合与实践（7-9年级）",
+  "topicCount": 5,
+  "_origin": "AI 生成的教学常识初稿（非课标原文）。需教研人员审核。",
+  "topics": [
+    {
+      "id": "cnmt_s4sp_survey",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "stage": "stage4",
+      "gradeStart": 7,
+      "gradeEnd": 7,
+      "name": "普查与抽样调查",
+      "description": "理解普查和抽样调查的区别及适用场景；认识总体、个体、样本、样本容量。",
+      "centrality": 0.5,
+      "evidence": [
+        "能判断情境该用普查还是抽样",
+        "能指出总体和样本"
+      ],
+      "assessmentPrompt": "要了解全国初中生的身高，{{name}}说该用普查还是抽样？为什么？",
+      "standards": [
+        "moe-cn-2022-math:stage4.sp.col.1"
+      ]
+    },
+    {
+      "id": "cnmt_s4sp_analysis",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "stage": "stage4",
+      "gradeStart": 8,
+      "gradeEnd": 8,
+      "name": "数据的分析（平均数、方差）",
+      "description": "理解用平均数刻画集中趋势、用方差刻画离散程度；掌握加权平均数和方差的计算。",
+      "centrality": 0.6,
+      "evidence": [
+        "能计算加权平均数和方差",
+        "能用方差比较两组数据的波动"
+      ],
+      "assessmentPrompt": "两组数据平均数相同但方差不同，{{name}}能说说哪组更稳定吗？",
+      "standards": [
+        "moe-cn-2022-math:stage4.sp.anl.1"
+      ]
+    },
+    {
+      "id": "cnmt_s4sp_chart",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "stage": "stage4",
+      "gradeStart": 7,
+      "gradeEnd": 7,
+      "name": "频数分布直方图",
+      "description": "理解频数（每组数据个数）和频率（频数与总数的比）；能根据数据分组绘制频数分布直方图并读出分布特征。",
+      "centrality": 0.45,
+      "evidence": [
+        "能根据数据画频数分布直方图",
+        "能从图中读出各组的频数"
+      ],
+      "assessmentPrompt": "{{name}}能说说频数分布直方图和条形统计图有什么不同吗？",
+      "standards": [
+        "moe-cn-2022-math:stage4.sp.col.1"
+      ]
+    },
+    {
+      "id": "cnmt_s4sp_probability",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "stage": "stage4",
+      "gradeStart": 9,
+      "gradeEnd": 9,
+      "name": "概率初步",
+      "description": "理解概率的意义；掌握用列举法（列表、树状图）求简单随机事件的概率；理解频率与概率的关系。",
+      "centrality": 0.6,
+      "evidence": [
+        "能用列举法求概率",
+        "能区分频率与概率"
+      ],
+      "assessmentPrompt": "掷两枚硬币，{{name}}能用列表法求两枚都正面朝上的概率吗？",
+      "standards": [
+        "moe-cn-2022-math:stage4.sp.prb.1"
+      ]
+    },
+    {
+      "id": "cnmt_s4cp_project",
+      "type": "META",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "stage": "stage4",
+      "gradeStart": 7,
+      "gradeEnd": 9,
+      "name": "项目式学习",
+      "description": "围绕真实问题（如'最省话费方案''桥梁设计'等）开展项目式学习，综合运用代数、几何、统计知识进行建模求解。",
+      "centrality": 0.55,
+      "evidence": [
+        "能建立简单的数学模型",
+        "能用多种知识综合求解并评价方案"
+      ],
+      "assessmentPrompt": "设计一个'哪种手机套餐最划算'的方案，{{name}}能用函数和不等式来说明吗？",
+      "standards": [
+        "moe-cn-2022-math:stage4.cp.prj.1"
+      ]
+    }
+  ]
+}

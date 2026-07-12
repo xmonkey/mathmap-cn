@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/cn-curriculum/schema/standard.schema.json",
+  "title": "中国义务教育课标条目（评估用）",
+  "description": "单条课标内容。原文与可发布内容严格分离。",
+  "type": "object",
+  "required": ["key", "code", "subject", "stage", "domain", "title", "publishable", "provenance"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^moe-cn-2022-[a-z]+:",
+      "description": "全局唯一键，格式 <curriculum-slug>:<code>"
+    },
+    "code": {
+      "type": "string",
+      "description": "学段.领域.主题[.子主题].序号，见 docs/code-naming.md"
+    },
+    "subject": {
+      "type": "string",
+      "enum": ["数学", "语文", "英语", "科学", "物理", "化学", "生物学", "地理", "历史", "道德与法治", "信息科技", "体育与健康", "艺术", "劳动", "日语", "俄语"]
+    },
+    "stage": {
+      "type": "string",
+      "enum": ["stage1", "stage2", "stage3", "stage4"],
+      "description": "stage1=1-2年级, stage2=3-4年级, stage3=5-6年级, stage4=7-9年级"
+    },
+    "stageLabel": {
+      "type": "string",
+      "description": "学段中文标签，如 '第一学段（1-2年级）'"
+    },
+    "domain": {
+      "type": "string",
+      "description": "学习领域，如 '数与代数'、'图形与几何'"
+    },
+    "topic": {
+      "type": ["string", "null"],
+      "description": "领域下的主题，如 '分数的初步认识'"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["内容要求", "学业要求", "教学提示", "核心素养", "课程目标", "其他"],
+      "description": "课标中的内容类别"
+    },
+    "title": {
+      "type": "string",
+      "description": "该条目的简短标题（我方命名，非原文）"
+    },
+    "verbatimText": {
+      "type": ["string", "null"],
+      "description": "⚠️ 课标原文逐字，仅供内部评估。publishable 必须为 false。"
+    },
+    "summary": {
+      "type": ["string", "null"],
+      "description": "✅ 我方重述的内容要点（非原文改写）。可发布。"
+    },
+    "coreCompetencies": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "关联的核心素养，如 ['数感', '运算能力']"
+    },
+    "publishable": {
+      "type": "boolean",
+      "description": "该条目是否可进入 standards-public 导出。含 verbatimText 的条目必须为 false。"
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["source", "publisher", "version", "licenseStatus"],
+      "properties": {
+        "source": {
+          "type": "string",
+          "description": "如 '《义务教育数学课程标准（2022年版）》'"
+        },
+        "publisher": { "type": "string", "default": "中华人民共和国教育部" },
+        "version": { "type": "string", "default": "2022年版" },
+        "page": { "type": ["integer", "null"], "description": "原文所在页码" },
+        "section": { "type": ["string", "null"], "description": "原文所在章节定位" },
+        "licenseStatus": {
+          "type": "string",
+          "enum": ["encumbered", "clear", "factual"],
+          "description": "encumbered=版权受限(原文), clear=我方原创(重述), factual=事实性(代码/层级)"
+        },
+        "fetchedAt": { "type": ["string", "null"], "format": "date-time" },
+        "fetchedFrom": { "type": ["string", "null"], "description": "获取原文的 URL 或来源" }
+      },
+      "additionalProperties": false
+    },
+    "notes": { "type": ["string", "null"] }
+  },
+  "additionalProperties": false
+}
