@@ -31,8 +31,15 @@ function listJson(dir) {
   try { return readdirSync(dir).filter(f => f.endsWith('.json')); } catch { return []; }
 }
 
+// 加载课标：优先 standards-raw，fallback 到 standards-public
+const STD_DIRS = [
+  resolve(ROOT, 'data', 'standards-raw'),
+  resolve(ROOT, 'data', 'standards-public'),
+].filter(d => { try { readdirSync(d); return true; } catch { return false; } });
+const STD_DIR = STD_DIRS[0]; // 只用第一个存在的目录
+
 // ============================================================
-// 1. 课标（standards-raw）
+// 1. 课标（standards-raw 或 standards-public）
 // ============================================================
 const standardKeys = new Set();
 const standardByFile = {};
@@ -40,9 +47,9 @@ let stdFileCount = 0;
 let stdItemCount = 0;
 let stdVerbatim = 0;
 
-for (const file of listJson(RAW_DIR)) {
+for (const file of listJson(STD_DIR)) {
   stdFileCount++;
-  const doc = JSON.parse(readFileSync(resolve(RAW_DIR, file), 'utf8'));
+  const doc = JSON.parse(readFileSync(resolve(STD_DIR, file), 'utf8'));
   standardByFile[file] = doc;
 
   check(typeof doc.slug === 'string' && /^moe-cn-\d{4}-[a-z-]+$/.test(doc.slug),
