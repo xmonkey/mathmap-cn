@@ -184,7 +184,7 @@ canvas{display:block}
 <div class="tip" id="tip"><div class="tdm" id="tipDm"></div><div class="ttitle" id="tipTitle"></div><div class="tq" id="tipQ"></div></div>
 <div class="panel" id="panel"></div>
 <div class="hint">拖拽旋转 · 滚轮缩放 · 点击节点追溯前置链</div>
-<div class="brand"><a href="https://mathmap-cn.vercel.app" target="_blank" style="color:${T.subText};text-decoration:underline">mathmap-cn.vercel.app</a> · by <a href="https://www.zhihu.com/people/xmonkey" target="_blank" style="color:${T.subText};text-decoration:underline">Xiao Bin</a></div>
+<div class="brand"><a href="https://xmonkey.github.io/mathmap-cn/" target="_blank" style="color:${T.subText};text-decoration:underline">xmonkey.github.io/mathmap-cn</a> · by <a href="https://www.zhihu.com/people/xmonkey" target="_blank" style="color:${T.subText};text-decoration:underline">Xiao Bin</a></div>
 <div class="about-bg" id="aboutBg"></div>
 <div class="about" id="about"><button class="close" id="aboutClose">×</button>
 <h2>中国 1-12 年级数学课程知识图谱</h2>
@@ -194,7 +194,7 @@ canvas{display:block}
 <h3>致谢</h3>
 <p>· <a href="https://github.com/withmarbleapp/os-taxonomy" target="_blank">Marble Skill Taxonomy</a> — 数据模型与可视化灵感<br>· <a href="https://github.com/jethac/os-taxonomy-japanese" target="_blank">os-taxonomy-japanese</a> — 工程实践参考</p>
 <h3>作者</h3><p><a href="https://www.zhihu.com/people/xmonkey" target="_blank">肖斌 (Xiao Bin)</a></p>
-<h3>项目主页</h3><p><a href="https://github.com/xmonkey/mathmap-cn" target="_blank">github.com/xmonkey/mathmap-cn</a></p>
+<h3>项目主页</h3><p><a href="https://xmonkey.github.io/mathmap-cn/" target="_blank">xmonkey.github.io/mathmap-cn</a><br><a href="https://github.com/xmonkey/mathmap-cn" target="_blank">github.com/xmonkey/mathmap-cn</a></p>
 <h3>许可证</h3><p>代码 MIT · 数据内容 CC BY-SA 4.0<br>课标版权归教育部/人教社所有</p>
 </div>
 <canvas id="stage"></canvas>

@@ -4,7 +4,7 @@ mathmap-cn · by [Xiao Bin](https://www.zhihu.com/people/xmonkey)
 
 270 个数学知识点的 3D 依赖脉络图，覆盖小学到高中（1-12 年级）完整数学课程。
 
-**在线体验**：[mathmap-cn.vercel.app](https://mathmap-cn.vercel.app)
+**在线体验**：[xmonkey.github.io/mathmap-cn](https://xmonkey.github.io/mathmap-cn/)
 **源码**：[github.com/xmonkey/mathmap-cn](https://github.com/xmonkey/mathmap-cn)
 
 ![demo](viz/demo.mp4)
