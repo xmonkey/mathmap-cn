@@ -7,6 +7,10 @@ mathmap-cn · by [Xiao Bin](https://www.zhihu.com/people/xmonkey)
 **在线体验**：[xmonkey.github.io/mathmap-cn](https://xmonkey.github.io/mathmap-cn/)
 **源码**：[github.com/xmonkey/mathmap-cn](https://github.com/xmonkey/mathmap-cn)
 
+![全景视图](viz/screenshot-overview.png)
+
+![点击知识点追溯前置链](viz/screenshot-detail.png)
+
 ![demo](viz/demo.mp4)
 
 ## 这是什么
