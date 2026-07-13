@@ -11,7 +11,7 @@ mathmap-cn · by [Xiao Bin](https://www.zhihu.com/people/xmonkey)
 
 ![点击知识点追溯前置链](viz/screenshot-detail.png)
 
-![demo](viz/demo.mp4)
+![demo](viz/demo.gif)
 
 ## 这是什么
 
