@@ -213,8 +213,10 @@ let growDone=false;
 let cameraTween=null;
 let displayGrade=12;
 const proj=new Float32Array(N.length*3);
-function projectAll(){const cy=Math.cos(yaw),sy=Math.sin(yaw),cp=Math.cos(pitch),sp=Math.sin(pitch),cx=VW*0.5,cyc=VH*0.52,sc=Math.min(VW/1500,VH/1700)*zoom;
-for(let i=0;i<N.length;i++){const n=N[i];const x1=n.x*cy+n.z*sy,z1=-n.x*sy+n.z*cy,y1=n.py;const y2=y1*cp-z1*sp,z2=y1*sp+z1*cp;const persp=FOCAL/(FOCAL+z2*sc*1.6);
+function projectAll(){const cy=Math.cos(yaw),sy=Math.sin(yaw),cp=Math.cos(pitch),sp=Math.sin(pitch),cx=VW*0.5,cyc=VH*0.52,baseSc=Math.min(VW/1500,VH/1700),sc=baseSc*zoom;
+// 透视只用 baseSc（不含 zoom），保证 FOCAL+z2*baseSc*1.6 永远为正；
+// zoom 只对屏幕坐标做线性放大，不进入深度项，避免放大到极致时节点穿越相机导致投影崩溃。
+for(let i=0;i<N.length;i++){const n=N[i];const x1=n.x*cy+n.z*sy,z1=-n.x*sy+n.z*cy,y1=n.py;const y2=y1*cp-z1*sp,z2=y1*sp+z1*cp;const persp=FOCAL/(FOCAL+z2*baseSc*1.6);
 proj[i*3]=cx+x1*sc*persp;proj[i*3+1]=cyc-y2*sc*persp;proj[i*3+2]=persp}}
 function nodeRad(i){const c=N[i].c||0.05;return(2.5+Math.sqrt(c)*8)*proj[i*3+2]*Math.min(1.6,Math.max(0.9,zoom))}
 function pickAt(mx,my){let best=-1,bestD=18*18;for(let i=0;i<N.length;i++){if(!active.has(N[i].g)||!inStage(N[i].grade))continue;const dx=proj[i*3]-mx,dy=proj[i*3+1]-my,d=dx*dx+dy*dy,rr=Math.max(13,nodeRad(i)+5);if(d<rr*rr&&d<bestD){bestD=d;best=i}}return best}
