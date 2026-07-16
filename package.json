@@ -7,6 +7,7 @@
   "license": "(MIT AND CC-BY-SA-4.0)",
   "scripts": {
     "validate": "node scripts/validate.mjs",
+    "test": "node scripts/test-projection.mjs",
     "build": "node scripts/build-cn-graph.mjs",
     "export-public": "node scripts/export-public.mjs"
   }

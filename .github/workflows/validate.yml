@@ -24,3 +24,6 @@ jobs:
 
       - name: Check build script syntax
         run: node --check scripts/build-cn-graph.mjs
+
+      - name: Test projection invariants
+        run: npm run test
